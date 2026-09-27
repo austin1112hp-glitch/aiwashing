@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map of Toronto</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f3f6f8;
+      color: #182c3a;
+      font-family: system-ui, sans-serif;
+    }
+    main { max-width: 1200px; margin: 0 auto; padding: 32px 20px; }
+    h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3rem); }
+    p { margin: 0 0 24px; color: #486071; }
+    iframe {
+      display: block;
+      width: 100%;
+      height: 70vh;
+      min-height: 320px;
+      border: 1px solid #ccd7df;
+      border-radius: 12px;
+      background: #e2e9ed;
+    }
+    .map-link { display: inline-block; margin-top: 16px; color: #145b89; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Toronto</h1>
+    <p>Explore Toronto, Ontario. Drag the map to move around and use the zoom controls to take a closer look.</p>
+    <iframe
+      title="Interactive map of Toronto, Ontario, Canada"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=-79.64%2C43.57%2C-79.12%2C43.86&amp;layer=mapnik&amp;marker=43.6532%2C-79.3832"
+      allowfullscreen>
+    </iframe>
+    <a class="map-link" href="https://www.openstreetmap.org/?mlat=43.6532&amp;mlon=-79.3832#map=11/43.7150/-79.3800" target="_blank" rel="noopener noreferrer">View a larger map on OpenStreetMap</a>
+  </main>
+</body>
+</html>
