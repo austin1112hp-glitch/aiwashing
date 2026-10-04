@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Understand AI washing through documented examples across finance, retail, legal services, security, accessibility, and content verification.">
+  <title>AI Washing — Claims and Evidence</title>
+  <style>
+    :root { color-scheme: light; --ink: #182c3a; --muted: #486071; --line: #ccd7df; --blue: #145b89; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+    body { margin: 0; background: #f3f6f8; color: var(--ink); font-family: system-ui, sans-serif; line-height: 1.65; }
+    a { color: var(--blue); text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 3px solid #b65e00; outline-offset: 4px; }
+    .skip { position: absolute; left: 16px; top: -100px; padding: 12px; background: white; }
+    .skip:focus { top: 16px; }
+    .wrap { max-width: 1120px; margin: auto; padding: 0 24px; }
+    header { background: #182c3a; color: white; padding: 56px 0 32px; }
+    .eyebrow { color: #a8d8eb; text-transform: uppercase; letter-spacing: .12em; font-size: .8rem; font-weight: 700; }
+    h1 { font-size: clamp(2.5rem, 7vw, 4.5rem); line-height: 1.1; margin: 12px 0 20px; }
+    .intro { max-width: 740px; font-size: 1.15rem; color: #dce7ed; }
+    nav { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 28px; }
+    nav a { color: #dce7ed; }
+    main { padding-top: 12px; padding-bottom: 48px; }
+    section { margin-top: 44px; }
+    h2 { font-size: 1.8rem; line-height: 1.25; margin: 0 0 16px; }
+    h3 { font-size: 1.2rem; line-height: 1.35; margin: 10px 0; }
+    p { margin: 0 0 16px; }
+    .summary { max-width: 850px; }
+    .note { border-left: 4px solid var(--blue); background: #e7eff5; padding: 18px 22px; }
+    .note p:last-child { margin-bottom: 0; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+    article { background: white; border: 1px solid var(--line); border-radius: 12px; padding: 24px; }
+    .sector { font-size: .8rem; color: var(--muted); font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+    .status { display: inline-block; border-radius: 6px; padding: 4px 10px; background: #e5f1ee; color: #225747; font-size: .8rem; font-weight: 650; margin-bottom: 16px; }
+    .allegation { background: #fff0d7; color: #754600; }
+    .sources { font-size: .9rem; margin-bottom: 0; }
+    ul, ol { padding-left: 24px; }
+    li { margin-bottom: 12px; }
+    footer { border-top: 1px solid var(--line); padding: 24px 0; color: var(--muted); font-size: .9rem; }
+    @media (max-width: 680px) { .grid { grid-template-columns: 1fr; } header { padding-top: 36px; } .wrap { padding-left: 18px; padding-right: 18px; } article { padding: 20px; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @media print { header { background: white; color: black; } .intro, .eyebrow { color: black; } nav, .skip { display: none; } .grid { display: block; } article { break-inside: avoid; margin-bottom: 16px; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">Technology · Business · Accountability</div>
+      <h1>AI washing</h1>
+      <p class="intro">When the promise of artificial intelligence exceeds the evidence. Understand the term, explore documented cases, and learn what to ask about an AI claim.</p>
+      <nav aria-label="Page sections">
+        <a href="#definition">What it means</a>
+        <a href="#examples">Documented examples</a>
+        <a href="#canada">Canadian context</a>
+        <a href="#questions">Questions to ask</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <section id="definition" aria-labelledby="definition-title">
+      <h2 id="definition-title">What is AI washing?</h2>
+      <p class="summary"><strong>AI washing means making misleading or exaggerated claims about a business’s use of artificial intelligence or what its AI can achieve.</strong> This can include advertising capabilities that do not exist, misrepresenting how much work is automated, or making performance claims without adequate evidence. The U.S. Securities and Exchange Commission (SEC) explicitly used the term in its 2024 enforcement communications. <a href="https://www.sec.gov/newsroom/speeches-statements/sec-chair-gary-gensler-ai-washing">Read the SEC’s explanation</a>.</p>
+      <h3>Patterns illustrated by the cases below</h3>
+      <ul>
+        <li><strong>Misrepresented AI use:</strong> the advertised AI function is absent or materially different from the actual service.</li>
+        <li><strong>Hidden human work:</strong> claims of autonomy conceal substantial manual processing.</li>
+        <li><strong>Inflated performance:</strong> accuracy claims extend beyond the conditions in which a tool was tested.</li>
+        <li><strong>Unsupported promises:</strong> claims of professional expertise, freedom from bias, or automatic compliance exceed the evidence.</li>
+      </ul>
+      <div class="note"><p>Human oversight and third-party AI can be legitimate parts of a product. Assess whether the company describes its capabilities accurately and can support its claims.</p></div>
+    </section>
+    <section id="examples" aria-labelledby="examples-title">
+      <h2 id="examples-title">Documented examples across industries</h2>
+      <p>These records cover misleading AI-use claims and related claims about AI performance. Dates and statuses describe the cited actions, not a live case tracker. Allegations are distinguished from regulatory findings and settlements; a criminal charge is not a finding of guilt.</p>
+      <div class="grid">
+        <article>
+          <div class="sector">Investment management</div>
+          <h3>Delphia &amp; Global Predictions</h3>
+          <span class="status">SEC settlements · March 2024</span>
+          <p>The SEC found that both advisers made false or misleading statements about their use of AI. Toronto-based Delphia advertised an investment process using AI and client data despite lacking the claimed capabilities.</p>
+          <p><strong>Action:</strong> Delphia agreed to a US$225,000 penalty and Global Predictions to US$175,000. Both settled without admitting or denying the SEC’s findings.</p>
+          <p class="sources"><a href="https://www.sec.gov/newsroom/press-releases/2024-36">Source: SEC enforcement announcement</a></p>
+        </article>
+        <article>
+          <div class="sector">Legal services</div>
+          <h3>DoNotPay</h3>
+          <span class="status">FTC final order · January 2025</span>
+          <p>DoNotPay marketed a “robot lawyer.” The Federal Trade Commission (FTC) challenged unsupported claims that the service could substitute for a human lawyer’s expertise.</p>
+          <p><strong>Action:</strong> A final order required US$193,000, notices to eligible subscribers, and restrictions on claims that the service could replace professional services without supporting evidence.</p>
+          <p class="sources"><a href="https://search.ftc.gov/legal-library/browse/cases-proceedings/donotpay">Source: FTC case record</a></p>
+        </article>
+        <article>
+          <div class="sector">Retail &amp; online shopping</div>
+          <h3>Nate</h3>
+          <span class="status allegation">Criminal allegations · April 2025</span>
+          <p>U.S. prosecutors alleged that Nate’s former CEO promoted an app as completing purchases autonomously through AI while it secretly relied heavily on human contractors. Prosecutors alleged an effectively zero automation rate during the relevant period.</p>
+          <p><strong>Action:</strong> The former CEO was charged with defrauding investors. The cited announcement describes allegations, not a conviction.</p>
+          <p class="sources"><a href="https://www.justice.gov/usao-sdny/pr/tech-ceo-charged-artificial-intelligence-investment-fraud-scheme">Source: Department of Justice charge announcement</a></p>
+        </article>
+        <article>
+          <div class="sector">Security &amp; smart homes</div>
+          <h3>IntelliVision</h3>
+          <span class="status allegation">Proposed settlement · December 2024</span>
+          <p>The FTC challenged claims that its facial recognition software had exceptionally high accuracy, no gender or racial bias, and effective protection against spoofing with photos or videos.</p>
+          <p><strong>Action:</strong> The announced proposed consent order would prohibit misrepresentations and require reliable testing to support relevant performance claims.</p>
+          <p class="sources"><a href="https://www.ftc.gov/news-events/news/press-releases/2024/12/ftc-takes-action-against-intellivision-technologies-deceptive-claims-about-its-facial-recognition">Source: FTC complaint and proposed settlement announcement</a></p>
+        </article>
+        <article>
+          <div class="sector">Website accessibility</div>
+          <h3>accessiBe</h3>
+          <span class="status">FTC final order · April 2025</span>
+          <p>The FTC alleged that accessiBe misrepresented its AI-powered tool’s ability to make any website compliant with the Web Content Accessibility Guidelines (WCAG) for people with disabilities.</p>
+          <p><strong>Action:</strong> The FTC finalized an order requiring US$1 million and restrictions on misleading claims.</p>
+          <p class="sources"><a href="https://www.ftc.gov/legal-library/browse/cases-proceedings/2223156-accessibe-inc">Source: FTC case record</a></p>
+        </article>
+        <article>
+          <div class="sector">Content verification &amp; marketing</div>
+          <h3>Workado / Content at Scale AI</h3>
+          <span class="status">FTC final order · August 2025</span>
+          <p>Workado advertised its AI text detector as 98% accurate. The FTC reported testing showing about 53% accuracy on general-purpose content and alleged that the broader accuracy claim was false, misleading, or unsupported.</p>
+          <p><strong>Action:</strong> A final order required evidence supporting effectiveness claims and notices to eligible customers.</p>
+          <p class="sources">Sources: <a href="https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-order-requires-workado-back-artificial-intelligence-detection-claims">FTC findings</a> · <a href="https://www.ftc.gov/news-events/news/press-releases/2025/08/ftc-approves-final-order-against-workado-llc-which-misrepresented-accuracy-its-artificial">Final order announcement</a></p>
+        </article>
+      </div>
+    </section>
+    <section id="canada" aria-labelledby="canada-title">
+      <h2 id="canada-title">Canadian context</h2>
+      <p>Delphia provides a Toronto connection, although the enforcement action above was brought by the U.S. SEC. In December 2024, the Canadian Securities Administrators (CSA) published guidance on how existing securities laws apply to AI in capital markets, emphasizing transparency, accountability, and risk management. The guidance itself did not create new legal requirements.</p>
+      <p><a href="https://www.securities-administrators.ca/news/canadian-securities-administrators-issue-guidance-and-consult-on-use-of-ai-systems-in-capital-markets/">Source: CSA guidance announcement</a></p>
+    </section>
+    <section id="questions" aria-labelledby="questions-title">
+      <h2 id="questions-title">Questions to ask about an AI claim</h2>
+      <p>A practical checklist based on the patterns in these cases:</p>
+      <ol>
+        <li><strong>What does the AI actually do?</strong> Identify the specific function and whether customers can use it today.</li>
+        <li><strong>Where do humans intervene?</strong> Ask how often staff complete, review, or correct the work.</li>
+        <li><strong>What supports the performance claim?</strong> Look for test methods, sample sizes, error rates, and independent evaluations.</li>
+        <li><strong>Do the tests match the intended use?</strong> Results on one type of content or population may not transfer to another.</li>
+        <li><strong>What benefit was measured?</strong> Compare results with the previous process, including review effort and costs.</li>
+        <li><strong>How strong is the evidence?</strong> Distinguish marketing, independent testing, regulatory allegations, settlements, and court findings.</li>
+      </ol>
+      <div class="note"><p><strong>Limits of this overview:</strong> These selected cases show that misleading AI claims occur across industries. They do not measure how common AI washing is or establish which industry has the highest rate.</p></div>
+    </section>
+  </main>
+  <footer><div class="wrap">Selected regulatory records from 2024–2025. Content is available offline; source links require internet access.</div></footer>
+</body>
+</html>
