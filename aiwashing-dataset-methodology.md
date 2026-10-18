@@ -1,6 +1,6 @@
 # AI-washing dataset: methodology
 
-Reviewed October 18, 2026. Version 2.0. Contains 30 company or business-operation records.
+Reviewed October 18, 2026. Version 3.0. Contains 30 company or business-operation records.
 
 ## Purpose and selection
 
@@ -49,29 +49,29 @@ Cryptoaiml and TSAI Pro are separate operations charged in separate complaints i
 | stock_market_connection | Explanation of the connection to securities or fundraising |
 | limitations | Qualifications, counterevidence, or management's response |
 | sources | Source titles and direct URLs |
-| chart | Structured quantitative evidence for the case: title, metric_type, unit, axis_max, points, headline, interpretation, caveat, source_date, sources |
+| chart | Claim-versus-outcome panel: comparison_type, claimed_benefit, documented_outcome, claimed_value, outcome_value, unit, numeric_availability, gap, gap_unit, caveat, evidence_status, source_date, sources |
+| context_data | Previous sourced numerical panel, retained for research context; not displayed as a benefit-versus-output comparison |
 
 Market categories are analytical groupings for this dataset, not current exchange-listing certifications. “Public issuer” refers to the relevant historical context. “Investment” identifies advisory/trading services, not necessarily exchange-listed firms. “Private fundraising” covers the fundraising context of the identified case. “Other” does not assert that a company has never raised capital.
 
 JSON stores sources as objects. CSV flattens them into a single field separated by ` | `. Both files contain the same 30 records and fields. The HTML displays these records without requiring a server; JavaScript only adds filtering and expansion controls. Downloads always contain the full dataset.
 
-## Quantitative panels and exports
+## Claim-versus-outcome panels and exports
 
-Every case has a sourced panel. The 30 panels contain 39 numeric observations. These are selected available measurements, not a standardized severity score.
+Every one of the 30 cases has two labeled evidence blocks: **Claimed benefit** and **Documented outcome**. Outcome statements preserve whether they are findings, allegations, or reporting. A documented outcome can be a failure of substantiation; it does not always mean a measured product failure.
 
-- JSON preserves the `chart` object. The main case CSV serializes it as JSON in a quoted `chart` field.
-- `aiwashing-case-metrics.csv` has one observation per row, linked by `case_id`. It includes label, numeric value, display text, qualifier, unit, axis maximum, source date, evidence status, caveat, and direct source URL.
-- `value` is the number used to draw the bar. `qualifier` is `exact`, `rounded`, `approximate`, `at_least`, or `greater_than`. A lower-bound bar plots the stated bound, not an invented exact total; its visible label retains the inequality.
-- All bars use linear scales beginning at zero. Axis maxima vary and are displayed. Blue and green distinguish rows, not favorable and unfavorable outcomes. Values remain readable without color or JavaScript.
-- Currency is nominal USD as stated in the source. No inflation adjustment or contemporary bitcoin conversion is performed. Funding, revenue, losses, penalties, restitution, and judgments must not be summed or treated as interchangeable.
-- Suspended judgments are labeled as such. An order requiring payment does not establish collection or recovery.
-- Claim-only data are labeled explicitly. Builder.ai's 80% is an advertised claim; its comparable measured rate is unknown. Unknown values are never encoded as zero.
-- Workado's 45-percentage-point gap is 98 minus 53. YieldTrust's 2× lockup is 30 divided by 15. Rimar's combined penalties sum to $310,000; NGL's components sum to $5 million; the two Mirror Trading components sum to $3,467,676,744, displayed as $3.47 billion.
-- Presto's observations concern different product versions and periods. Evolv's false-alarm observation concerns one school and setting. Click Profit's store restrictions are business outcomes, not model accuracy.
-- Apple's 5 and 3 are editorial counts of explicitly named feature examples in the cited NAD announcement, not a vendor-wide failure rate. The five examples are Priority Notifications, Image Playground, Genmoji, Image Wand, and ChatGPT integration. The three Siri capabilities are onscreen awareness, personal context, and cross-app actions.
-- `chart.source_date` identifies the numerical source event, which may differ from the case's later settlement date. Status labels summarize the cited record; the dataset does not certify every later docket development.
+- Workado has the one numerical claim-versus-test comparison in this version: 98% advertised accuracy versus approximately 53% on general-purpose content, an approximate 45-percentage-point difference. The general-purpose test is not a universal product benchmark.
+- The other 29 cases show qualitative comparisons with an explicit numerical-data-unavailable notice. Quantitative observations may appear in the text, but they cannot be forced into a matched comparison.
+- A numerical gap is calculated only when both sides use a comparable measure. Human-intervention rates, false alarms, store restrictions, and training-data counts are not interchangeable with automation claims, weapons-detection accuracy, profit, or fairness.
+- Missing numerical values are JSON `null` and blank CSV cells, never zero. Some claims have a number but lack a measured outcome: Ecommerce Empire Builders' $10,000 per month, Builder.ai's at-least-80% automation claim, and YieldTrust's up-to-2.2% daily return. Their qualifiers remain in the claim text. None is a verified result.
+- Nate's alleged effectively-zero automation remains qualitative; it is not encoded as an exact zero.
+- JSON stores the active panel in `chart`. The main case CSV serializes `chart` and `context_data` as quoted JSON. Sources are flattened with ` | `.
+- `aiwashing-case-metrics.csv` now contains **30 comparison rows**, one per case, replacing the previous 39-observation export. Fields include both evidence statements, values where supplied, unit, gap, missing-data explanation, procedural status, source date, caveat, and URLs.
+- The previous numerical panels remain under `context_data` in the full JSON and case CSV for traceability. They are not rendered as the active comparisons. Funding, losses, penalties, restitution, and judgments measure context rather than AI output.
+- Dates identify the cited records, not a certification of current product performance or every later docket development. Apple's panel concerns the historical availability messaging reviewed in April 2025.
+- Blue identifies claims and green identifies documented outcomes. Green does not imply a successful outcome. Workado's bars share a linear 0–100% scale; qualitative cards do not use invented bar lengths or scores.
 
-The selected cases are not statistically representative. Neither chart lengths nor the number of records per sector establish prevalence or relative societal harm.
+The selected cases are not statistically representative, and the panels do not establish industry prevalence or a ranking of harm.
 
 ## Exclusions and limits
 
