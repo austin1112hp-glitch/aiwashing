@@ -1,0 +1,459 @@
+{
+  "title": "AI-washing case research dataset",
+  "version": "2026-10-18",
+  "scope": "20 purposively selected company/operation cases; not a prevalence estimate. Historical source statuses, not live docket certification.",
+  "cases": [
+    {
+      "id": "AW001",
+      "reviewed_on": "2026-10-18",
+      "company": "Delphia",
+      "industry": "Investment management",
+      "market_category": "Investment",
+      "business_summary": "Provided investment advisory services and portfolios.",
+      "ai_claim": "Claimed AI and machine learning used client data in investment decisions.",
+      "why_ai_washing": "The SEC found that the advertised capabilities did not exist. This directly fits misrepresented AI use.",
+      "evidence_status": "Regulatory findings / settlement",
+      "source_event_date": "2024-03-18",
+      "assessment": "Strong: SEC findings",
+      "stock_market_connection": "Private adviser; claims concern investing, not a listed issuer.",
+      "limitations": "Settled without admitting or denying findings. This does not establish that every part of its service lacked AI.",
+      "sources": [
+        {
+          "title": "SEC settlement",
+          "url": "https://www.sec.gov/newsroom/press-releases/2024-36"
+        }
+      ]
+    },
+    {
+      "id": "AW002",
+      "reviewed_on": "2026-10-18",
+      "company": "Global Predictions",
+      "industry": "Investment advice and forecasting",
+      "market_category": "Investment",
+      "business_summary": "Offered portfolio analysis and investment advice.",
+      "ai_claim": "Promoted expert AI-driven forecasts and claimed to be the first regulated AI financial adviser.",
+      "why_ai_washing": "The SEC found those representations false or misleading, supporting a mismatch between AI positioning and delivered capabilities.",
+      "evidence_status": "Regulatory findings / settlement",
+      "source_event_date": "2024-03-18",
+      "assessment": "Strong: SEC findings",
+      "stock_market_connection": "Private adviser serving investors.",
+      "limitations": "Settled without admitting or denying findings; SEC registration is not approval of a product.",
+      "sources": [
+        {
+          "title": "SEC settlement",
+          "url": "https://www.sec.gov/newsroom/press-releases/2024-36"
+        }
+      ]
+    },
+    {
+      "id": "AW003",
+      "reviewed_on": "2026-10-18",
+      "company": "Rimar Capital entities",
+      "industry": "Investment management and trading",
+      "market_category": "Investment",
+      "business_summary": "Raised funds for an advisory business and managed client accounts.",
+      "ai_claim": "Claimed an AI platform performed automated securities trading.",
+      "why_ai_washing": "The SEC found the business was falsely described as having this platform. AI claims helped solicit investors and advisory clients.",
+      "evidence_status": "Regulatory findings / settlement",
+      "source_event_date": "2024-10-10",
+      "assessment": "Strong: SEC findings",
+      "stock_market_connection": "Private fundraising plus trading in client securities accounts.",
+      "limitations": "Entities and individuals settled without admitting or denying findings; other misconduct was also involved.",
+      "sources": [
+        {
+          "title": "SEC findings",
+          "url": "https://www.sec.gov/newsroom/press-releases/2024-167"
+        }
+      ]
+    },
+    {
+      "id": "AW004",
+      "reviewed_on": "2026-10-18",
+      "company": "Presto Automation",
+      "industry": "Restaurant technology",
+      "market_category": "Public issuer",
+      "business_summary": "Supplied voice-assisted drive-through ordering systems.",
+      "ai_claim": "Claimed its AI removed human order-taking and reported misleading non-intervention rates.",
+      "why_ai_washing": "The SEC found extensive human intervention and misleading disclosure of third-party technology. Automation claims overstated the product's independence.",
+      "evidence_status": "Regulatory findings / settlement",
+      "source_event_date": "2025-01-14",
+      "assessment": "Strong: SEC findings",
+      "stock_market_connection": "Nasdaq-listed until September 2024; disclosure concerned public investors.",
+      "limitations": "Settled without admitting or denying findings. Third-party technology and human support are legitimate when accurately disclosed.",
+      "sources": [
+        {
+          "title": "SEC summary",
+          "url": "https://www.sec.gov/enforcement-litigation/administrative-proceedings/33-11352-s"
+        },
+        {
+          "title": "SEC order",
+          "url": "https://www.sec.gov/files/litigation/admin/2025/33-11352.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AW005",
+      "reviewed_on": "2026-10-18",
+      "company": "Kubient / KAI",
+      "industry": "Digital advertising and ad-fraud detection",
+      "market_category": "Public issuer",
+      "business_summary": "Operated advertising technology and promoted an AI fraud-detection tool.",
+      "ai_claim": "Touted successful KAI tests and associated revenue in stock-offering materials.",
+      "why_ai_washing": "Fabricated test reports and revenue misrepresented product efficacy and commercial validation. This combines AI capability inflation with accounting fraud.",
+      "evidence_status": "Criminal guilty plea / sentencing",
+      "source_event_date": "2025-03-20",
+      "assessment": "Strong: guilty plea and sentencing",
+      "stock_market_connection": "IPO and secondary public offering in 2020.",
+      "limitations": "The former CEO pleaded guilty; this does not establish culpability of every employee or prove that KAI never existed.",
+      "sources": [
+        {
+          "title": "DOJ sentencing",
+          "url": "https://www.justice.gov/usao-sdny/pr/former-ceo-kubient-inc-sentenced-prison-connection-accounting-fraud-scheme"
+        },
+        {
+          "title": "SEC charges",
+          "url": "https://www.sec.gov/newsroom/press-releases/2024-131"
+        }
+      ]
+    },
+    {
+      "id": "AW006",
+      "reviewed_on": "2026-10-18",
+      "company": "WOLO Wealth / Joel B. Sofia",
+      "industry": "Investment advice and options trading",
+      "market_category": "Investment",
+      "business_summary": "Managed trades in clients' brokerage accounts under the WOLO Wealth name.",
+      "ai_claim": "Claimed proprietary AI fully automated trading and eliminated downside risk.",
+      "why_ai_washing": "The SEC alleges the purported software was not used for the described trades. If substantiated, this is misrepresented AI deployment coupled with impossible risk assurances.",
+      "evidence_status": "Regulatory allegations",
+      "source_event_date": "2026-01-23",
+      "assessment": "Conditional: detailed SEC complaint",
+      "stock_market_connection": "Client brokerage accounts and options trading; not a listed company.",
+      "limitations": "Complaint allegations, not a liability finding. WOLO was a business name, not an incorporated entity, according to the complaint.",
+      "sources": [
+        {
+          "title": "SEC release",
+          "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26463"
+        },
+        {
+          "title": "Complaint, paragraphs 45–54",
+          "url": "https://www.sec.gov/files/litigation/complaints/2026/comp26463.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AW007",
+      "reviewed_on": "2026-10-18",
+      "company": "DoNotPay",
+      "industry": "Legal technology",
+      "market_category": "Other",
+      "business_summary": "Offered a chatbot and tools for consumer legal tasks.",
+      "ai_claim": "Promoted a robot lawyer able to substitute for professional legal expertise.",
+      "why_ai_washing": "The FTC challenged claims unsupported by adequate evaluation. The pattern is overstated professional capability, even where AI is genuinely used.",
+      "evidence_status": "Regulatory settlement",
+      "source_event_date": "2025-01-14",
+      "assessment": "Strong documented concern: FTC settlement",
+      "stock_market_connection": "Consumer service; no public-stock claim assessed.",
+      "limitations": "A settlement is not a trial finding that every feature failed.",
+      "sources": [
+        {
+          "title": "FTC case record",
+          "url": "https://search.ftc.gov/legal-library/browse/cases-proceedings/donotpay"
+        }
+      ]
+    },
+    {
+      "id": "AW008",
+      "reviewed_on": "2026-10-18",
+      "company": "Nate",
+      "industry": "E-commerce checkout automation",
+      "market_category": "Private fundraising",
+      "business_summary": "Offered a shopping app for completing purchases across retail websites.",
+      "ai_claim": "Presented checkout as autonomously completed by proprietary AI.",
+      "why_ai_washing": "DOJ alleges human contractors secretly completed purchases while the automation rate was effectively zero. If proven, this fits concealed manual work and fictitious autonomy.",
+      "evidence_status": "Criminal allegations",
+      "source_event_date": "2025-04-09",
+      "assessment": "Conditional: detailed DOJ allegations",
+      "stock_market_connection": "Private startup fundraising.",
+      "limitations": "The cited indictment announcement is not a conviction or a check of the current docket.",
+      "sources": [
+        {
+          "title": "DOJ indictment announcement",
+          "url": "https://www.justice.gov/usao-sdny/pr/tech-ceo-charged-artificial-intelligence-investment-fraud-scheme"
+        }
+      ]
+    },
+    {
+      "id": "AW009",
+      "reviewed_on": "2026-10-18",
+      "company": "IntelliVision",
+      "industry": "Facial recognition and smart-home security",
+      "market_category": "Other",
+      "business_summary": "Sold facial-recognition software for security systems.",
+      "ai_claim": "Claimed high accuracy, no gender or racial bias, and spoof resistance.",
+      "why_ai_washing": "The FTC alleged insufficient support for broad efficacy and fairness claims. This fits unsupported AI performance assurances.",
+      "evidence_status": "Regulatory settlement",
+      "source_event_date": "2025-01-08",
+      "assessment": "Strong documented concern: FTC order",
+      "stock_market_connection": "Security software; no public-stock claim assessed.",
+      "limitations": "AI existence is not disputed here. The concern is how performance was represented.",
+      "sources": [
+        {
+          "title": "FTC allegations",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2024/12/ftc-takes-action-against-intellivision-technologies-deceptive-claims-about-its-facial-recognition"
+        },
+        {
+          "title": "Final order",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2323023c4809intellivisionfinalorder.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AW010",
+      "reviewed_on": "2026-10-18",
+      "company": "accessiBe",
+      "industry": "Website accessibility software",
+      "market_category": "Other",
+      "business_summary": "Sold an automated website accessibility tool.",
+      "ai_claim": "Claimed the tool could make any website WCAG-compliant.",
+      "why_ai_washing": "The FTC alleged misleading or unsupported compliance claims. The pattern is promoting an AI tool as sufficient for a broader outcome than demonstrated.",
+      "evidence_status": "Regulatory settlement",
+      "source_event_date": "2025-04-22",
+      "assessment": "Strong documented concern: FTC final order",
+      "stock_market_connection": "Business software; no public-stock claim assessed.",
+      "limitations": "This does not imply that all automated accessibility assistance lacks value.",
+      "sources": [
+        {
+          "title": "FTC case record",
+          "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2223156-accessibe-inc"
+        }
+      ]
+    },
+    {
+      "id": "AW011",
+      "reviewed_on": "2026-10-18",
+      "company": "Workado / Content at Scale AI",
+      "industry": "AI content detection",
+      "market_category": "Other",
+      "business_summary": "Sold a tool for identifying AI-generated text.",
+      "ai_claim": "Advertised 98% detection accuracy across content.",
+      "why_ai_washing": "The FTC reported approximately 53% accuracy on general-purpose content. Extrapolating narrower performance to broader uses fits inflated AI accuracy.",
+      "evidence_status": "Regulatory settlement",
+      "source_event_date": "2025-08-28",
+      "assessment": "Strong documented concern: FTC final order",
+      "stock_market_connection": "Content software; no public-stock claim assessed.",
+      "limitations": "The test result applies to the evaluated content and version, not all detectors or future versions.",
+      "sources": [
+        {
+          "title": "FTC testing",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-order-requires-workado-back-artificial-intelligence-detection-claims"
+        },
+        {
+          "title": "Final order announcement",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/08/ftc-approves-final-order-against-workado-llc-which-misrepresented-accuracy-its-artificial"
+        }
+      ]
+    },
+    {
+      "id": "AW012",
+      "reviewed_on": "2026-10-18",
+      "company": "Evolv Technologies",
+      "industry": "Weapons detection and physical security",
+      "market_category": "Public issuer",
+      "business_summary": "Sold screening systems to schools and other venues.",
+      "ai_claim": "Promoted AI screening as detecting weapons while ignoring harmless items, with superior performance.",
+      "why_ai_washing": "The FTC challenged efficacy claims. This fits overstated AI capability in a safety-sensitive product marketed by a public company.",
+      "evidence_status": "Regulatory settlement",
+      "source_event_date": "2024-11-26",
+      "assessment": "Strong documented concern: FTC settlement",
+      "stock_market_connection": "Public-company product claims; not evidence of a particular stock-price effect.",
+      "limitations": "The issue is performance claims, not proof that the system used no AI. Settlement terms do not establish every allegation.",
+      "sources": [
+        {
+          "title": "FTC case record",
+          "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/evolv-technologies"
+        },
+        {
+          "title": "Company-filed 2026 settlement notice",
+          "url": "https://ir.evolvtechnology.com/sec-filings/all-sec-filings/content/0001805385-26-000040/noticeofpendencyandpropo.htm"
+        }
+      ]
+    },
+    {
+      "id": "AW013",
+      "reviewed_on": "2026-10-18",
+      "company": "NGL Labs",
+      "industry": "Social media and content moderation",
+      "market_category": "Other",
+      "business_summary": "Operated an anonymous messaging app.",
+      "ai_claim": "Claimed AI moderation would protect users from cyberbullying.",
+      "why_ai_washing": "The FTC alleged that promised AI safeguards did not filter harmful messages as represented. This fits overstated AI safety assurances.",
+      "evidence_status": "Regulatory settlement",
+      "source_event_date": "2024-07-09",
+      "assessment": "Strong documented concern: FTC settlement",
+      "stock_market_connection": "Consumer app; no public-stock claim assessed.",
+      "limitations": "Other allegations concerned billing and children’s privacy; inclusion here is specifically about moderation claims.",
+      "sources": [
+        {
+          "title": "FTC announcement",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-order-will-ban-ngl-labs-its-founders-offering-anonymous-messaging-apps-kids-under-18-halt"
+        }
+      ]
+    },
+    {
+      "id": "AW014",
+      "reviewed_on": "2026-10-18",
+      "company": "Air AI",
+      "industry": "Conversational AI and business opportunities",
+      "market_category": "Other",
+      "business_summary": "Marketed conversational AI services and business opportunities to entrepreneurs.",
+      "ai_claim": "Promised business growth, substantial earnings, and refund protection.",
+      "why_ai_washing": "The FTC challenged performance, profitability, and refund representations. AI branding supported outcomes that allegedly were not substantiated.",
+      "evidence_status": "Proposed regulatory settlement",
+      "source_event_date": "2026-03-24",
+      "assessment": "Conditional: FTC allegations and proposed order",
+      "stock_market_connection": "Small-business purchases; not a stock offering.",
+      "limitations": "This concerns misleading claims around AI, not a finding that AI was absent. The cited release describes a proposed court order.",
+      "sources": [
+        {
+          "title": "FTC 2026 announcement",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled"
+        }
+      ]
+    },
+    {
+      "id": "AW015",
+      "reviewed_on": "2026-10-18",
+      "company": "Ascend Ecom",
+      "industry": "E-commerce business opportunities",
+      "market_category": "Other",
+      "business_summary": "Sold services to establish and operate online storefronts.",
+      "ai_claim": "Advertised AI tools for rapidly generating passive income.",
+      "why_ai_washing": "The FTC alleged that promised earnings generally failed to materialize. The AI-washing pattern is an unsupported business outcome attributed to AI.",
+      "evidence_status": "Proposed regulatory settlement",
+      "source_event_date": "2025-06-23",
+      "assessment": "Conditional: FTC allegations and proposed order",
+      "stock_market_connection": "Consumer business opportunities, not publicly traded securities.",
+      "limitations": "Poor returns alone are not AI washing; inclusion rests on the alleged deceptive AI-linked earnings pitch. The cited announcement describes a proposed order.",
+      "sources": [
+        {
+          "title": "FTC settlement announcement",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/06/ftc-case-leads-order-banning-ascend-ecom-its-owners-business-opportunity-marketing"
+        }
+      ]
+    },
+    {
+      "id": "AW016",
+      "reviewed_on": "2026-10-18",
+      "company": "FBA Machine / Passive Scaling",
+      "industry": "E-commerce business opportunities",
+      "market_category": "Other",
+      "business_summary": "Sold managed online-store business opportunities.",
+      "ai_claim": "Promised guaranteed income from storefronts using AI software.",
+      "why_ai_washing": "The FTC challenged deceptive earnings guarantees tied to purported AI-powered stores. This fits unsupported AI-enabled profitability.",
+      "evidence_status": "Proposed regulatory settlement",
+      "source_event_date": "2025-07-30",
+      "assessment": "Conditional: FTC allegations and proposed order",
+      "stock_market_connection": "Consumer business opportunities, not a stock-market investment product.",
+      "limitations": "Treat both names as one case. The record does not by itself prove all underlying software lacked AI. The cited announcement describes a proposed order.",
+      "sources": [
+        {
+          "title": "FTC order announcement",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/07/ftc-obtains-permanent-ban-e-commerce-business-opportunity-scheme-operator"
+        }
+      ]
+    },
+    {
+      "id": "AW017",
+      "reviewed_on": "2026-10-18",
+      "company": "Ecommerce Empire Builders",
+      "industry": "E-commerce coaching and storefront services",
+      "market_category": "Other",
+      "business_summary": "Sold training and done-for-you online stores.",
+      "ai_claim": "Marketed an AI-powered e-commerce business capable of substantial profits.",
+      "why_ai_washing": "The FTC alleged that the promoted profits did not materialize. AI was used to support an allegedly deceptive opportunity pitch.",
+      "evidence_status": "Regulatory settlement",
+      "source_event_date": "2025-05-09",
+      "assessment": "Strong documented concern: FTC settlement announcement",
+      "stock_market_connection": "Consumer business opportunities.",
+      "limitations": "Distinct from Automators’ former Empire Ecommerce brand. This is an earnings-claim case, not a finding that AI was absent.",
+      "sources": [
+        {
+          "title": "FTC settlement announcement",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/05/ftc-action-ends-ecommerce-empire-builders-online-business-opportunity-scam"
+        },
+        {
+          "title": "FTC original AI-related allegations",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes"
+        }
+      ]
+    },
+    {
+      "id": "AW018",
+      "reviewed_on": "2026-10-18",
+      "company": "Automators AI",
+      "industry": "E-commerce automation and coaching",
+      "market_category": "Other",
+      "business_summary": "Set up third-party online stores and sold business coaching.",
+      "ai_claim": "Claimed AI could help ensure store profitability and high passive earnings.",
+      "why_ai_washing": "The FTC challenged unfounded income and profit claims connected to AI. This fits overstated AI business benefits.",
+      "evidence_status": "Regulatory settlement",
+      "source_event_date": "2024-02-27",
+      "assessment": "Strong documented concern: FTC settlement",
+      "stock_market_connection": "Consumer business opportunities.",
+      "limitations": "Automators, Empire Ecommerce, and Onyx Distribution are grouped as one operation; not three cases.",
+      "sources": [
+        {
+          "title": "FTC case record",
+          "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/automators"
+        }
+      ]
+    },
+    {
+      "id": "AW019",
+      "reviewed_on": "2026-10-18",
+      "company": "Click Profit",
+      "industry": "E-commerce business opportunities",
+      "market_category": "Other",
+      "business_summary": "Sold managed storefronts to people seeking passive income.",
+      "ai_claim": "Promised high passive earnings through a proprietary AI-powered system.",
+      "why_ai_washing": "The FTC complaint expressly alleges false AI and affiliation claims. This supports both misrepresented technology and unsupported profit promises.",
+      "evidence_status": "Proposed regulatory settlement",
+      "source_event_date": "2025-08",
+      "assessment": "Conditional: FTC complaint and settlement announcement",
+      "stock_market_connection": "Consumer business opportunities.",
+      "limitations": "The case page describes an August proposed settlement. Do not equate that wording with adjudicated liability.",
+      "sources": [
+        {
+          "title": "FTC case record",
+          "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/click-profit-llc"
+        },
+        {
+          "title": "FTC complaint",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/ClickProfit-20250303-Complaint.pdf"
+        }
+      ]
+    },
+    {
+      "id": "AW020",
+      "reviewed_on": "2026-10-18",
+      "company": "Builder.ai / Engineer.ai",
+      "industry": "Software development services",
+      "market_category": "Private fundraising",
+      "business_summary": "Sold app-development services supported by software tools and human teams.",
+      "ai_claim": "Marketed AI-assisted app creation as fast and simple.",
+      "why_ai_washing": "Reporting based on former-employee interviews describes more manual delivery than the marketing suggested. This is a plausible overstatement-of-automation pattern.",
+      "evidence_status": "Reported / disputed",
+      "source_event_date": "2025-07-29",
+      "assessment": "Moderate: reporting; disputed interpretation",
+      "stock_market_connection": "Venture-backed private startup; not Microsoft’s own operating business.",
+      "limitations": "Former CEO Manpreet Ratia denied misleading users and said the platform automated meaningful work. Earlier representatives described human-assisted AI. Reporting does not establish that no AI existed; insolvency is not proof.",
+      "sources": [
+        {
+          "title": "Rest of World investigation",
+          "url": "https://restofworld.org/2025/builderai-ai-apps-downfall/"
+        }
+      ]
+    }
+  ]
+}
