@@ -36,6 +36,32 @@
     .status { display: inline-block; border-radius: 6px; padding: 4px 10px; background: #e5f1ee; color: #225747; font-size: .8rem; font-weight: 650; margin-bottom: 16px; }
     .allegation { background: #fff0d7; color: #754600; }
     .sources { font-size: .9rem; margin-bottom: 0; }
+    figure { margin: 0; background: white; padding: 24px; border: 1px solid var(--line); border-radius: 12px; }
+    figcaption { font-size: .9rem; color: var(--muted); margin-top: 20px; }
+    .bar-label { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; margin: 18px 0 6px; }
+    .track { height: 26px; background: #e7eff5; border-radius: 4px; overflow: hidden; }
+    .bar { display: block; height: 100%; background: #145b89; }
+    .bar.tested { background: #28745d; }
+    .axis { display: flex; justify-content: space-between; color: var(--muted); font-size: .8rem; margin-top: 8px; }
+    .stat { color: var(--blue); font-size: 1.6rem; font-weight: 750; margin: 18px 0 0; }
+    .table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: white; }
+    table { border-collapse: collapse; width: 100%; min-width: 660px; text-align: left; }
+    caption { text-align: left; padding: 18px; color: var(--muted); }
+    th, td { padding: 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    thead { background: #e7eff5; }
+    tr:last-child td, tr:last-child th { border-bottom: 0; }
+    details { background: white; border: 1px solid var(--line); border-radius: 8px; padding: 16px 20px; margin-bottom: 12px; }
+    summary { cursor: pointer; font-weight: 700; }
+    summary:focus-visible { outline: 3px solid #b65e00; outline-offset: 4px; }
+    details p { margin: 12px 0 0; }
+    .flow { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .flow li { border-top: 4px solid #28745d; background: #e5f1ee; padding: 18px; }
+    .flow strong { display: block; }
+    .platform { background: #e7eff5; padding: 24px; border-radius: 12px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0; }
+    .actions a { display: inline-block; border: 1px solid var(--blue); padding: 9px 14px; border-radius: 6px; background: white; }
+    code { overflow-wrap: anywhere; }
+    @media (max-width: 680px) { .flow { grid-template-columns: 1fr; } figure { padding: 18px; } }
     ul, ol { padding-left: 24px; }
     li { margin-bottom: 12px; }
     footer { border-top: 1px solid var(--line); padding: 24px 0; color: var(--muted); font-size: .9rem; }
@@ -54,6 +80,11 @@
       <nav aria-label="Page sections">
         <a href="#definition">What it means</a>
         <a href="#examples">Documented examples</a>
+        <a href="#charts">Charts</a>
+        <a href="#impacts">Societal impacts</a>
+        <a href="#markets">Markets</a>
+        <a href="#patterns">Patterns</a>
+        <a href="#data-2026">2026 data</a>
         <a href="#canada">Canadian context</a>
         <a href="#questions">Questions to ask</a>
       </nav>
@@ -126,6 +157,105 @@
         </article>
       </div>
     </section>
+    <section id="charts" aria-labelledby="charts-title">
+      <h2 id="charts-title">The claims, in numbers</h2>
+      <p>Two views of documented cases. These figures describe specific enforcement records; they do not estimate industry-wide prevalence or total societal harm.</p>
+      <div class="grid">
+        <figure>
+          <h3>Workado: advertised vs. tested accuracy</h3>
+          <div class="sector">AI content detection · April 2025 record</div>
+          <div class="bar-label"><span>Advertised accuracy</span><strong>98%</strong></div>
+          <div class="track" aria-hidden="true"><span class="bar" style="width:98%"></span></div>
+          <div class="bar-label"><span>General-purpose content testing</span><strong>53%</strong></div>
+          <div class="track" aria-hidden="true"><span class="bar tested" style="width:53%"></span></div>
+          <div class="axis" aria-hidden="true"><span>0%</span><span>50%</span><span>100%</span></div>
+          <p class="stat">45 percentage points</p>
+          <p>Gap between the advertised rate and the test result reported by the FTC.</p>
+          <figcaption>The FTC alleged that the model was trained or fine-tuned for academic content. The 53% result concerns general-purpose content, not every use of the tool. <a href="https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-order-requires-workado-back-artificial-intelligence-detection-claims">Source: FTC, April 28, 2025</a>.</figcaption>
+        </figure>
+        <figure>
+          <h3>Investment advisers: civil penalties</h3>
+          <div class="sector">SEC settlements · March 2024</div>
+          <div class="bar-label"><span>Delphia</span><strong>US$225,000</strong></div>
+          <div class="track" aria-hidden="true"><span class="bar" style="width:90%"></span></div>
+          <div class="bar-label"><span>Global Predictions</span><strong>US$175,000</strong></div>
+          <div class="track" aria-hidden="true"><span class="bar tested" style="width:70%"></span></div>
+          <div class="axis" aria-hidden="true"><span>$0</span><span>$125,000</span><span>$250,000</span></div>
+          <p class="stat">US$400,000 combined</p>
+          <p>Civil penalties in the two settlements.</p>
+          <figcaption>Both firms settled without admitting or denying the SEC’s findings. Amounts cover the settled charges, including other violations; they are not estimates of investor losses or a ranking of harm. <a href="https://www.sec.gov/newsroom/press-releases/2024-36">Source: SEC, March 18, 2024</a>.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section id="impacts" aria-labelledby="impacts-title">
+      <h2 id="impacts-title">How AI washing can affect society</h2>
+      <p>The pathways below are an analysis of risks illustrated by the cited cases. Their scale has not been measured across society.</p>
+      <ol class="flow" aria-label="How misleading AI claims can lead to harm">
+        <li><strong>1. Unsupported promise</strong>A product appears more capable, autonomous, or reliable than the evidence supports.</li>
+        <li><strong>2. Decision based on that promise</strong>A buyer spends money, an investor allocates capital, or an organization reduces human review.</li>
+        <li><strong>3. Costs reach people</strong>Financial loss, inaccessible services, unreliable decisions, and additional correction work can follow.</li>
+      </ol>
+      <div class="grid">
+        <article><h3>Money and opportunity</h3><p>Investors and small businesses can commit scarce funds based on inflated capabilities or earnings promises. Misleading claims can also draw business away from providers that substantiate their results.</p><p class="sources">Evidence: <a href="https://www.sec.gov/newsroom/press-releases/2024-36">investment-adviser findings</a> and <a href="https://www.ftc.gov/legal-library/browse/cases-proceedings/airai">Air AI allegations and settlement record</a>.</p></article>
+        <article><h3>Access and equal treatment</h3><p>Buyers may assume accessibility barriers have been removed or that a system works equally well for everyone. Unsupported assurances can discourage testing that would reveal exclusion or uneven error rates.</p><p class="sources">Evidence: <a href="https://www.ftc.gov/legal-library/browse/cases-proceedings/2223156-accessibe-inc">accessiBe</a> and <a href="https://www.ftc.gov/news-events/news/press-releases/2024/12/ftc-takes-action-against-intellivision-technologies-deceptive-claims-about-its-facial-recognition">IntelliVision</a>.</p></article>
+        <article><h3>Trust and consequential decisions</h3><p>Overstated expertise can encourage people to rely on a tool for decisions it has not been shown to handle. For example, treating a chatbot as a qualified lawyer or a detector score as definitive evidence can expose users to avoidable mistakes.</p><p class="sources">Evidence: <a href="https://search.ftc.gov/legal-library/browse/cases-proceedings/donotpay">DoNotPay</a> and <a href="https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-order-requires-workado-back-artificial-intelligence-detection-claims">Workado</a>. These are potential downstream risks, not findings that every such harm occurred.</p></article>
+        <article><h3>Work and accountability</h3><p>Concealing manual work prevents customers and investors from understanding who performs a service and how automation might scale. The Nate allegations illustrate this transparency problem; they do not establish that AI washing caused a particular level of job loss.</p><p class="sources">Evidence: <a href="https://www.justice.gov/usao-sdny/pr/tech-ceo-charged-artificial-intelligence-investment-fraud-scheme">DOJ’s Nate indictment announcement</a>.</p></article>
+      </div>
+    </section>
+    <section id="markets" aria-labelledby="markets-title">
+      <h2 id="markets-title">What to examine in specific markets</h2>
+      <div class="table-scroll" role="region" aria-label="Market comparison" tabindex="0">
+        <table>
+          <caption>Market-specific questions derived from the cases on this page. These are review prompts, not claims that every vendor in a market is deceptive.</caption>
+          <thead><tr><th scope="col">Market &amp; example</th><th scope="col">Claim to examine</th><th scope="col">Evidence to request</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Investment management<br>Delphia / Global Predictions</th><td>AI-driven investing or forecasting</td><td>Actual model use, data inputs, deployment records, and the basis for advertised performance.</td></tr>
+            <tr><th scope="row">Legal services<br>DoNotPay</th><td>Replacement of professional expertise</td><td>Qualified expert evaluation, jurisdiction coverage, limitations, and escalation to a professional.</td></tr>
+            <tr><th scope="row">Online shopping<br>Nate</th><td>Autonomous transaction completion</td><td>End-to-end completion rates and the proportion requiring human intervention.</td></tr>
+            <tr><th scope="row">Security<br>IntelliVision</th><td>High accuracy, freedom from bias, spoof resistance</td><td>False-positive and false-negative rates by relevant group and realistic attack testing.</td></tr>
+            <tr><th scope="row">Web accessibility<br>accessiBe</th><td>Automatic WCAG compliance</td><td>Manual accessibility audits and testing with assistive technologies across actual user journeys.</td></tr>
+            <tr><th scope="row">Content verification<br>Workado</th><td>Accuracy across many types of writing</td><td>Independent tests on the intended content, languages, and current models.</td></tr>
+            <tr><th scope="row">Small-business sales tools<br>Air AI</th><td>Business growth, earnings, and refund guarantees</td><td>Typical net results, total costs, written refund terms, and evidence supporting earnings claims.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section id="patterns" aria-labelledby="patterns-title">
+      <h2 id="patterns-title">Identify recurring AI-washing patterns</h2>
+      <p>Expand each pattern to connect a warning sign with an evidence check. A warning sign is a reason to investigate, not proof of misconduct.</p>
+      <details><summary>1. AI capability that cannot be demonstrated</summary><p><strong>Example:</strong> Delphia’s advertised capabilities. <strong>Check:</strong> Ask for a demonstration of the deployed feature, its inputs, and records showing it is used in the promised process. A future roadmap is different from an available capability.</p></details>
+      <details><summary>2. Autonomy claims that omit manual work</summary><p><strong>Example:</strong> the Nate allegations. <strong>Check:</strong> Define a completed task and count human intervention across all tasks, including failures and exceptions. Human assistance is compatible with an accurately described AI service.</p></details>
+      <details><summary>3. A narrow test presented as universal accuracy</summary><p><strong>Example:</strong> Workado’s accuracy claim. <strong>Check:</strong> Match the evaluation data to the intended users and content. Ask for error rates and test conditions as well as a headline percentage.</p></details>
+      <details><summary>4. Absolute promises about expertise, fairness, or compliance</summary><p><strong>Examples:</strong> DoNotPay, IntelliVision, and accessiBe. <strong>Check:</strong> Ask what the claim means operationally, which situations are covered, and what independent evaluation supports it.</p></details>
+      <details><summary>5. AI branding attached to unsupported earnings promises</summary><p><strong>Example:</strong> Air AI’s disputed business-growth claims. <strong>Check:</strong> Examine typical earnings after costs and the actual refund conditions. AI branding does not establish that a business opportunity is profitable.</p></details>
+      <p class="sources">Pattern classifications are editorial analysis of the <a href="#examples">documented cases</a> and the <a href="#data-2026">2026 Air AI update</a>.</p>
+    </section>
+    <section id="data-2026" aria-labelledby="data-title">
+      <h2 id="data-title">A source for more recent data in 2026</h2>
+      <div class="platform">
+        <div class="sector">Selected platform</div>
+        <h3>FTC.gov: Legal Library + news feeds</h3>
+        <p><strong>Why this source:</strong> The FTC publishes dated complaints, orders, settlement announcements, and case timelines covering consumer products and business services. Its official RSS directory provides feeds for new announcements. These primary records support checking what was alleged and what action followed.</p>
+        <div class="actions"><a href="https://www.ftc.gov/legal-library/browse/cases-proceedings">Browse FTC cases</a><a href="https://www.ftc.gov/news-events/news/press-releases">Read announcements</a><a href="https://www.ftc.gov/stay-connected/rss">Get official RSS feeds</a></div>
+        <p><strong>Coverage limits:</strong> U.S. enforcement records are a selected subset of incidents, and announcements can lag the conduct. Use SEC records for investment claims and Canadian regulators for Canadian coverage. Feed items alone do not establish wrongdoing.</p>
+      </div>
+      <article style="margin-top:20px">
+        <div class="sector">Verified 2026 publication · Small-business sales tools</div>
+        <h3>Air AI: settlement announcement</h3>
+        <span class="status allegation">Proposed order announced · March 24, 2026</span>
+        <p>The FTC announced a settlement over allegedly deceptive business-growth, earnings, and refund claims. The announcement described a proposed ban on marketing business opportunities and an US$18 million judgment, largely suspended, with US$50,000 payable for consumer relief.</p>
+        <p><strong>Date distinction:</strong> This is a 2026 development in a case filed in August 2025. The cited release describes a proposed court order; it does not itself establish that a judge had signed it. The case concerns misleading claims around an AI service, rather than a finding that AI was entirely absent.</p>
+        <p class="sources"><a href="https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled">Read the March 2026 announcement</a> · <a href="https://www.ftc.gov/legal-library/browse/cases-proceedings/airai">View case documents and timeline</a></p>
+      </article>
+      <h3>How to collect further 2026 records</h3>
+      <ol>
+        <li><strong>Discover:</strong> Review the FTC archive for January 1–October 18, 2026 and subscribe to its RSS feeds for later items. Search for “artificial intelligence,” “AI,” “accuracy,” “earnings,” and “deceptive claims.” Older records may not remain in a recent-items feed.</li>
+        <li><strong>Verify:</strong> Open the complaint and latest order. Include cases involving a misleading claim about AI use, capability, or associated results; record broader AI misconduct separately.</li>
+        <li><strong>Record:</strong> Save company, market, claim, publication date, conduct period, case identifier, source URL, procedural status, and review date.</li>
+        <li><strong>Update:</strong> Group developments under the same case identifier. A complaint and later settlement are two events in one case, not two separate incidents.</li>
+      </ol>
+      <div class="note"><p><strong>Research checked: October 18, 2026.</strong> This page contains one selected 2026 update, alongside historical examples. It is a manually curated overview, not an automatically refreshing feed or an exhaustive 2026 dataset.</p></div>
+    </section>
     <section id="canada" aria-labelledby="canada-title">
       <h2 id="canada-title">Canadian context</h2>
       <p>Delphia provides a Toronto connection, although the enforcement action above was brought by the U.S. SEC. In December 2024, the Canadian Securities Administrators (CSA) published guidance on how existing securities laws apply to AI in capital markets, emphasizing transparency, accountability, and risk management. The guidance itself did not create new legal requirements.</p>
@@ -145,6 +275,6 @@
       <div class="note"><p><strong>Limits of this overview:</strong> These selected cases show that misleading AI claims occur across industries. They do not measure how common AI washing is or establish which industry has the highest rate.</p></div>
     </section>
   </main>
-  <footer><div class="wrap">Selected regulatory records from 2024–2025. Content is available offline; source links require internet access.</div></footer>
+  <footer><div class="wrap">Selected regulatory records from 2024–2026. Updated October 18, 2026. Charts and content work offline; source links require internet access.</div></footer>
 </body>
 </html>
