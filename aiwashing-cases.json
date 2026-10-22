@@ -1,7 +1,7 @@
 {
-  "title": "30 AI-washing cases: claimed benefits versus documented outcomes",
-  "version": "2026-10-18",
-  "scope": "30 purposively selected company/operation cases; not a prevalence estimate. Historical source statuses, not live docket certification.",
+  "title": "60 AI-washing cases: claimed benefits versus documented outcomes",
+  "version": "2026-10-21",
+  "scope": "60 purposively selected company/operation cases; not a prevalence estimate. Historical source statuses, not live docket certification.",
   "cases": [
     {
       "id": "AW001",
@@ -2154,7 +2154,1463 @@
           }
         ]
       }
+    },
+    {
+      "id": "AW031",
+      "reviewed_on": "2026-10-21",
+      "company": "Maxpread Technologies",
+      "industry": "Crypto investment schemes",
+      "market_category": "Investment",
+      "business_summary": "Solicited crypto investment deposits.",
+      "ai_claim": "AI trading would produce daily returns of at least 0.6%.",
+      "why_ai_washing": "AI-profit marketing concealed the source of payouts.",
+      "evidence_status": "Regulatory findings / administrative order",
+      "source_event_date": "2023-04-19",
+      "assessment": "Supported by the cited record; limited to the identified claim.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "Administrative enforcement record; no matched, audited investment-return series is supplied.",
+      "sources": [
+        {
+          "title": "DFPI: Maxpread order",
+          "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/04/DRO-Maxpread-Technologies-Limited.pdf"
+        },
+        {
+          "title": "DFPI: April 2023 AI investment sweep",
+          "url": "https://dfpi.ca.gov/press_release/dfpi-launches-sweep-of-investment-fraud-claiming-ties-to-artificial-intelligence/"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI trading would produce daily returns of at least 0.6%.",
+        "documented_outcome": "DFPI said investor deposits funded payments to other investors.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Administrative enforcement record; no matched, audited investment-return series is supplied.",
+        "evidence_status": "Regulatory findings / administrative order",
+        "source_date": "2023-04-19",
+        "sources": [
+          {
+            "title": "DFPI: Maxpread order",
+            "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/04/DRO-Maxpread-Technologies-Limited.pdf"
+          },
+          {
+            "title": "DFPI: April 2023 AI investment sweep",
+            "url": "https://dfpi.ca.gov/press_release/dfpi-launches-sweep-of-investment-fraud-claiming-ties-to-artificial-intelligence/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW032",
+      "reviewed_on": "2026-10-21",
+      "company": "Harvest Keeper",
+      "industry": "Crypto investment schemes",
+      "market_category": "Investment",
+      "business_summary": "Offered crypto investment plans.",
+      "ai_claim": "AI trading with fixed daily returns of 4.81% and protection from losses.",
+      "why_ai_washing": "The AI pitch overstated safety and returns.",
+      "evidence_status": "Regulatory findings / administrative order",
+      "source_event_date": "2023-04-19",
+      "assessment": "Supported by the cited record; limited to the identified claim.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "Administrative enforcement record; no matched, audited investment-return series is supplied.",
+      "sources": [
+        {
+          "title": "DFPI: April 2023 AI investment sweep",
+          "url": "https://dfpi.ca.gov/press_release/dfpi-launches-sweep-of-investment-fraud-claiming-ties-to-artificial-intelligence/"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI trading with fixed daily returns of 4.81% and protection from losses.",
+        "documented_outcome": "DFPI identified false loss-protection and fund-access guarantees.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Administrative enforcement record; no matched, audited investment-return series is supplied.",
+        "evidence_status": "Regulatory findings / administrative order",
+        "source_date": "2023-04-19",
+        "sources": [
+          {
+            "title": "DFPI: April 2023 AI investment sweep",
+            "url": "https://dfpi.ca.gov/press_release/dfpi-launches-sweep-of-investment-fraud-claiming-ties-to-artificial-intelligence/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW033",
+      "reviewed_on": "2026-10-21",
+      "company": "Visque Capital",
+      "industry": "Crypto investment schemes",
+      "market_category": "Investment",
+      "business_summary": "Solicited deposits for crypto trading.",
+      "ai_claim": "AI trading producing at least 2% daily.",
+      "why_ai_washing": "Purported AI earnings masked investor-funded payouts.",
+      "evidence_status": "Regulatory findings / administrative order",
+      "source_event_date": "2023-04-19",
+      "assessment": "Supported by the cited record; limited to the identified claim.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "Administrative enforcement record; no matched, audited investment-return series is supplied.",
+      "sources": [
+        {
+          "title": "DFPI: April 2023 AI investment sweep",
+          "url": "https://dfpi.ca.gov/press_release/dfpi-launches-sweep-of-investment-fraud-claiming-ties-to-artificial-intelligence/"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI trading producing at least 2% daily.",
+        "documented_outcome": "DFPI said deposits paid other investors and profits and risks were misrepresented.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Administrative enforcement record; no matched, audited investment-return series is supplied.",
+        "evidence_status": "Regulatory findings / administrative order",
+        "source_date": "2023-04-19",
+        "sources": [
+          {
+            "title": "DFPI: April 2023 AI investment sweep",
+            "url": "https://dfpi.ca.gov/press_release/dfpi-launches-sweep-of-investment-fraud-claiming-ties-to-artificial-intelligence/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW034",
+      "reviewed_on": "2026-10-21",
+      "company": "Coinbot",
+      "industry": "Crypto investment schemes",
+      "market_category": "Investment",
+      "business_summary": "Sold crypto investment plans.",
+      "ai_claim": "AI trading producing at least 1.5% daily.",
+      "why_ai_washing": "The source of advertised AI profits was misrepresented.",
+      "evidence_status": "Regulatory findings / administrative order",
+      "source_event_date": "2023-04-19",
+      "assessment": "Supported by the cited record; limited to the identified claim.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "Administrative enforcement record; no matched, audited investment-return series is supplied.",
+      "sources": [
+        {
+          "title": "DFPI: Coinbot order",
+          "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/04/DRO-Coinbot.pdf"
+        },
+        {
+          "title": "DFPI: April 2023 AI investment sweep",
+          "url": "https://dfpi.ca.gov/press_release/dfpi-launches-sweep-of-investment-fraud-claiming-ties-to-artificial-intelligence/"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI trading producing at least 1.5% daily.",
+        "documented_outcome": "DFPI identified misrepresented profits and risks and investor-funded payouts.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Administrative enforcement record; no matched, audited investment-return series is supplied.",
+        "evidence_status": "Regulatory findings / administrative order",
+        "source_date": "2023-04-19",
+        "sources": [
+          {
+            "title": "DFPI: Coinbot order",
+            "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/04/DRO-Coinbot.pdf"
+          },
+          {
+            "title": "DFPI: April 2023 AI investment sweep",
+            "url": "https://dfpi.ca.gov/press_release/dfpi-launches-sweep-of-investment-fraud-claiming-ties-to-artificial-intelligence/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW035",
+      "reviewed_on": "2026-10-21",
+      "company": "QuantFund",
+      "industry": "Crypto investment schemes",
+      "market_category": "Investment",
+      "business_summary": "Offered online crypto investment plans.",
+      "ai_claim": "AI trading producing at least 1% daily, backed by loss protection.",
+      "why_ai_washing": "An AI label and insurance claim overstated investment safety.",
+      "evidence_status": "Regulatory findings / administrative order",
+      "source_event_date": "2023-04-19",
+      "assessment": "Supported by the cited record; limited to the identified claim.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "Administrative enforcement record; no matched, audited investment-return series is supplied.",
+      "sources": [
+        {
+          "title": "DFPI: QuantFund order",
+          "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/04/DRO-QuantFund.pdf"
+        },
+        {
+          "title": "DFPI: April 2023 AI investment sweep",
+          "url": "https://dfpi.ca.gov/press_release/dfpi-launches-sweep-of-investment-fraud-claiming-ties-to-artificial-intelligence/"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI trading producing at least 1% daily, backed by loss protection.",
+        "documented_outcome": "DFPI identified false assurances of insurance against losses.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Administrative enforcement record; no matched, audited investment-return series is supplied.",
+        "evidence_status": "Regulatory findings / administrative order",
+        "source_date": "2023-04-19",
+        "sources": [
+          {
+            "title": "DFPI: QuantFund order",
+            "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/04/DRO-QuantFund.pdf"
+          },
+          {
+            "title": "DFPI: April 2023 AI investment sweep",
+            "url": "https://dfpi.ca.gov/press_release/dfpi-launches-sweep-of-investment-fraud-claiming-ties-to-artificial-intelligence/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW036",
+      "reviewed_on": "2026-10-21",
+      "company": "EminiFX / Eddy Alexandre",
+      "industry": "Forex and crypto investments",
+      "market_category": "Investment",
+      "business_summary": "Pooled investor money for purported automated trading.",
+      "ai_claim": "A secret AI robo-adviser would generate at least 5% weekly.",
+      "why_ai_washing": "An invented AI capability was used to justify investment returns.",
+      "evidence_status": "Criminal guilty plea / sentencing",
+      "source_event_date": "2023-07-18",
+      "assessment": "Supported by the cited record; limited to the identified claim.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "Alexandre's conviction concerns this operation. Fabricated returns cannot serve as measured product output.",
+      "sources": [
+        {
+          "title": "DOJ: Alexandre sentenced",
+          "url": "https://www.justice.gov/usao-sdny/pr/ceo-cryptocurrency-and-forex-trading-platform-sentenced-nine-years-prison-240-million"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "A secret AI robo-adviser would generate at least 5% weekly.",
+        "documented_outcome": "DOJ's sentencing account says the promised technology did not exist and reported returns were fabricated.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Alexandre's conviction concerns this operation. Fabricated returns cannot serve as measured product output.",
+        "evidence_status": "Criminal guilty plea / sentencing",
+        "source_date": "2023-07-18",
+        "sources": [
+          {
+            "title": "DOJ: Alexandre sentenced",
+            "url": "https://www.justice.gov/usao-sdny/pr/ceo-cryptocurrency-and-forex-trading-platform-sentenced-nine-years-prison-240-million"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW037",
+      "reviewed_on": "2026-10-21",
+      "company": "EmpiresX / Empires Consulting",
+      "industry": "Crypto investment schemes",
+      "market_category": "Investment",
+      "business_summary": "Sold participation in a purported trading platform.",
+      "ai_claim": "A bot combining AI and human intelligence would deliver guaranteed returns.",
+      "why_ai_washing": "The supposed AI trading engine and guaranteed profits disguised a Ponzi scheme.",
+      "evidence_status": "Criminal guilty plea",
+      "source_event_date": "2022-09-08",
+      "assessment": "Supported by the cited record; limited to the identified claim.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "This cited plea is Nicholas's; it does not establish the same procedural status for every defendant. No comparable bot-return series is available.",
+      "sources": [
+        {
+          "title": "DOJ: Nicholas guilty plea",
+          "url": "https://www.justice.gov/archives/opa/pr/empiresx-head-trader-pleads-guilty-global-cryptocurrency-investment-fraud-scheme-amassed"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "A bot combining AI and human intelligence would deliver guaranteed returns.",
+        "documented_outcome": "Head trader Joshua Nicholas admitted fraudulent promotion; DOJ described payouts funded by later investors.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "This cited plea is Nicholas's; it does not establish the same procedural status for every defendant. No comparable bot-return series is available.",
+        "evidence_status": "Criminal guilty plea",
+        "source_date": "2022-09-08",
+        "sources": [
+          {
+            "title": "DOJ: Nicholas guilty plea",
+            "url": "https://www.justice.gov/archives/opa/pr/empiresx-head-trader-pleads-guilty-global-cryptocurrency-investment-fraud-scheme-amassed"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW038",
+      "reviewed_on": "2026-10-21",
+      "company": "Hedge4.ai / The Shark of Wall Street / TruthGPT Coin",
+      "industry": "Crypto investment promotion",
+      "market_category": "Investment",
+      "business_summary": "Promoted AI-branded digital-asset investments.",
+      "ai_claim": "An AI model would predict crypto markets; promotions invoked Elon Musk's endorsement.",
+      "why_ai_washing": "The AI prediction story was supported by misleading credibility signals and inadequate disclosure.",
+      "evidence_status": "Regulatory allegations / emergency order",
+      "source_event_date": "2023-05-03",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "Related promoters and token are grouped. The emergency action is not a criminal conviction or a measured test of prediction accuracy.",
+      "sources": [
+        {
+          "title": "Texas: coordinated TruthGPT action",
+          "url": "https://www.ssb.texas.gov/news-publications/texas-leads-coordinated-states-action-stop-artificial-intelligence-investment"
+        },
+        {
+          "title": "Texas: emergency order",
+          "url": "https://www.ssb.texas.gov/sites/default/files/2023-05/ENF_23_CDO_1872.pdf"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "An AI model would predict crypto markets; promotions invoked Elon Musk's endorsement.",
+        "documented_outcome": "Texas alleged deceptive endorsements and material omissions about the model and offering.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Related promoters and token are grouped. The emergency action is not a criminal conviction or a measured test of prediction accuracy.",
+        "evidence_status": "Regulatory allegations / emergency order",
+        "source_date": "2023-05-03",
+        "sources": [
+          {
+            "title": "Texas: coordinated TruthGPT action",
+            "url": "https://www.ssb.texas.gov/news-publications/texas-leads-coordinated-states-action-stop-artificial-intelligence-investment"
+          },
+          {
+            "title": "Texas: emergency order",
+            "url": "https://www.ssb.texas.gov/sites/default/files/2023-05/ENF_23_CDO_1872.pdf"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW039",
+      "reviewed_on": "2026-10-21",
+      "company": "Bitles / Cryp-Spider / C3 Data Services",
+      "industry": "Crypto investment schemes",
+      "market_category": "Investment",
+      "business_summary": "Marketed savings plans supposedly traded across crypto exchanges.",
+      "ai_claim": "Cryp-Spider AI would generate daily returns of 0.3%–6%.",
+      "why_ai_washing": "Specific AI-driven profits were promoted while material facts needed to assess them were withheld.",
+      "evidence_status": "Regulatory allegations / emergency order",
+      "source_event_date": "2021-04-16",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "This is an alleged disclosure and investment-marketing failure; the source does not establish an independently tested AI accuracy rate.",
+      "sources": [
+        {
+          "title": "Texas: Bitles action",
+          "url": "https://www.ssb.texas.gov/news-publications/securities-commissioner-issues-order-stopping-fraudulent-cryptocurrency-trading"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Cryp-Spider AI would generate daily returns of 0.3%–6%.",
+        "documented_outcome": "Texas alleged concealment of information about the AI, personnel and finances.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "This is an alleged disclosure and investment-marketing failure; the source does not establish an independently tested AI accuracy rate.",
+        "evidence_status": "Regulatory allegations / emergency order",
+        "source_date": "2021-04-16",
+        "sources": [
+          {
+            "title": "Texas: Bitles action",
+            "url": "https://www.ssb.texas.gov/news-publications/securities-commissioner-issues-order-stopping-fraudulent-cryptocurrency-trading"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW040",
+      "reviewed_on": "2026-10-21",
+      "company": "BitSports.AI / Berman Investment Group",
+      "industry": "Sports arbitrage investments",
+      "market_category": "Investment",
+      "business_summary": "Sold memberships in a purported AI sports-trading operation.",
+      "ai_claim": "AI would generate profitable sports trades; marketers claimed all team members profited without losses.",
+      "why_ai_washing": "No-loss promotion obscured material risks around an AI-linked investment.",
+      "evidence_status": "Regulatory allegations / emergency order",
+      "source_event_date": "2023-11-15",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "The no-loss claim is attributed to marketers. The reported cyberattack is not independently verified here; no comparable return series is available.",
+      "sources": [
+        {
+          "title": "Texas: BitSports order",
+          "url": "https://ssb.texas.gov/sites/default/files/2023-11/ENF_23_CDO_1877_0.pdf"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI would generate profitable sports trades; marketers claimed all team members profited without losses.",
+        "documented_outcome": "Texas challenged the offering and its risk disclosures; the operation also reported a loss-causing cyberattack.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The no-loss claim is attributed to marketers. The reported cyberattack is not independently verified here; no comparable return series is available.",
+        "evidence_status": "Regulatory allegations / emergency order",
+        "source_date": "2023-11-15",
+        "sources": [
+          {
+            "title": "Texas: BitSports order",
+            "url": "https://ssb.texas.gov/sites/default/files/2023-11/ENF_23_CDO_1877_0.pdf"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW041",
+      "reviewed_on": "2026-10-21",
+      "company": "9xProfits",
+      "industry": "Forex, commodities and crypto investments",
+      "market_category": "Investment",
+      "business_summary": "Marketed investment plans through referral recruiting.",
+      "ai_claim": "AI trading would support fixed returns of up to 1.5% daily with a zero-risk policy and money-back guarantee.",
+      "why_ai_washing": "The AI-profit and zero-risk pitch obscured material investment risks and missing substantiation.",
+      "evidence_status": "Regulatory allegations / emergency order",
+      "source_event_date": "2023-11-15",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "The emergency order records allegations; it does not supply a tested AI performance rate. Registration problems alone would not prove AI washing.",
+      "sources": [
+        {
+          "title": "Texas: 9xProfits order",
+          "url": "https://ssb.texas.gov/sites/default/files/2023-11/ENF_23_CDO_1878.pdf"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI trading would support fixed returns of up to 1.5% daily with a zero-risk policy and money-back guarantee.",
+        "documented_outcome": "Texas alleged the promoters concealed trading risks and financial information needed to support the promised fixed returns.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The emergency order records allegations; it does not supply a tested AI performance rate. Registration problems alone would not prove AI washing.",
+        "evidence_status": "Regulatory allegations / emergency order",
+        "source_date": "2023-11-15",
+        "sources": [
+          {
+            "title": "Texas: 9xProfits order",
+            "url": "https://ssb.texas.gov/sites/default/files/2023-11/ENF_23_CDO_1878.pdf"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW042",
+      "reviewed_on": "2026-10-21",
+      "company": "CRI Genetics / OmniPGX",
+      "industry": "Consumer genetic testing",
+      "market_category": "Other",
+      "business_summary": "Sold DNA kits and ancestry reports.",
+      "ai_claim": "Its algorithm would produce superior ancestry detail, tracing more than 50 generations at over 90% accuracy.",
+      "why_ai_washing": "AI-associated algorithmic authority was used to support unsubstantiated precision and superiority.",
+      "evidence_status": "Proposed regulatory settlement",
+      "source_event_date": "2023-11-21",
+      "assessment": "Supported by the cited record; limited to the identified claim.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "limitations": "The cited release describes a proposed order. It provides no matched independent accuracy estimate; it does not say all DNA analysis was fictitious.",
+      "sources": [
+        {
+          "title": "FTC: CRI Genetics settlement announcement",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2023/11/ftc-california-obtain-order-against-dna-testing-firm-over-charges-it-made-myriad-misrepresentations"
+        },
+        {
+          "title": "FTC: AI-claims enforcement context",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Its algorithm would produce superior ancestry detail, tracing more than 50 generations at over 90% accuracy.",
+        "documented_outcome": "FTC and California alleged deceptive accuracy, superiority and patent claims and announced a settlement.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The cited release describes a proposed order. It provides no matched independent accuracy estimate; it does not say all DNA analysis was fictitious.",
+        "evidence_status": "Proposed regulatory settlement",
+        "source_date": "2023-11-21",
+        "sources": [
+          {
+            "title": "FTC: CRI Genetics settlement announcement",
+            "url": "https://www.ftc.gov/news-events/news/press-releases/2023/11/ftc-california-obtain-order-against-dna-testing-firm-over-charges-it-made-myriad-misrepresentations"
+          },
+          {
+            "title": "FTC: AI-claims enforcement context",
+            "url": "https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW043",
+      "reviewed_on": "2026-10-21",
+      "company": "Tesla — Autopilot / Full Self-Driving marketing",
+      "industry": "Automotive driver assistance",
+      "market_category": "Public issuer",
+      "business_summary": "Sold vehicles and driver-assistance features.",
+      "ai_claim": "Autopilot and Full Self-Driving marketing conveyed greater autonomous capability than drivers actually received.",
+      "why_ai_washing": "The autonomy promise exceeded the supervised system's capabilities.",
+      "evidence_status": "Regulatory findings / corrective action",
+      "source_event_date": "2026-02-17",
+      "assessment": "Supported by the cited record; limited to the identified claim.",
+      "stock_market_connection": "Public-company context; this record does not measure a stock-price effect.",
+      "limitations": "Historical advertising finding; Tesla disputed the decision. DMV did not impose the threatened sales suspension after corrective action. This is not an assessment of every later software version.",
+      "sources": [
+        {
+          "title": "DMV: findings",
+          "url": "https://www.dmv.ca.gov/portal/news-and-media/news-releases/dmv-finds-tesla-violated-california-state-law/"
+        },
+        {
+          "title": "DMV: February 2026 corrective action",
+          "url": "https://www.dmv.ca.gov/portal/news-and-media/tesla-takes-corrective-action-to-avoid-dmv-suspension/"
+        }
+      ],
+      "chart": {
+        "title": "Advertised autonomy versus required supervision",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Autopilot and Full Self-Driving marketing conveyed greater autonomous capability than drivers actually received.",
+        "documented_outcome": "California DMV adopted findings of misleading marketing; the systems required driver supervision. In February 2026 DMV said corrective action avoided suspension.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Historical advertising finding; Tesla disputed the decision. DMV did not impose the threatened sales suspension after corrective action. This is not an assessment of every later software version.",
+        "evidence_status": "Regulatory findings / corrective action",
+        "source_date": "2026-02-17",
+        "sources": [
+          {
+            "title": "DMV: findings",
+            "url": "https://www.dmv.ca.gov/portal/news-and-media/news-releases/dmv-finds-tesla-violated-california-state-law/"
+          },
+          {
+            "title": "DMV: February 2026 corrective action",
+            "url": "https://www.dmv.ca.gov/portal/news-and-media/tesla-takes-corrective-action-to-avoid-dmv-suspension/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW044",
+      "reviewed_on": "2026-10-21",
+      "company": "Lemonade — non-verbal cues messaging",
+      "industry": "Insurance and claims automation",
+      "market_category": "Public issuer",
+      "business_summary": "Used automation in insurance claims processing.",
+      "ai_claim": "Social posts suggested AI could assess non-verbal cues to detect fraud.",
+      "why_ai_washing": "The company itself clarified language that exaggerated what its AI inferred.",
+      "evidence_status": "Company clarification",
+      "source_event_date": "2021-05",
+      "assessment": "Supported by the cited record; limited to the identified claim.",
+      "stock_market_connection": "Public-company context; this record does not measure a stock-price effect.",
+      "limitations": "A narrow example of corrected wording. It does not establish emotion-based claim denials or discriminatory outcomes.",
+      "sources": [
+        {
+          "title": "Lemonade: claim-automation clarification",
+          "url": "https://www.lemonade.com/blog/lemonades-claim-automation/"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Social posts suggested AI could assess non-verbal cues to detect fraud.",
+        "documented_outcome": "Lemonade said its wording was misleading: it used facial recognition to flag repeat identities for human review, not emotion-based fraud assessment.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "A narrow example of corrected wording. It does not establish emotion-based claim denials or discriminatory outcomes.",
+        "evidence_status": "Company clarification",
+        "source_date": "2021-05",
+        "sources": [
+          {
+            "title": "Lemonade: claim-automation clarification",
+            "url": "https://www.lemonade.com/blog/lemonades-claim-automation/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW045",
+      "reviewed_on": "2026-10-21",
+      "company": "LexisNexis — Lexis+ AI",
+      "industry": "Legal research",
+      "market_category": "Public issuer",
+      "business_summary": "Provided AI-assisted legal research through RELX's legal business.",
+      "ai_claim": "Promoted hallucination-free legal citations.",
+      "why_ai_washing": "The study challenges an expansive reading of reliability claims.",
+      "evidence_status": "Independent research / contested interpretation",
+      "source_event_date": "2024-05-23",
+      "assessment": "Supported by the cited record; limited to the identified claim.",
+      "stock_market_connection": "Public-company context; this record does not measure a stock-price effect.",
+      "limitations": "Real citations and fully correct answers are different measures. The study includes misgrounding, so its error rate is not a direct numerical refutation of citation existence. Historical versions only; not a fraud finding.",
+      "sources": [
+        {
+          "title": "Stanford: legal-AI evaluation",
+          "url": "https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries"
+        },
+        {
+          "title": "Research paper and methodology",
+          "url": "https://arxiv.org/abs/2405.20362"
+        }
+      ],
+      "chart": {
+        "title": "Citation assurance versus answer reliability",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Promoted hallucination-free legal citations.",
+        "documented_outcome": "Stanford researchers found incorrect or unsupported responses in more than 17% of tested queries.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Real citations and fully correct answers are different measures. The study includes misgrounding, so its error rate is not a direct numerical refutation of citation existence. Historical versions only; not a fraud finding.",
+        "evidence_status": "Independent research / contested interpretation",
+        "source_date": "2024-05-23",
+        "sources": [
+          {
+            "title": "Stanford: legal-AI evaluation",
+            "url": "https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries"
+          },
+          {
+            "title": "Research paper and methodology",
+            "url": "https://arxiv.org/abs/2405.20362"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW046",
+      "reviewed_on": "2026-10-21",
+      "company": "Thomson Reuters — Westlaw / Ask Practical Law",
+      "industry": "Legal research",
+      "market_category": "Public issuer",
+      "business_summary": "Provided AI-assisted legal answers and research.",
+      "ai_claim": "Promoted retrieval-based systems as avoiding hallucinations.",
+      "why_ai_washing": "Reliability messaging understated the continuing need to check outputs.",
+      "evidence_status": "Independent research / contested interpretation",
+      "source_event_date": "2024-05-23",
+      "assessment": "Supported by the cited record; limited to the identified claim.",
+      "stock_market_connection": "Public-company context; this record does not measure a stock-price effect.",
+      "limitations": "One firm, two tested products. Methods and definitions matter; these 2024 tests do not establish performance of current versions or deliberate deception.",
+      "sources": [
+        {
+          "title": "Stanford: legal-AI evaluation",
+          "url": "https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries"
+        },
+        {
+          "title": "Research paper and methodology",
+          "url": "https://arxiv.org/abs/2405.20362"
+        }
+      ],
+      "chart": {
+        "title": "Hallucination avoidance versus observed errors",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Promoted retrieval-based systems as avoiding hallucinations.",
+        "documented_outcome": "Stanford reported errors in more than 34% of Westlaw queries and more than 17% for Ask Practical Law.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "One firm, two tested products. Methods and definitions matter; these 2024 tests do not establish performance of current versions or deliberate deception.",
+        "evidence_status": "Independent research / contested interpretation",
+        "source_date": "2024-05-23",
+        "sources": [
+          {
+            "title": "Stanford: legal-AI evaluation",
+            "url": "https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries"
+          },
+          {
+            "title": "Research paper and methodology",
+            "url": "https://arxiv.org/abs/2405.20362"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW047",
+      "reviewed_on": "2026-10-21",
+      "company": "HireVue — historical video assessments",
+      "industry": "Recruitment and employment assessment",
+      "market_category": "Private fundraising",
+      "business_summary": "Assessed job applicants using recorded interviews.",
+      "ai_claim": "AI analysis of facial and vocal signals could support objective assessments of job candidates.",
+      "why_ai_washing": "The complaint identifies potentially overstated inference and objectivity claims.",
+      "evidence_status": "Advocacy complaint / disputed",
+      "source_event_date": "2019-11-06",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Private technology-business context; no public-stock return comparison.",
+      "limitations": "EPIC's complaint is not an FTC finding. Dropping facial analysis does not itself admit deception or invalidate every assessment method.",
+      "sources": [
+        {
+          "title": "EPIC: HireVue complaint",
+          "url": "https://epic.org/documents/in-re-hirevue/"
+        },
+        {
+          "title": "EPIC: 2021 facial-analysis update",
+          "url": "https://archive.epic.org/alert/epic_alert_28.01.html"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI analysis of facial and vocal signals could support objective assessments of job candidates.",
+        "documented_outcome": "EPIC challenged the scientific basis and transparency in a 2019 FTC complaint; HireVue later discontinued facial analysis.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "EPIC's complaint is not an FTC finding. Dropping facial analysis does not itself admit deception or invalidate every assessment method.",
+        "evidence_status": "Advocacy complaint / disputed",
+        "source_date": "2019-11-06",
+        "sources": [
+          {
+            "title": "EPIC: HireVue complaint",
+            "url": "https://epic.org/documents/in-re-hirevue/"
+          },
+          {
+            "title": "EPIC: 2021 facial-analysis update",
+            "url": "https://archive.epic.org/alert/epic_alert_28.01.html"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW048",
+      "reviewed_on": "2026-10-21",
+      "company": "Tadrus Capital / Mina Tadrus",
+      "industry": "Hedge-fund investment management",
+      "market_category": "Investment",
+      "business_summary": "Solicited investments in an allegedly AI-powered hedge fund.",
+      "ai_claim": "AI high-frequency trading would guarantee annual returns up to 30%.",
+      "why_ai_washing": "The promoted AI investment mechanism was absent.",
+      "evidence_status": "Criminal guilty plea / sentencing",
+      "source_event_date": "2025-08-18",
+      "assessment": "Supported by the cited record; limited to the identified claim.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "The legitimate-investment share is not an investment return or an AI accuracy measure.",
+      "sources": [
+        {
+          "title": "DOJ: Tadrus sentenced",
+          "url": "https://www.justice.gov/usao-edny/pr/founder-purported-artificial-intelligence-powered-hedge-fund-sentenced-30-months"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI high-frequency trading would guarantee annual returns up to 30%.",
+        "documented_outcome": "DOJ's sentencing record says there was no promised AI trading; less than 1% of investor funds went to legitimate investments.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The legitimate-investment share is not an investment return or an AI accuracy measure.",
+        "evidence_status": "Criminal guilty plea / sentencing",
+        "source_date": "2025-08-18",
+        "sources": [
+          {
+            "title": "DOJ: Tadrus sentenced",
+            "url": "https://www.justice.gov/usao-edny/pr/founder-purported-artificial-intelligence-powered-hedge-fund-sentenced-30-months"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW049",
+      "reviewed_on": "2026-10-21",
+      "company": "Circle Society and related Saffron operations",
+      "industry": "Crypto investment schemes",
+      "market_category": "Investment",
+      "business_summary": "Solicited funds through related trading programs, including Bitcoin Wealth Management, Omicron Trust, Mind Capital and Cloud9Capital.",
+      "ai_claim": "An automated AI trading bot would generate high returns with safeguards for investors.",
+      "why_ai_washing": "The purported AI investment engine and guarantees concealed the operation's use of funds.",
+      "evidence_status": "Mixed: guilty plea / allegations",
+      "source_event_date": "2024-05-29",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "Kagel's plea is not a conviction of every other defendant. Related brands, Saffron, Mazzotta and Kagel are grouped as one operation.",
+      "sources": [
+        {
+          "title": "DOJ: Kagel guilty plea",
+          "url": "https://www.justice.gov/archives/opa/pr/disbarred-attorney-pleads-guilty-promoting-95m-cryptocurrency-ponzi-scheme"
+        },
+        {
+          "title": "DOJ: related Saffron case chronology",
+          "url": "https://www.justice.gov/criminal/criminal-vns/case/united-states-v-david-saffron"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "An automated AI trading bot would generate high returns with safeguards for investors.",
+        "documented_outcome": "DOJ described diverted funds and a Ponzi scheme; attorney David Kagel pleaded guilty to promoting the fraud.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Kagel's plea is not a conviction of every other defendant. Related brands, Saffron, Mazzotta and Kagel are grouped as one operation.",
+        "evidence_status": "Mixed: guilty plea / allegations",
+        "source_date": "2024-05-29",
+        "sources": [
+          {
+            "title": "DOJ: Kagel guilty plea",
+            "url": "https://www.justice.gov/archives/opa/pr/disbarred-attorney-pleads-guilty-promoting-95m-cryptocurrency-ponzi-scheme"
+          },
+          {
+            "title": "DOJ: related Saffron case chronology",
+            "url": "https://www.justice.gov/criminal/criminal-vns/case/united-states-v-david-saffron"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW050",
+      "reviewed_on": "2026-10-21",
+      "company": "DeepSeek — Italian consumer disclosures",
+      "industry": "General-purpose AI chatbots",
+      "market_category": "Other",
+      "business_summary": "Provided AI chat services.",
+      "ai_claim": "Service presentation could imply more reliable answers without sufficiently prominent warnings about hallucinations, according to AGCM's investigation.",
+      "why_ai_washing": "Omitting material reliability limits can overstate AI capability; this inclusion reflects the regulator's concern.",
+      "evidence_status": "Regulatory commitments / no infringement finding",
+      "source_event_date": "2026-04-30",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "limitations": "AGCM closed the proceeding with commitments, without an infringement finding. This is a conditional disclosure example, not evidence that the AI was fake or a measured error rate.",
+      "sources": [
+        {
+          "title": "AGCM: DeepSeek decision PS12942",
+          "url": "https://www.agcm.it/dotcmsdoc/allegati-news/PS12942_acc.%20imp.%2Bchius..pdf"
+        },
+        {
+          "title": "AGCM: April 2026 commitments announcement",
+          "url": "https://www.agcm.it/media/comunicati-stampa/2026/4/ps12942-ps12968-ps12973"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Service presentation could imply more reliable answers without sufficiently prominent warnings about hallucinations, according to AGCM's investigation.",
+        "documented_outcome": "DeepSeek committed to clearer Italian warnings and efforts to mitigate hallucinations.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "AGCM closed the proceeding with commitments, without an infringement finding. This is a conditional disclosure example, not evidence that the AI was fake or a measured error rate.",
+        "evidence_status": "Regulatory commitments / no infringement finding",
+        "source_date": "2026-04-30",
+        "sources": [
+          {
+            "title": "AGCM: DeepSeek decision PS12942",
+            "url": "https://www.agcm.it/dotcmsdoc/allegati-news/PS12942_acc.%20imp.%2Bchius..pdf"
+          },
+          {
+            "title": "AGCM: April 2026 commitments announcement",
+            "url": "https://www.agcm.it/media/comunicati-stampa/2026/4/ps12942-ps12968-ps12973"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW051",
+      "reviewed_on": "2026-10-21",
+      "company": "Mistral AI — Le Chat Italian disclosures",
+      "industry": "General-purpose AI chatbots",
+      "market_category": "Other",
+      "business_summary": "Offered free and paid AI chat services.",
+      "ai_claim": "AGCM questioned whether presentation adequately disclosed the risk of incorrect or invented answers.",
+      "why_ai_washing": "Potentially overstated reliability through insufficient disclosure fits an omission-based pattern.",
+      "evidence_status": "Regulatory commitments / no infringement finding",
+      "source_event_date": "2026-04-30",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "limitations": "AGCM closed the proceeding with commitments, without an infringement finding. This is a conditional disclosure example, not evidence that the AI was fake or a measured error rate.",
+      "sources": [
+        {
+          "title": "AGCM: Mistral decision PS12968",
+          "url": "https://www.agcm.it/dotcmsdoc/allegati-news/PS12968_acc.%20imp..pdf"
+        },
+        {
+          "title": "AGCM: April 2026 commitments announcement",
+          "url": "https://www.agcm.it/media/comunicati-stampa/2026/4/ps12942-ps12968-ps12973"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AGCM questioned whether presentation adequately disclosed the risk of incorrect or invented answers.",
+        "documented_outcome": "Mistral agreed to more prominent Italian disclosures while defending its existing approach.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "AGCM closed the proceeding with commitments, without an infringement finding. This is a conditional disclosure example, not evidence that the AI was fake or a measured error rate.",
+        "evidence_status": "Regulatory commitments / no infringement finding",
+        "source_date": "2026-04-30",
+        "sources": [
+          {
+            "title": "AGCM: Mistral decision PS12968",
+            "url": "https://www.agcm.it/dotcmsdoc/allegati-news/PS12968_acc.%20imp..pdf"
+          },
+          {
+            "title": "AGCM: April 2026 commitments announcement",
+            "url": "https://www.agcm.it/media/comunicati-stampa/2026/4/ps12942-ps12968-ps12973"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW052",
+      "reviewed_on": "2026-10-21",
+      "company": "Scaleup — NOVA AI",
+      "industry": "Consumer chatbot aggregation interfaces",
+      "market_category": "Other",
+      "business_summary": "Sold an interface providing access to other AI chatbots.",
+      "ai_claim": "The offering did not clearly explain its model access, answer reliability or whether it combined chatbot responses, according to AGCM.",
+      "why_ai_washing": "Ambiguous capability and subscription descriptions could overstate the service's added AI value.",
+      "evidence_status": "Regulatory commitments / no infringement finding",
+      "source_event_date": "2026-04-30",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "limitations": "AGCM closed the proceeding with commitments, without an infringement finding. This is a conditional disclosure example, not evidence that the AI was fake or a measured error rate.",
+      "sources": [
+        {
+          "title": "AGCM: NOVA decision PS12973",
+          "url": "https://www.agcm.it/dotcmsdoc/allegati-news/PS12973_acc%20impegni%20%2B%20chius.%20proc.pdf"
+        },
+        {
+          "title": "AGCM: April 2026 commitments announcement",
+          "url": "https://www.agcm.it/media/comunicati-stampa/2026/4/ps12942-ps12968-ps12973"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "The offering did not clearly explain its model access, answer reliability or whether it combined chatbot responses, according to AGCM.",
+        "documented_outcome": "Commitments clarified that NOVA provides access to chatbots rather than aggregating their answers, and strengthened error warnings.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "AGCM closed the proceeding with commitments, without an infringement finding. This is a conditional disclosure example, not evidence that the AI was fake or a measured error rate.",
+        "evidence_status": "Regulatory commitments / no infringement finding",
+        "source_date": "2026-04-30",
+        "sources": [
+          {
+            "title": "AGCM: NOVA decision PS12973",
+            "url": "https://www.agcm.it/dotcmsdoc/allegati-news/PS12973_acc%20impegni%20%2B%20chius.%20proc.pdf"
+          },
+          {
+            "title": "AGCM: April 2026 commitments announcement",
+            "url": "https://www.agcm.it/media/comunicati-stampa/2026/4/ps12942-ps12968-ps12973"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW053",
+      "reviewed_on": "2026-10-21",
+      "company": "Google — Gemini launch demonstration",
+      "industry": "General-purpose AI",
+      "market_category": "Public issuer",
+      "business_summary": "Demonstrated a multimodal AI model.",
+      "ai_claim": "The December 2023 video presented fluid interactions that could be read as live visual and spoken reasoning.",
+      "why_ai_washing": "The presentation could overstate spontaneous, real-time interaction by obscuring prompting and editing.",
+      "evidence_status": "Reported / disputed demonstration",
+      "source_event_date": "2023-12-06",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Public-company context; this record does not measure a stock-price effect.",
+      "limitations": "Google disclosed an illustrative demonstration and published prompting details. This concerns presentation, not absence of multimodal AI or current Gemini performance.",
+      "sources": [
+        {
+          "title": "Google: how the demonstration was made",
+          "url": "https://developers.googleblog.com/how-its-made-interacting-with-gemini-through-multimodal-prompting/"
+        },
+        {
+          "title": "Axios: launch reporting",
+          "url": "https://www.axios.com/2023/12/06/google-gemini-bard-race-against-openai"
+        }
+      ],
+      "chart": {
+        "title": "Demonstrated interaction versus production method",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "The December 2023 video presented fluid interactions that could be read as live visual and spoken reasoning.",
+        "documented_outcome": "Google's technical explanation showed image-and-text prompting behind the demonstration.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Google disclosed an illustrative demonstration and published prompting details. This concerns presentation, not absence of multimodal AI or current Gemini performance.",
+        "evidence_status": "Reported / disputed demonstration",
+        "source_date": "2023-12-06",
+        "sources": [
+          {
+            "title": "Google: how the demonstration was made",
+            "url": "https://developers.googleblog.com/how-its-made-interacting-with-gemini-through-multimodal-prompting/"
+          },
+          {
+            "title": "Axios: launch reporting",
+            "url": "https://www.axios.com/2023/12/06/google-gemini-bard-race-against-openai"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW054",
+      "reviewed_on": "2026-10-21",
+      "company": "IBM — Watson for Oncology",
+      "industry": "Healthcare decision support",
+      "market_category": "Public issuer",
+      "business_summary": "Sold software suggesting cancer treatments to clinicians.",
+      "ai_claim": "Executives described recommendations as drawing on historical patient data and results.",
+      "why_ai_washing": "Reported training practices and known limitations conflicted with the data-driven marketing narrative.",
+      "evidence_status": "Reported / disputed",
+      "source_event_date": "2018-07-25",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Public-company context; this record does not measure a stock-price effect.",
+      "limitations": "IBM defended the product and its improvement process. The cited report did not establish patient injuries; this concerns historical marketing and training, not all Watson products.",
+      "sources": [
+        {
+          "title": "STAT: internal-document investigation",
+          "url": "https://www.statnews.com/wp-content/uploads/2018/09/IBMs-Watson-recommended-unsafe-and-incorrect-cancer-treatments-STAT.pdf"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Executives described recommendations as drawing on historical patient data and results.",
+        "documented_outcome": "STAT reported internal documents showing reliance on synthetic cases and examples of unsafe or incorrect recommendations.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "IBM defended the product and its improvement process. The cited report did not establish patient injuries; this concerns historical marketing and training, not all Watson products.",
+        "evidence_status": "Reported / disputed",
+        "source_date": "2018-07-25",
+        "sources": [
+          {
+            "title": "STAT: internal-document investigation",
+            "url": "https://www.statnews.com/wp-content/uploads/2018/09/IBMs-Watson-recommended-unsafe-and-incorrect-cancer-treatments-STAT.pdf"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW055",
+      "reviewed_on": "2026-10-21",
+      "company": "Retorio — video personality assessment",
+      "industry": "Recruitment and personality analysis",
+      "market_category": "Private fundraising",
+      "business_summary": "Analyzed applicant videos to infer personality.",
+      "ai_claim": "Promoted AI-based personality assessment as a scientific aid to candidate evaluation.",
+      "why_ai_washing": "Sensitivity to irrelevant presentation raises questions about the claimed inference of stable personality.",
+      "evidence_status": "Independent investigation / disputed",
+      "source_event_date": "2021-02-16",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Private technology-business context; no public-stock return comparison.",
+      "limitations": "A limited historical investigation, not a universal error rate. Retorio's approach concerns perceived behavior; changes in perception are not proof that all AI processing is absent.",
+      "sources": [
+        {
+          "title": "BR: Objective or Biased investigation",
+          "url": "https://interaktiv.br.de/ki-bewerbung/en/"
+        },
+        {
+          "title": "Knowing Machines: evidence submitted to FTC, note 48",
+          "url": "https://knowingmachines.org/docs/legal_knowing_machines/FTC-2022-0053-1142_attachment.pdf"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Promoted AI-based personality assessment as a scientific aid to candidate evaluation.",
+        "documented_outcome": "BR's investigation found that appearance changes, including glasses and headwear, changed scores for the same candidate.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "A limited historical investigation, not a universal error rate. Retorio's approach concerns perceived behavior; changes in perception are not proof that all AI processing is absent.",
+        "evidence_status": "Independent investigation / disputed",
+        "source_date": "2021-02-16",
+        "sources": [
+          {
+            "title": "BR: Objective or Biased investigation",
+            "url": "https://interaktiv.br.de/ki-bewerbung/en/"
+          },
+          {
+            "title": "Knowing Machines: evidence submitted to FTC, note 48",
+            "url": "https://knowingmachines.org/docs/legal_knowing_machines/FTC-2022-0053-1142_attachment.pdf"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW056",
+      "reviewed_on": "2026-10-21",
+      "company": "Cognition — Devin Upwork demonstration",
+      "industry": "Software engineering agents",
+      "market_category": "Private fundraising",
+      "business_summary": "Developed an AI coding agent.",
+      "ai_claim": "The launch demonstration claimed Devin could complete real Upwork jobs.",
+      "why_ai_washing": "A selective demonstration could overstate independent task completion.",
+      "evidence_status": "Reported / disputed demonstration",
+      "source_event_date": "2024-04",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Private technology-business context; no public-stock return comparison.",
+      "limitations": "Cognition defended the demo and acknowledged mistakes and failures. This is a dispute about the 2024 demonstration, not a benchmark of later Devin versions.",
+      "sources": [
+        {
+          "title": "Cognition: original launch and demo",
+          "url": "https://cognition.com/blog/introducing-devin"
+        },
+        {
+          "title": "The Pragmatic Engineer: analysis and company response",
+          "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-90"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "The launch demonstration claimed Devin could complete real Upwork jobs.",
+        "documented_outcome": "A developer's review challenged whether the demonstrated task matched the job and noted that some repaired bugs were introduced by the agent.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Cognition defended the demo and acknowledged mistakes and failures. This is a dispute about the 2024 demonstration, not a benchmark of later Devin versions.",
+        "evidence_status": "Reported / disputed demonstration",
+        "source_date": "2024-04",
+        "sources": [
+          {
+            "title": "Cognition: original launch and demo",
+            "url": "https://cognition.com/blog/introducing-devin"
+          },
+          {
+            "title": "The Pragmatic Engineer: analysis and company response",
+            "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-90"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW057",
+      "reviewed_on": "2026-10-21",
+      "company": "SpinVox",
+      "industry": "Speech recognition and transcription",
+      "market_category": "Private fundraising",
+      "business_summary": "Converted voicemail into text.",
+      "ai_claim": "Messages were primarily transcribed automatically, with human assistance when needed.",
+      "why_ai_washing": "Underdisclosed human work could exaggerate automation.",
+      "evidence_status": "Reported / disputed",
+      "source_event_date": "2009-07-23",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Private technology-business context; no public-stock return comparison.",
+      "limitations": "SpinVox said humans supported learning and quality control and disputed the reported scale. No independently audited automation share is supplied.",
+      "sources": [
+        {
+          "title": "ITPro: investigation and SpinVox response",
+          "url": "https://www.itpro.com/613108/spinvox-uses-people-to-translate-voice-to-text"
+        },
+        {
+          "title": "BBC: original investigation",
+          "url": "https://news.bbc.co.uk/2/hi/technology/8163511.stm"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Messages were primarily transcribed automatically, with human assistance when needed.",
+        "documented_outcome": "BBC reporting, summarized by ITPro, alleged much more extensive human transcription than the positioning suggested.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "SpinVox said humans supported learning and quality control and disputed the reported scale. No independently audited automation share is supplied.",
+        "evidence_status": "Reported / disputed",
+        "source_date": "2009-07-23",
+        "sources": [
+          {
+            "title": "ITPro: investigation and SpinVox response",
+            "url": "https://www.itpro.com/613108/spinvox-uses-people-to-translate-voice-to-text"
+          },
+          {
+            "title": "BBC: original investigation",
+            "url": "https://news.bbc.co.uk/2/hi/technology/8163511.stm"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW058",
+      "reviewed_on": "2026-10-21",
+      "company": "Geolitica / PredPol",
+      "industry": "Predictive policing",
+      "market_category": "Private fundraising",
+      "business_summary": "Produced geographic crime forecasts for police patrols.",
+      "ai_claim": "Promoted predictions as avoiding human bias.",
+      "why_ai_washing": "Claims of objectivity can obscure bias inherited from policing data.",
+      "evidence_status": "Independent investigation / disputed",
+      "source_event_date": "2021-12-02",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Private technology-business context; no public-stock return comparison.",
+      "limitations": "Geographic disparities alone do not prove intentional discrimination or establish predictive accuracy. The company defended its use of crime-event data; the study did not test crime-prevention effects.",
+      "sources": [
+        {
+          "title": "The Markup: prediction-bias investigation",
+          "url": "https://themarkup.org/prediction-bias/2021/12/02/crime-prediction-software-promised-to-be-free-of-biases-new-data-shows-it-perpetuates-them"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Promoted predictions as avoiding human bias.",
+        "documented_outcome": "The Markup and Gizmodo found predictions concentrated in poorer, Black and Latino neighborhoods.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Geographic disparities alone do not prove intentional discrimination or establish predictive accuracy. The company defended its use of crime-event data; the study did not test crime-prevention effects.",
+        "evidence_status": "Independent investigation / disputed",
+        "source_date": "2021-12-02",
+        "sources": [
+          {
+            "title": "The Markup: prediction-bias investigation",
+            "url": "https://themarkup.org/prediction-bias/2021/12/02/crime-prediction-software-promised-to-be-free-of-biases-new-data-shows-it-perpetuates-them"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW059",
+      "reviewed_on": "2026-10-21",
+      "company": "Tradewale / Valdas Dapkus",
+      "industry": "Forex investment management",
+      "market_category": "Investment",
+      "business_summary": "Solicited deposits into a managed forex program.",
+      "ai_claim": "AI trading supposedly generated 4%–11% average monthly returns with minimal risk.",
+      "why_ai_washing": "The AI-profit pitch concealed misuse of investor funds.",
+      "evidence_status": "Court default judgment",
+      "source_event_date": "2023-12-28",
+      "assessment": "Supported by the cited record; limited to the identified claim.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "A default judgment is not a contested trial verdict. Non-return of principal is not a measured trading-performance series.",
+      "sources": [
+        {
+          "title": "CFTC: final default judgments",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/8845-23"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI trading supposedly generated 4%–11% average monthly returns with minimal risk.",
+        "documented_outcome": "Default judgments found fraudulent solicitation and misappropriation; the identified customers received no return of principal.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "A default judgment is not a contested trial verdict. Non-return of principal is not a measured trading-performance series.",
+        "evidence_status": "Court default judgment",
+        "source_date": "2023-12-28",
+        "sources": [
+          {
+            "title": "CFTC: final default judgments",
+            "url": "https://www.cftc.gov/PressRoom/PressReleases/8845-23"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW060",
+      "reviewed_on": "2026-10-21",
+      "company": "Morocoin / Berge / Cirkor and associated investment clubs",
+      "industry": "Crypto trading and investment-club schemes",
+      "market_category": "Investment",
+      "business_summary": "Used investment clubs to direct investors to purported trading platforms.",
+      "ai_claim": "AI-generated investment tips and platform profits suggested successful technology-driven trading.",
+      "why_ai_washing": "Purported AI investment expertise lent credibility to fabricated trading results.",
+      "evidence_status": "Regulatory allegations",
+      "source_event_date": "2025-12-22",
+      "assessment": "Conditional: assess the specific historical claim and evidence below.",
+      "stock_market_connection": "Investment solicitation; not evidence about exchange-listed stock returns.",
+      "limitations": "One coordinated operation: AI Wealth, Lane Wealth, AI Investment Education Foundation and Zenith Asset Tech Foundation are grouped with the three platforms. The complaint is not a final finding.",
+      "sources": [
+        {
+          "title": "SEC: platforms and investment clubs complaint announcement",
+          "url": "https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted"
+        }
+      ],
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI-generated investment tips and platform profits suggested successful technology-driven trading.",
+        "documented_outcome": "The SEC alleged fake platforms, fictitious trading and withdrawal demands in a coordinated scheme.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "One coordinated operation: AI Wealth, Lane Wealth, AI Investment Education Foundation and Zenith Asset Tech Foundation are grouped with the three platforms. The complaint is not a final finding.",
+        "evidence_status": "Regulatory allegations",
+        "source_date": "2025-12-22",
+        "sources": [
+          {
+            "title": "SEC: platforms and investment clubs complaint announcement",
+            "url": "https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted"
+          }
+        ]
+      },
+      "context_data": null
     }
   ],
-  "schema_version": "3.0"
+  "schema_version": "3.1"
 }

@@ -94,6 +94,14 @@
     .comparison-side p { margin-top: 8px; }
     .outcome-side { background: #eaf4ef; border-left-color: #28745d; }
     .comparison-unavailable { padding: 14px; border: 1px dashed var(--muted); border-radius: 6px; font-size: .9rem; color: var(--muted); }
+  
+    .site-tabs { gap: 6px; border-bottom: 1px solid #7291a4; margin-bottom: 18px; }
+    .site-tabs a { padding: 12px 22px; border-radius: 8px 8px 0 0; text-decoration: none; font-weight: 700; }
+    .site-tabs a[aria-current="page"] { background: #f3f6f8; color: var(--ink); }
+    .site-tabs a:hover { background: #31536a; color: white; }
+    .site-tabs a[aria-current="page"]:hover { background: white; color: var(--ink); }
+    .case-record summary { overflow-wrap: anywhere; }
+    .dataset-controls[hidden] { display: none; }
   </style>
 </head>
 <body>
@@ -103,10 +111,10 @@
       <div class="eyebrow">Technology · Business · Accountability</div>
       <h1>AI washing</h1>
       <p class="intro">When the promise of artificial intelligence exceeds the evidence. Understand the term, explore documented cases, and learn what to ask about an AI claim.</p>
+      <nav class="site-tabs" aria-label="Main navigation"><a href="aiwashinginfo.html" aria-current="page">Overview</a><a href="aiwashingcases.html">Cases (60)</a></nav>
       <nav aria-label="Page sections">
         <a href="#definition">What it means</a>
         <a href="#stock-markets">Stock markets</a>
-        <a href="#examples">30-case dataset</a>
         <a href="#charts">Charts</a>
         <a href="#impacts">Societal impacts</a>
         <a href="#markets">Markets</a>
@@ -140,8 +148,8 @@
       </ol>
       <p class="sources">This diagram is an analytical mechanism, not a measured price effect. The <a href="https://www.sec.gov/enforcement-litigation/administrative-proceedings/33-11352-s">Presto findings</a> and <a href="https://www.justice.gov/usao-sdny/pr/former-ceo-kubient-inc-sentenced-prison-connection-accounting-fraud-scheme">Kubient criminal record</a> illustrate underlying disclosure failures.</p>
       <div class="grid">
-        <article><h3>Listed businesses: what is the AI really worth?</h3><p><a href="#AW004">Presto</a> misstated human involvement in its voice ordering system. That matters when evaluating whether a product can scale without proportional labor costs. <a href="#AW005">Kubient</a> is a stronger evidentiary case: its former CEO pleaded guilty over fabricated revenue and misrepresentations about its AI tool, then was sentenced in March 2025.</p><p><a href="#AW012">Evolv</a> illustrates another route: unsupported product-performance claims can expose a public business to customer remedies and disputes. These records do not establish a specific share-price loss caused solely by AI washing.</p></article>
-        <article><h3>Investment services: is AI doing the trading?</h3><p><a href="#AW001">Delphia</a>, <a href="#AW002">Global Predictions</a>, and <a href="#AW003">Rimar</a> settled SEC findings concerning misleading AI claims. They are advisory cases, not three examples of listed AI stocks.</p><p>A <a href="#AW006">January 2026 complaint against Joel Sofia / WOLO Wealth</a> alleges purported AI trading software was not used as represented and claims of eliminating downside risk were false. The conduct described predates 2026; the complaint is a new 2026 event.</p></article>
+        <article><h3>Listed businesses: what is the AI really worth?</h3><p><a href="aiwashingcases.html#AW004">Presto</a> misstated human involvement in its voice ordering system. That matters when evaluating whether a product can scale without proportional labor costs. <a href="aiwashingcases.html#AW005">Kubient</a> is a stronger evidentiary case: its former CEO pleaded guilty over fabricated revenue and misrepresentations about its AI tool, then was sentenced in March 2025.</p><p><a href="aiwashingcases.html#AW012">Evolv</a> illustrates another route: unsupported product-performance claims can expose a public business to customer remedies and disputes. These records do not establish a specific share-price loss caused solely by AI washing.</p></article>
+        <article><h3>Investment services: is AI doing the trading?</h3><p><a href="aiwashingcases.html#AW001">Delphia</a>, <a href="aiwashingcases.html#AW002">Global Predictions</a>, and <a href="aiwashingcases.html#AW003">Rimar</a> settled SEC findings concerning misleading AI claims. They are advisory cases, not three examples of listed AI stocks.</p><p>A <a href="aiwashingcases.html#AW006">January 2026 complaint against Joel Sofia / WOLO Wealth</a> alleges purported AI trading software was not used as represented and claims of eliminating downside risk were false. The conduct described predates 2026; the complaint is a new 2026 event.</p></article>
       </div>
       <h3>Read the financial claim alongside the technical claim</h3>
       <div class="table-scroll" role="region" aria-label="Stock-market research checklist" tabindex="0">
@@ -157,724 +165,20 @@
       </div>
       <h3>Choose SEC EDGAR for public-company research</h3>
       <p>Use <a href="https://www.sec.gov/edgar/search/">SEC EDGAR</a> to compare annual reports (10-K), quarterly reports (10-Q), current reports (8-K), and offering documents over time. Record the exact AI claim, filing date, company identifier, and supporting financial metric. Then compare with <a href="https://www.sec.gov/enforcement-litigation">SEC enforcement records</a>. Filings contain company disclosures; their presence in EDGAR does not independently verify a claim. <a href="https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data">SEC data-access guidance</a>.</p>
-      <div class="note"><p><strong>A useful exclusion: Innodata.</strong> A short-seller report prompted allegations about its AI claims, but an April 27, 2026 court opinion dismissed the operative complaint and recorded that SEC and DOJ investigations had closed without enforcement action. It is excluded from the 30-case dataset because that record does not support presenting the allegation as likely established misconduct. <a href="https://law.justia.com/cases/federal/district-courts/new-jersey/njdce/2:2024cv00971/540684/58/">Read the court opinion</a>.</p><p>Price declines, low R&amp;D spending, outsourcing, or an AI-themed name alone do not establish AI washing. A claim must be compared with evidence of what the company actually did.</p></div>
+      <div class="note"><p><strong>A useful exclusion: Innodata.</strong> A short-seller report prompted allegations about its AI claims, but an April 27, 2026 court opinion dismissed the operative complaint and recorded that SEC and DOJ investigations had closed without enforcement action. It is excluded from the 60-case dataset because that record does not support presenting the allegation as likely established misconduct. <a href="https://law.justia.com/cases/federal/district-courts/new-jersey/njdce/2:2024cv00971/540684/58/">Read the court opinion</a>.</p><p>Price declines, low R&amp;D spending, outsourcing, or an AI-themed name alone do not establish AI washing. A claim must be compared with evidence of what the company actually did.</p></div>
     </section>
     <section id="examples" aria-labelledby="examples-title">
-      <h2 id="examples-title">Dataset: 30 AI-washing cases</h2>
-      <p>Explore 30 company or business-operation cases. Each record identifies the industry, product, specific claim, evidence, reason for inclusion, and important limitations. “AI washing” is our analytical classification; it is not a uniform legal verdict.</p>
-      <div class="actions"><a href="aiwashing-cases.csv" download>Download 30 cases · CSV</a><a href="aiwashing-cases.json" download>Download structured data · JSON</a><a href="aiwashing-case-metrics.csv" download>Download 30 comparisons · CSV</a><a href="aiwashing-dataset-methodology.md">Read methodology &amp; field definitions</a></div>
-      <div class="note"><p><strong>How to read the evidence:</strong> Findings and a guilty plea carry different weight from complaints, settlements, or reporting. A settlement may resolve allegations without admitting liability. “Likely” here means an evidence-backed pattern assessment, conditional where facts remain disputed.</p><p><strong>Selection:</strong> This is a purposive, predominantly U.S. sample, not a ranking or prevalence estimate. Related aliases are grouped. Delphia and Global Predictions are separate firms with separate orders. Statuses describe the cited dated records, not a certification of every current docket.</p></div>
-      <div class="note chart-guide"><p><strong>Claimed benefits versus documented outcomes.</strong> Every case pairs the AI promise with evidence about delivery. Blue identifies the claim; green identifies the outcome and does not imply success. Findings, allegations, and reporting retain their labels.</p><p><strong>Numerical evidence:</strong> Workado has a claim-versus-test bar chart. The other 29 cases use evidence panels because the cited sources do not supply a matched numerical pair. Missing measurements are never treated as zero. Penalties and funding do not substitute for product output.</p></div>
-      <div class="dataset-controls" id="dataset-controls" hidden>
-        <label>Search cases<input id="case-search" type="search" placeholder="Company, industry, claim, or pattern"></label>
-        <label>Market connection<select id="market-filter"><option value="">All connections</option><option>Investment</option><option>Public issuer</option><option>Other</option><option>Private fundraising</option></select></label>
-        <label>Evidence status<select id="status-filter"><option value="">All evidence types</option><option>Regulatory findings / settlement</option><option>Criminal guilty plea / sentencing</option><option>Regulatory allegations</option><option>Regulatory settlement</option><option>Criminal allegations</option><option>Proposed regulatory settlement</option><option>Reported / disputed</option><option>Court default judgment</option><option>Advertising self-regulation</option></select></label>
-        <button type="button" id="reset-cases">Reset filters</button>
-        <button type="button" id="expand-cases">Expand visible cases</button>
-        <button type="button" id="collapse-cases">Collapse cases</button>
-      </div>
-      <p id="case-count" role="status">30 of 30 cases shown. Downloads always contain all 30 records.</p>
-      <noscript><p>All 30 cases and their charts are available without JavaScript. Open each heading to read the evidence and data.</p></noscript>
-<details class="case-record" id="AW001" data-market="Investment" data-status="Regulatory findings / settlement" open>
-        <summary>AW001 · Delphia<span class="case-industry">Investment management · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status">Regulatory findings / settlement</span> <span class="sources">Source event: 2024-03-18</span></p>
-            <p><strong>What they do:</strong> Provided investment advisory services and portfolios.</p>
-            <p><strong>AI claim:</strong> Claimed AI and machine learning used client data in investment decisions.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The SEC found that the advertised capabilities did not exist. This directly fits misrepresented AI use.</p>
-            <p><strong>Assessment:</strong> Strong: SEC findings</p>
-            <p><strong>Market connection:</strong> Private adviser; claims concern investing, not a listed issuer.</p>
-            <p><strong>Limits and response:</strong> Settled without admitting or denying findings. This does not establish that every part of its service lacked AI.</p>
-            <p class="sources">Sources: <a href="https://www.sec.gov/newsroom/press-releases/2024-36">SEC settlement</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW001-chart" aria-labelledby="AW001-chart-title">
-            <h3 id="AW001-chart-title">AI use in investment decisions</h3>
-            <div class="sector">Regulatory findings / settlement · 2024-03-18</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Claimed AI and machine learning used client data in investment decisions.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The SEC found that the advertised AI capabilities did not exist.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>No matched investment-performance figures are provided. A capability finding is not a return percentage. <a href="https://www.sec.gov/newsroom/press-releases/2024-36">SEC settlement</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW002" data-market="Investment" data-status="Regulatory findings / settlement">
-        <summary>AW002 · Global Predictions<span class="case-industry">Investment advice and forecasting · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status">Regulatory findings / settlement</span> <span class="sources">Source event: 2024-03-18</span></p>
-            <p><strong>What they do:</strong> Offered portfolio analysis and investment advice.</p>
-            <p><strong>AI claim:</strong> Promoted expert AI-driven forecasts and claimed to be the first regulated AI financial adviser.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The SEC found those representations false or misleading, supporting a mismatch between AI positioning and delivered capabilities.</p>
-            <p><strong>Assessment:</strong> Strong: SEC findings</p>
-            <p><strong>Market connection:</strong> Private adviser serving investors.</p>
-            <p><strong>Limits and response:</strong> Settled without admitting or denying findings; SEC registration is not approval of a product.</p>
-            <p class="sources">Sources: <a href="https://www.sec.gov/newsroom/press-releases/2024-36">SEC settlement</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW002-chart" aria-labelledby="AW002-chart-title">
-            <h3 id="AW002-chart-title">AI forecasts and adviser positioning</h3>
-            <div class="sector">Regulatory findings / settlement · 2024-03-18</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Promoted expert AI-driven forecasts and claimed to be the first regulated AI financial adviser.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The SEC found the AI forecasting and regulatory-positioning claims false or misleading; the cited release gives no comparable forecasting-accuracy result.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>No comparable forecast benchmark is supplied. Registration does not validate AI quality. <a href="https://www.sec.gov/newsroom/press-releases/2024-36">SEC settlement</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW003" data-market="Investment" data-status="Regulatory findings / settlement">
-        <summary>AW003 · Rimar Capital entities<span class="case-industry">Investment management and trading · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status">Regulatory findings / settlement</span> <span class="sources">Source event: 2024-10-10</span></p>
-            <p><strong>What they do:</strong> Raised funds for an advisory business and managed client accounts.</p>
-            <p><strong>AI claim:</strong> Claimed an AI platform performed automated securities trading.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The SEC found the business was falsely described as having this platform. AI claims helped solicit investors and advisory clients.</p>
-            <p><strong>Assessment:</strong> Strong: SEC findings</p>
-            <p><strong>Market connection:</strong> Private fundraising plus trading in client securities accounts.</p>
-            <p><strong>Limits and response:</strong> Entities and individuals settled without admitting or denying findings; other misconduct was also involved.</p>
-            <p class="sources">Sources: <a href="https://www.sec.gov/newsroom/press-releases/2024-167">SEC findings</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW003-chart" aria-labelledby="AW003-chart-title">
-            <h3 id="AW003-chart-title">Automated securities trading</h3>
-            <div class="sector">Regulatory findings / settlement · 2024-10-10</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Claimed an AI platform performed automated securities trading.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The SEC found that the advertised AI trading platform did not exist as represented.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>No comparable trading-performance result is supplied. Do not infer a zero return from an absent platform. <a href="https://www.sec.gov/newsroom/press-releases/2024-167">SEC findings</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW004" data-market="Public issuer" data-status="Regulatory findings / settlement">
-        <summary>AW004 · Presto Automation<span class="case-industry">Restaurant technology · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status">Regulatory findings / settlement</span> <span class="sources">Source event: 2025-01-14</span></p>
-            <p><strong>What they do:</strong> Supplied voice-assisted drive-through ordering systems.</p>
-            <p><strong>AI claim:</strong> Claimed its AI removed human order-taking and reported misleading non-intervention rates.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The SEC found extensive human intervention and misleading disclosure of third-party technology. Automation claims overstated the product's independence.</p>
-            <p><strong>Assessment:</strong> Strong: SEC findings</p>
-            <p><strong>Market connection:</strong> Nasdaq-listed until September 2024; disclosure concerned public investors.</p>
-            <p><strong>Limits and response:</strong> Settled without admitting or denying findings. Third-party technology and human support are legitimate when accurately disclosed.</p>
-            <p class="sources">Sources: <a href="https://www.sec.gov/enforcement-litigation/administrative-proceedings/33-11352-s">SEC summary</a> · <a href="https://www.sec.gov/files/litigation/admin/2025/33-11352.pdf">SEC order</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW004-chart" aria-labelledby="AW004-chart-title">
-            <h3 id="AW004-chart-title">Human-independent ordering</h3>
-            <div class="sector">Regulatory findings / settlement · 2025-01-14</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Claimed its AI removed human order-taking and reported misleading non-intervention rates.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The SEC reported human intervention on 100% of orders using the original proprietary version and approximately 70% using the later pilot version in June–December 2023.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>These versions and periods differ. The marketing claim is not encoded as a numerical 100% automation promise. <a href="https://www.sec.gov/enforcement-litigation/administrative-proceedings/33-11352-s">SEC summary</a> · <a href="https://www.sec.gov/files/litigation/admin/2025/33-11352.pdf">SEC order</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW005" data-market="Public issuer" data-status="Criminal guilty plea / sentencing">
-        <summary>AW005 · Kubient / KAI<span class="case-industry">Digital advertising and ad-fraud detection · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status">Criminal guilty plea / sentencing</span> <span class="sources">Source event: 2025-03-20</span></p>
-            <p><strong>What they do:</strong> Operated advertising technology and promoted an AI fraud-detection tool.</p>
-            <p><strong>AI claim:</strong> Touted successful KAI tests and associated revenue in stock-offering materials.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> Fabricated test reports and revenue misrepresented product efficacy and commercial validation. This combines AI capability inflation with accounting fraud.</p>
-            <p><strong>Assessment:</strong> Strong: guilty plea and sentencing</p>
-            <p><strong>Market connection:</strong> IPO and secondary public offering in 2020.</p>
-            <p><strong>Limits and response:</strong> The former CEO pleaded guilty; this does not establish culpability of every employee or prove that KAI never existed.</p>
-            <p class="sources">Sources: <a href="https://www.justice.gov/usao-sdny/pr/former-ceo-kubient-inc-sentenced-prison-connection-accounting-fraud-scheme">DOJ sentencing</a> · <a href="https://www.sec.gov/newsroom/press-releases/2024-131">SEC charges</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW005-chart" aria-labelledby="AW005-chart-title">
-            <h3 id="AW005-chart-title">AI product validation</h3>
-            <div class="sector">Criminal guilty plea / sentencing · 2025-03-20</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Touted successful KAI tests and associated revenue in stock-offering materials.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The former CEO's guilty plea and sentencing concerned fabricated KAI test reports and revenue; those reports did not establish the claimed product validation.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>No independent detection-rate comparison is supplied. Fabricated revenue is not a measure of model accuracy. <a href="https://www.justice.gov/usao-sdny/pr/former-ceo-kubient-inc-sentenced-prison-connection-accounting-fraud-scheme">DOJ sentencing</a> · <a href="https://www.sec.gov/newsroom/press-releases/2024-131">SEC charges</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW006" data-market="Investment" data-status="Regulatory allegations">
-        <summary>AW006 · WOLO Wealth / Joel B. Sofia<span class="case-industry">Investment advice and options trading · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Regulatory allegations</span> <span class="sources">Source event: 2026-01-23</span></p>
-            <p><strong>What they do:</strong> Managed trades in clients' brokerage accounts under the WOLO Wealth name.</p>
-            <p><strong>AI claim:</strong> Claimed proprietary AI fully automated trading and eliminated downside risk.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The SEC alleges the purported software was not used for the described trades. If substantiated, this is misrepresented AI deployment coupled with impossible risk assurances.</p>
-            <p><strong>Assessment:</strong> Conditional: detailed SEC complaint</p>
-            <p><strong>Market connection:</strong> Client brokerage accounts and options trading; not a listed company.</p>
-            <p><strong>Limits and response:</strong> Complaint allegations, not a liability finding. WOLO was a business name, not an incorporated entity, according to the complaint.</p>
-            <p class="sources">Sources: <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26463">SEC release</a> · <a href="https://www.sec.gov/files/litigation/complaints/2026/comp26463.pdf">Complaint, paragraphs 45–54</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW006-chart" aria-labelledby="AW006-chart-title">
-            <h3 id="AW006-chart-title">Automated trading and downside protection</h3>
-            <div class="sector">Regulatory allegations · 2026-01-23</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Claimed proprietary AI fully automated trading and eliminated downside risk.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The SEC alleges the described AI software was not used for the trades and clients lost money despite assurances against loss.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>No matched numerical AI benchmark is supplied. Losses cover the alleged advisory conduct. <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26463">SEC release</a> · <a href="https://www.sec.gov/files/litigation/complaints/2026/comp26463.pdf">Complaint, paragraphs 45–54</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW007" data-market="Other" data-status="Regulatory settlement">
-        <summary>AW007 · DoNotPay<span class="case-industry">Legal technology · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status">Regulatory settlement</span> <span class="sources">Source event: 2025-01-14</span></p>
-            <p><strong>What they do:</strong> Offered a chatbot and tools for consumer legal tasks.</p>
-            <p><strong>AI claim:</strong> Promoted a robot lawyer able to substitute for professional legal expertise.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The FTC challenged claims unsupported by adequate evaluation. The pattern is overstated professional capability, even where AI is genuinely used.</p>
-            <p><strong>Assessment:</strong> Strong documented concern: FTC settlement</p>
-            <p><strong>Market connection:</strong> Consumer service; no public-stock claim assessed.</p>
-            <p><strong>Limits and response:</strong> A settlement is not a trial finding that every feature failed.</p>
-            <p class="sources">Sources: <a href="https://search.ftc.gov/legal-library/browse/cases-proceedings/donotpay">FTC case record</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW007-chart" aria-labelledby="AW007-chart-title">
-            <h3 id="AW007-chart-title">Lawyer-level legal assistance</h3>
-            <div class="sector">Regulatory settlement · 2025-01-14</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Promoted a robot lawyer able to substitute for professional legal expertise.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The FTC alleged that DoNotPay had not tested whether its output matched a human lawyer's expertise.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>Missing substantiation does not establish a 0% legal-task success rate. <a href="https://search.ftc.gov/legal-library/browse/cases-proceedings/donotpay">FTC case record</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW008" data-market="Private fundraising" data-status="Criminal allegations">
-        <summary>AW008 · Nate<span class="case-industry">E-commerce checkout automation · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Criminal allegations</span> <span class="sources">Source event: 2025-04-09</span></p>
-            <p><strong>What they do:</strong> Offered a shopping app for completing purchases across retail websites.</p>
-            <p><strong>AI claim:</strong> Presented checkout as autonomously completed by proprietary AI.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> DOJ alleges human contractors secretly completed purchases while the automation rate was effectively zero. If proven, this fits concealed manual work and fictitious autonomy.</p>
-            <p><strong>Assessment:</strong> Conditional: detailed DOJ allegations</p>
-            <p><strong>Market connection:</strong> Private startup fundraising.</p>
-            <p><strong>Limits and response:</strong> The cited indictment announcement is not a conviction or a check of the current docket.</p>
-            <p class="sources">Sources: <a href="https://www.justice.gov/usao-sdny/pr/tech-ceo-charged-artificial-intelligence-investment-fraud-scheme">DOJ indictment announcement</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW008-chart" aria-labelledby="AW008-chart-title">
-            <h3 id="AW008-chart-title">Autonomous checkout</h3>
-            <div class="sector">Criminal allegations · 2025-04-09</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Presented checkout as autonomously completed by proprietary AI.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>DOJ alleges contractors secretly completed purchases and automation was effectively zero; the source does not supply an exact measured percentage.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>Effectively zero is a qualitative allegation, not an exact benchmark value. <a href="https://www.justice.gov/usao-sdny/pr/tech-ceo-charged-artificial-intelligence-investment-fraud-scheme">DOJ indictment announcement</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW009" data-market="Other" data-status="Regulatory settlement">
-        <summary>AW009 · IntelliVision<span class="case-industry">Facial recognition and smart-home security · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status">Regulatory settlement</span> <span class="sources">Source event: 2025-01-08</span></p>
-            <p><strong>What they do:</strong> Sold facial-recognition software for security systems.</p>
-            <p><strong>AI claim:</strong> Claimed high accuracy, no gender or racial bias, and spoof resistance.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The FTC alleged insufficient support for broad efficacy and fairness claims. This fits unsupported AI performance assurances.</p>
-            <p><strong>Assessment:</strong> Strong documented concern: FTC order</p>
-            <p><strong>Market connection:</strong> Security software; no public-stock claim assessed.</p>
-            <p><strong>Limits and response:</strong> AI existence is not disputed here. The concern is how performance was represented.</p>
-            <p class="sources">Sources: <a href="https://www.ftc.gov/news-events/news/press-releases/2024/12/ftc-takes-action-against-intellivision-technologies-deceptive-claims-about-its-facial-recognition">FTC allegations</a> · <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/2323023c4809intellivisionfinalorder.pdf">Final order</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW009-chart" aria-labelledby="AW009-chart-title">
-            <h3 id="AW009-chart-title">Recognition accuracy and fairness</h3>
-            <div class="sector">Regulatory settlement · 2025-01-08</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Claimed high accuracy, no gender or racial bias, and spoof resistance.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The FTC alleged inadequate support for accuracy, bias, and anti-spoofing claims. Its complaint describes training images from about 100,000 unique individuals, with augmented variants.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>Unique people and augmented face images are different counts. Neither is a direct fairness or accuracy measure. <a href="https://www.ftc.gov/news-events/news/press-releases/2024/12/ftc-takes-action-against-intellivision-technologies-deceptive-claims-about-its-facial-recognition">FTC allegations</a> · <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/2323023c4809intellivisionfinalorder.pdf">Final order</a> · <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/Complaint-IntellivisionTechCorp.pdf">Source for these figures</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW010" data-market="Other" data-status="Regulatory settlement">
-        <summary>AW010 · accessiBe<span class="case-industry">Website accessibility software · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status">Regulatory settlement</span> <span class="sources">Source event: 2025-04-22</span></p>
-            <p><strong>What they do:</strong> Sold an automated website accessibility tool.</p>
-            <p><strong>AI claim:</strong> Claimed the tool could make any website WCAG-compliant.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The FTC alleged misleading or unsupported compliance claims. The pattern is promoting an AI tool as sufficient for a broader outcome than demonstrated.</p>
-            <p><strong>Assessment:</strong> Strong documented concern: FTC final order</p>
-            <p><strong>Market connection:</strong> Business software; no public-stock claim assessed.</p>
-            <p><strong>Limits and response:</strong> This does not imply that all automated accessibility assistance lacks value.</p>
-            <p class="sources">Sources: <a href="https://www.ftc.gov/legal-library/browse/cases-proceedings/2223156-accessibe-inc">FTC case record</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW010-chart" aria-labelledby="AW010-chart-title">
-            <h3 id="AW010-chart-title">Automatic website compliance</h3>
-            <div class="sector">Regulatory settlement · 2025-04-22</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Claimed the tool could make any website WCAG-compliant.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The FTC alleged that the tool did not substantiate the advertised assurance that it could make any website WCAG-compliant.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>No representative website compliance pass rate is supplied; unsubstantiated does not mean every feature failed. <a href="https://www.ftc.gov/legal-library/browse/cases-proceedings/2223156-accessibe-inc">FTC case record</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW011" data-market="Other" data-status="Regulatory settlement">
-        <summary>AW011 · Workado / Content at Scale AI<span class="case-industry">AI content detection · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status">Regulatory settlement</span> <span class="sources">Source event: 2025-08-28</span></p>
-            <p><strong>What they do:</strong> Sold a tool for identifying AI-generated text.</p>
-            <p><strong>AI claim:</strong> Advertised 98% detection accuracy across content.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The FTC reported approximately 53% accuracy on general-purpose content. Extrapolating narrower performance to broader uses fits inflated AI accuracy.</p>
-            <p><strong>Assessment:</strong> Strong documented concern: FTC final order</p>
-            <p><strong>Market connection:</strong> Content software; no public-stock claim assessed.</p>
-            <p><strong>Limits and response:</strong> The test result applies to the evaluated content and version, not all detectors or future versions.</p>
-            <p class="sources">Sources: <a href="https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-order-requires-workado-back-artificial-intelligence-detection-claims">FTC testing</a> · <a href="https://www.ftc.gov/news-events/news/press-releases/2025/08/ftc-approves-final-order-against-workado-llc-which-misrepresented-accuracy-its-artificial">Final order announcement</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW011-chart" aria-labelledby="AW011-chart-title">
-            <h3 id="AW011-chart-title">AI-text detection accuracy</h3>
-            <div class="sector">Regulatory settlement · 2025-04-28</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Advertised 98% detection accuracy across content.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The FTC reported approximately 53% accuracy in testing on general-purpose content.</p></div>
-            <div class="bar-label"><span>Advertised accuracy</span><strong>98%</strong></div><div class="track" aria-hidden="true"><span class="bar" style="width:98%"></span></div>
-            <div class="bar-label"><span>General-purpose test accuracy</span><strong>≈53%</strong></div><div class="track" aria-hidden="true"><span class="bar tested" style="width:53%"></span></div>
-            <div class="axis" aria-hidden="true"><span>0%</span><span>50%</span><span>100%</span></div><p class="stat">≈45 percentage points</p><p>Difference between advertised accuracy and the cited test result.</p>
-            <figcaption>The test concerns general-purpose content; the FTC alleged academic-content training or fine-tuning. It is not a universal score. <a href="https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-order-requires-workado-back-artificial-intelligence-detection-claims">FTC testing</a> · <a href="https://www.ftc.gov/news-events/news/press-releases/2025/08/ftc-approves-final-order-against-workado-llc-which-misrepresented-accuracy-its-artificial">Final order announcement</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW012" data-market="Public issuer" data-status="Regulatory settlement">
-        <summary>AW012 · Evolv Technologies<span class="case-industry">Weapons detection and physical security · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status">Regulatory settlement</span> <span class="sources">Source event: 2024-11-26</span></p>
-            <p><strong>What they do:</strong> Sold screening systems to schools and other venues.</p>
-            <p><strong>AI claim:</strong> Promoted AI screening as detecting weapons while ignoring harmless items, with superior performance.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The FTC challenged efficacy claims. This fits overstated AI capability in a safety-sensitive product marketed by a public company.</p>
-            <p><strong>Assessment:</strong> Strong documented concern: FTC settlement</p>
-            <p><strong>Market connection:</strong> Public-company product claims; not evidence of a particular stock-price effect.</p>
-            <p><strong>Limits and response:</strong> The issue is performance claims, not proof that the system used no AI. Settlement terms do not establish every allegation.</p>
-            <p class="sources">Sources: <a href="https://www.ftc.gov/legal-library/browse/cases-proceedings/evolv-technologies">FTC case record</a> · <a href="https://ir.evolvtechnology.com/sec-filings/all-sec-filings/content/0001805385-26-000040/noticeofpendencyandpropo.htm">Company-filed 2026 settlement notice</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW012-chart" aria-labelledby="AW012-chart-title">
-            <h3 id="AW012-chart-title">Weapons detection and screening</h3>
-            <div class="sector">Regulatory settlement · 2024-11-26</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Promoted AI screening as detecting weapons while ignoring harmless items, with superior performance.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The FTC described missed weapons and harmless items triggering alerts. At one school, a sensitivity increase after a missed knife produced a 50% false-alarm rate.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>The 50% figure concerns one school's false alarms, not weapons missed or product-wide accuracy. <a href="https://www.ftc.gov/legal-library/browse/cases-proceedings/evolv-technologies">FTC case record</a> · <a href="https://ir.evolvtechnology.com/sec-filings/all-sec-filings/content/0001805385-26-000040/noticeofpendencyandpropo.htm">Company-filed 2026 settlement notice</a> · <a href="https://www.ftc.gov/news-events/news/press-releases/2024/11/ftc-takes-action-against-evolv-technologies-deceiving-users-about-its-ai-powered-security-screening">Source for these figures</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW013" data-market="Other" data-status="Regulatory settlement">
-        <summary>AW013 · NGL Labs<span class="case-industry">Social media and content moderation · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status">Regulatory settlement</span> <span class="sources">Source event: 2024-07-09</span></p>
-            <p><strong>What they do:</strong> Operated an anonymous messaging app.</p>
-            <p><strong>AI claim:</strong> Claimed AI moderation would protect users from cyberbullying.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The FTC alleged that promised AI safeguards did not filter harmful messages as represented. This fits overstated AI safety assurances.</p>
-            <p><strong>Assessment:</strong> Strong documented concern: FTC settlement</p>
-            <p><strong>Market connection:</strong> Consumer app; no public-stock claim assessed.</p>
-            <p><strong>Limits and response:</strong> Other allegations concerned billing and children’s privacy; inclusion here is specifically about moderation claims.</p>
-            <p class="sources">Sources: <a href="https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-order-will-ban-ngl-labs-its-founders-offering-anonymous-messaging-apps-kids-under-18-halt">FTC announcement</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW013-chart" aria-labelledby="AW013-chart-title">
-            <h3 id="AW013-chart-title">Protection from harmful messages</h3>
-            <div class="sector">Regulatory settlement · 2024-07-09</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Claimed AI moderation would protect users from cyberbullying.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The FTC alleged that the advertised AI safeguards failed to filter harmful messages as represented.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>No comparable harmful-message detection rate is provided. <a href="https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-order-will-ban-ngl-labs-its-founders-offering-anonymous-messaging-apps-kids-under-18-halt">FTC announcement</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW014" data-market="Other" data-status="Proposed regulatory settlement">
-        <summary>AW014 · Air AI<span class="case-industry">Conversational AI and business opportunities · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Proposed regulatory settlement</span> <span class="sources">Source event: 2026-03-24</span></p>
-            <p><strong>What they do:</strong> Marketed conversational AI services and business opportunities to entrepreneurs.</p>
-            <p><strong>AI claim:</strong> Promised business growth, substantial earnings, and refund protection.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The FTC challenged performance, profitability, and refund representations. AI branding supported outcomes that allegedly were not substantiated.</p>
-            <p><strong>Assessment:</strong> Conditional: FTC allegations and proposed order</p>
-            <p><strong>Market connection:</strong> Small-business purchases; not a stock offering.</p>
-            <p><strong>Limits and response:</strong> This concerns misleading claims around AI, not a finding that AI was absent. The cited release describes a proposed court order.</p>
-            <p class="sources">Sources: <a href="https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled">FTC 2026 announcement</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW014-chart" aria-labelledby="AW014-chart-title">
-            <h3 id="AW014-chart-title">Business growth and earnings</h3>
-            <div class="sector">Proposed regulatory settlement · 2026-03-24</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Promised business growth, substantial earnings, and refund protection.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The FTC challenged the promised earnings, business results, and refund protection as misleading or unsupported.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>No matched typical net-earnings comparison is supplied. Settlement sums are not customer output. <a href="https://www.ftc.gov/news-events/news/press-releases/2026/03/air-ai-its-owners-will-be-banned-marketing-business-opportunities-settle-ftc-charges-company-misled">FTC 2026 announcement</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW015" data-market="Other" data-status="Proposed regulatory settlement">
-        <summary>AW015 · Ascend Ecom<span class="case-industry">E-commerce business opportunities · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Proposed regulatory settlement</span> <span class="sources">Source event: 2025-06-23</span></p>
-            <p><strong>What they do:</strong> Sold services to establish and operate online storefronts.</p>
-            <p><strong>AI claim:</strong> Advertised AI tools for rapidly generating passive income.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The FTC alleged that promised earnings generally failed to materialize. The AI-washing pattern is an unsupported business outcome attributed to AI.</p>
-            <p><strong>Assessment:</strong> Conditional: FTC allegations and proposed order</p>
-            <p><strong>Market connection:</strong> Consumer business opportunities, not publicly traded securities.</p>
-            <p><strong>Limits and response:</strong> Poor returns alone are not AI washing; inclusion rests on the alleged deceptive AI-linked earnings pitch. The cited announcement describes a proposed order.</p>
-            <p class="sources">Sources: <a href="https://www.ftc.gov/news-events/news/press-releases/2025/06/ftc-case-leads-order-banning-ascend-ecom-its-owners-business-opportunity-marketing">FTC settlement announcement</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW015-chart" aria-labelledby="AW015-chart-title">
-            <h3 id="AW015-chart-title">Passive store income</h3>
-            <div class="sector">Proposed regulatory settlement · 2025-06-23</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Advertised AI tools for rapidly generating passive income.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The FTC alleged that promised earnings generally failed to materialize.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>No matched net-income distribution is supplied; the allegations do not quantify every customer's result. <a href="https://www.ftc.gov/news-events/news/press-releases/2025/06/ftc-case-leads-order-banning-ascend-ecom-its-owners-business-opportunity-marketing">FTC settlement announcement</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW016" data-market="Other" data-status="Proposed regulatory settlement">
-        <summary>AW016 · FBA Machine / Passive Scaling<span class="case-industry">E-commerce business opportunities · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Proposed regulatory settlement</span> <span class="sources">Source event: 2025-07-30</span></p>
-            <p><strong>What they do:</strong> Sold managed online-store business opportunities.</p>
-            <p><strong>AI claim:</strong> Promised guaranteed income from storefronts using AI software.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The FTC challenged deceptive earnings guarantees tied to purported AI-powered stores. This fits unsupported AI-enabled profitability.</p>
-            <p><strong>Assessment:</strong> Conditional: FTC allegations and proposed order</p>
-            <p><strong>Market connection:</strong> Consumer business opportunities, not a stock-market investment product.</p>
-            <p><strong>Limits and response:</strong> Treat both names as one case. The record does not by itself prove all underlying software lacked AI. The cited announcement describes a proposed order.</p>
-            <p class="sources">Sources: <a href="https://www.ftc.gov/news-events/news/press-releases/2025/07/ftc-obtains-permanent-ban-e-commerce-business-opportunity-scheme-operator">FTC order announcement</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW016-chart" aria-labelledby="AW016-chart-title">
-            <h3 id="AW016-chart-title">Guaranteed store earnings</h3>
-            <div class="sector">Proposed regulatory settlement · 2025-07-30</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Promised guaranteed income from storefronts using AI software.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The FTC alleged that the guaranteed earnings from the AI-branded storefronts failed to materialize.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>No comparable typical profit figure is supplied. Guarantees are not treated as measured success rates. <a href="https://www.ftc.gov/news-events/news/press-releases/2025/07/ftc-obtains-permanent-ban-e-commerce-business-opportunity-scheme-operator">FTC order announcement</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW017" data-market="Other" data-status="Regulatory settlement">
-        <summary>AW017 · Ecommerce Empire Builders<span class="case-industry">E-commerce coaching and storefront services · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status">Regulatory settlement</span> <span class="sources">Source event: 2025-05-09</span></p>
-            <p><strong>What they do:</strong> Sold training and done-for-you online stores.</p>
-            <p><strong>AI claim:</strong> Marketed an AI-powered e-commerce business capable of substantial profits.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The FTC alleged that the promoted profits did not materialize. AI was used to support an allegedly deceptive opportunity pitch.</p>
-            <p><strong>Assessment:</strong> Strong documented concern: FTC settlement announcement</p>
-            <p><strong>Market connection:</strong> Consumer business opportunities.</p>
-            <p><strong>Limits and response:</strong> Distinct from Automators’ former Empire Ecommerce brand. This is an earnings-claim case, not a finding that AI was absent.</p>
-            <p class="sources">Sources: <a href="https://www.ftc.gov/news-events/news/press-releases/2025/05/ftc-action-ends-ecommerce-empire-builders-online-business-opportunity-scam">FTC settlement announcement</a> · <a href="https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes">FTC original AI-related allegations</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW017-chart" aria-labelledby="AW017-chart-title">
-            <h3 id="AW017-chart-title">Monthly store profits</h3>
-            <div class="sector">Regulatory settlement · 2025-05-09</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Promoted an AI-powered store opportunity with claims of US$10,000 in monthly profits.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The FTC alleged that promised profits did not materialize; consumer complaints described stores making little or no money.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>No comparable measured monthly average is supplied. Little or no money is not encoded as an exact zero. <a href="https://www.ftc.gov/news-events/news/press-releases/2025/05/ftc-action-ends-ecommerce-empire-builders-online-business-opportunity-scam">FTC settlement announcement</a> · <a href="https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes">FTC original AI-related allegations</a> · <a href="https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes">FTC original earnings allegations</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW018" data-market="Other" data-status="Regulatory settlement">
-        <summary>AW018 · Automators AI<span class="case-industry">E-commerce automation and coaching · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status">Regulatory settlement</span> <span class="sources">Source event: 2024-02-27</span></p>
-            <p><strong>What they do:</strong> Set up third-party online stores and sold business coaching.</p>
-            <p><strong>AI claim:</strong> Claimed AI could help ensure store profitability and high passive earnings.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The FTC challenged unfounded income and profit claims connected to AI. This fits overstated AI business benefits.</p>
-            <p><strong>Assessment:</strong> Strong documented concern: FTC settlement</p>
-            <p><strong>Market connection:</strong> Consumer business opportunities.</p>
-            <p><strong>Limits and response:</strong> Automators, Empire Ecommerce, and Onyx Distribution are grouped as one operation; not three cases.</p>
-            <p class="sources">Sources: <a href="https://www.ftc.gov/legal-library/browse/cases-proceedings/automators">FTC case record</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW018-chart" aria-labelledby="AW018-chart-title">
-            <h3 id="AW018-chart-title">Profitable online stores</h3>
-            <div class="sector">Regulatory settlement · 2024-02-27</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Claimed AI could help ensure store profitability and high passive earnings.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The FTC challenged unfounded passive-income and profitability claims; the cited record does not provide a comparable typical net-return figure.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>No matched net-profit benchmark is supplied. <a href="https://www.ftc.gov/legal-library/browse/cases-proceedings/automators">FTC case record</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW019" data-market="Other" data-status="Proposed regulatory settlement">
-        <summary>AW019 · Click Profit<span class="case-industry">E-commerce business opportunities · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Proposed regulatory settlement</span> <span class="sources">Source event: 2025-08</span></p>
-            <p><strong>What they do:</strong> Sold managed storefronts to people seeking passive income.</p>
-            <p><strong>AI claim:</strong> Promised high passive earnings through a proprietary AI-powered system.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The FTC complaint expressly alleges false AI and affiliation claims. This supports both misrepresented technology and unsupported profit promises.</p>
-            <p><strong>Assessment:</strong> Conditional: FTC complaint and settlement announcement</p>
-            <p><strong>Market connection:</strong> Consumer business opportunities.</p>
-            <p><strong>Limits and response:</strong> The case page describes an August proposed settlement. Do not equate that wording with adjudicated liability.</p>
-            <p class="sources">Sources: <a href="https://www.ftc.gov/legal-library/browse/cases-proceedings/click-profit-llc">FTC case record</a> · <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/ClickProfit-20250303-Complaint.pdf">FTC complaint</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW019-chart" aria-labelledby="AW019-chart-title">
-            <h3 id="AW019-chart-title">Passive earnings and cost recovery</h3>
-            <div class="sector">Proposed regulatory settlement · 2025-08</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Promised high passive earnings through a proprietary AI-powered system.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The FTC alleged that few customers saw a return on their investment and most could not recoup startup costs. Store suspension figures are not a profit rate.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>Suspension rates and startup fees cannot be substituted for a measured earnings comparison. <a href="https://www.ftc.gov/legal-library/browse/cases-proceedings/click-profit-llc">FTC case record</a> · <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/ClickProfit-20250303-Complaint.pdf">FTC complaint</a> · <a href="https://www.ftc.gov/news-events/news/press-releases/2025/03/ftc-acts-stop-click-profit-online-business-opportunity-has-cost-consumers-least-14-million">Source for these figures</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW020" data-market="Private fundraising" data-status="Reported / disputed">
-        <summary>AW020 · Builder.ai / Engineer.ai<span class="case-industry">Software development services · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Reported / disputed</span> <span class="sources">Source event: 2025-07-29</span></p>
-            <p><strong>What they do:</strong> Sold app-development services supported by software tools and human teams.</p>
-            <p><strong>AI claim:</strong> Marketed AI-assisted app creation as fast and simple.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> Reporting based on former-employee interviews describes more manual delivery than the marketing suggested. This is a plausible overstatement-of-automation pattern.</p>
-            <p><strong>Assessment:</strong> Moderate: reporting; disputed interpretation</p>
-            <p><strong>Market connection:</strong> Venture-backed private startup; not Microsoft’s own operating business.</p>
-            <p><strong>Limits and response:</strong> Former CEO Manpreet Ratia denied misleading users and said the platform automated meaningful work. Earlier representatives described human-assisted AI. Reporting does not establish that no AI existed; insolvency is not proof.</p>
-            <p class="sources">Sources: <a href="https://restofworld.org/2025/builderai-ai-apps-downfall/">Rest of World investigation</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW020-chart" aria-labelledby="AW020-chart-title">
-            <h3 id="AW020-chart-title">Autonomous app development</h3>
-            <div class="sector">Reported / disputed · 2025-07-29</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>The founder claimed AI could construct at least 80% of an app or website autonomously.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>Former employees told Rest of World that humans performed the vast majority of development work. The article gives no comparable measured automation percentage.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>Management denied misleading users and said meaningful software work was automated. The actual comparable percentage remains unknown. <a href="https://restofworld.org/2025/builderai-ai-apps-downfall/">Rest of World investigation</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW021" data-market="Private fundraising" data-status="Regulatory allegations">
-        <summary>AW021 · Destiny Robotics<span class="case-industry">Consumer robotics · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Regulatory allegations</span> <span class="sources">Source event: 2024-10-15</span></p>
-            <p><strong>What they do:</strong> Developed a proposed humanoid home assistant.</p>
-            <p><strong>AI claim:</strong> Marketed an advanced AI robot for delivery in 2023.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The SEC alleged the robot was much less developed than represented, with no realistic prospect of the promised delivery.</p>
-            <p><strong>Assessment:</strong> Strong alleged capability / delivery mismatch</p>
-            <p><strong>Market connection:</strong> Private startup fundraising; not a listed security.</p>
-            <p><strong>Limits and response:</strong> The CEO consented without admitting or denying the allegations; the release described a settlement subject to court approval.</p>
-            <p class="sources">Sources: <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26157">SEC complaint and proposed settlement</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW021-chart" aria-labelledby="AW021-chart-title">
-            <h3 id="AW021-chart-title">Robot capability and delivery</h3>
-            <div class="sector">Regulatory allegations · 2024-10-15</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Marketed an advanced AI robot for delivery in 2023.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The SEC alleged that the robot was much less capable than described and there was no realistic prospect of delivering the promised robot by 2023.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>The finding concerns promised capability and timing. No standardized robot task-success benchmark is supplied. <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26157">SEC complaint and proposed settlement</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW022" data-market="Investment" data-status="Regulatory allegations">
-        <summary>AW022 · ONPASSIVE / Gofounders / Ofounders<span class="case-industry">AI software subscriptions / multilevel marketing · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Regulatory allegations</span> <span class="sources">Source event: 2023-08-11</span></p>
-            <p><strong>What they do:</strong> Sold memberships linked to future software subscriptions and referral commissions.</p>
-            <p><strong>AI claim:</strong> Promoted passive income from an ecosystem of AI applications.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The SEC alleged that no applications had commercially launched and no commissions had been paid by June 2023 despite years of soliciting investors.</p>
-            <p><strong>Assessment:</strong> Alleged availability and AI-linked earnings mismatch</p>
-            <p><strong>Market connection:</strong> Investment-contract allegations; not an exchange-listed AI stock.</p>
-            <p><strong>Limits and response:</strong> The cited complaint is an allegation. A delayed launch does not by itself establish that AI was technically absent.</p>
-            <p class="sources">Sources: <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25809">SEC ONPASSIVE complaint announcement</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW022-chart" aria-labelledby="AW022-chart-title">
-            <h3 id="AW022-chart-title">Available AI apps and commissions</h3>
-            <div class="sector">Regulatory allegations · 2023-08-11</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Promoted passive income from an ecosystem of AI applications.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The SEC alleged that no applications had commercially launched and no commissions had been paid as of June 2023.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>These are historical allegations with a June 2023 cutoff, not a statement about later availability. <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25809">SEC ONPASSIVE complaint announcement</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW023" data-market="Investment" data-status="Regulatory allegations">
-        <summary>AW023 · QZ Asset Management / QZ Global<span class="case-industry">Investment management · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Regulatory allegations</span> <span class="sources">Source event: 2024-08-27</span></p>
-            <p><strong>What they do:</strong> Solicited investments in purported algorithmic asset management.</p>
-            <p><strong>AI claim:</strong> Promised extraordinary returns and full capital protection through proprietary AI.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The SEC alleged false AI-related investment promises, misleading regulatory assurances and misappropriation of investor money.</p>
-            <p><strong>Assessment:</strong> Strong alleged AI-linked investment deception</p>
-            <p><strong>Market connection:</strong> The SEC also alleged false statements about a Nasdaq listing application; this does not establish an actual listing.</p>
-            <p><strong>Limits and response:</strong> Allegations in a complaint, not a trial finding. The loss figure covers the broader alleged scheme.</p>
-            <p class="sources">Sources: <a href="https://www.sec.gov/newsroom/press-releases/2024-109">SEC QZ charges</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW023-chart" aria-labelledby="AW023-chart-title">
-            <h3 id="AW023-chart-title">AI returns and capital protection</h3>
-            <div class="sector">Regulatory allegations · 2024-08-27</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Promised extraordinary returns and full capital protection through proprietary AI.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The SEC alleged false investment promises and misappropriation of funds; it does not provide a matched portfolio-return series.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>An alleged loss total cannot be converted into a portfolio return without matching capital, dates, and cash flows. <a href="https://www.sec.gov/newsroom/press-releases/2024-109">SEC QZ charges</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW024" data-market="Investment" data-status="Regulatory allegations">
-        <summary>AW024 · YieldTrust.ai / YieldBot<span class="case-industry">Crypto trading / decentralized finance · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Regulatory allegations</span> <span class="sources">Source event: 2023-04-04</span></p>
-            <p><strong>What they do:</strong> Offered investments in a purported automated crypto trading bot.</p>
-            <p><strong>AI claim:</strong> Claimed AI could generate daily returns of up to 2.2%.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> Montana alleged unsubstantiated AI trading profits and reliance on new deposits; an audit also contradicted advertised withdrawal terms.</p>
-            <p><strong>Assessment:</strong> Alleged unsupported AI earnings and misleading terms</p>
-            <p><strong>Market connection:</strong> Crypto investment solicitation, not a listed company.</p>
-            <p><strong>Limits and response:</strong> The source is a temporary cease-and-desist order and proposed agency action. The lockup comparison measures contract terms, not model performance.</p>
-            <p class="sources">Sources: <a href="https://csimt.gov/wp-content/uploads/2023/04/2023-04-04-YieldTrust-NOPAA-CD-and-Temp-Order.pdf">Montana temporary order, paragraphs 14–15</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW024-chart" aria-labelledby="AW024-chart-title">
-            <h3 id="AW024-chart-title">Daily AI trading returns</h3>
-            <div class="sector">Regulatory allegations · 2023-04-04</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Claimed AI could generate daily returns of up to 2.2%.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>Montana alleged unsubstantiated trading-profit claims and reliance on new deposits. No verified daily trading return is established in the cited order.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>The claimed daily return is not independently validated; missing realized return is not zero. <a href="https://csimt.gov/wp-content/uploads/2023/04/2023-04-04-YieldTrust-NOPAA-CD-and-Temp-Order.pdf">Montana temporary order, paragraphs 14–15</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW025" data-market="Investment" data-status="Court default judgment">
-        <summary>AW025 · Mirror Trading International / Cornelius Steynberg<span class="case-industry">Forex / cryptocurrency investment pools · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status">Court default judgment</span> <span class="sources">Source event: 2023-04-27</span></p>
-            <p><strong>What they do:</strong> Collected bitcoin for a purported forex trading pool.</p>
-            <p><strong>AI claim:</strong> Promoted a proprietary automated trading bot; the CFTC identifies the scheme in its AI-bot advisory.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> A court found the bot representation false and bitcoin misappropriated. The AI narrative concealed a fraudulent investment operation.</p>
-            <p><strong>Assessment:</strong> Strong: court findings and CFTC AI advisory</p>
-            <p><strong>Market connection:</strong> Unregistered commodity pool; not an exchange-listed issuer.</p>
-            <p><strong>Limits and response:</strong> The cited default judgment is against Steynberg. Ordered restitution and penalties do not establish that money was recovered.</p>
-            <p class="sources">Sources: <a href="https://www.cftc.gov/PressRoom/PressReleases/8696-23">CFTC default judgment announcement</a> · <a href="https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/AITradingBots.html">CFTC advisory on AI trading bots</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW025-chart" aria-labelledby="AW025-chart-title">
-            <h3 id="AW025-chart-title">Returns from a proprietary trading bot</h3>
-            <div class="sector">Court default judgment · 2023-04-27</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Promoted a proprietary automated trading bot; the CFTC identifies the scheme in its AI-bot advisory.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The court found the proprietary-bot representation false and investor bitcoin misappropriated; this does not supply a realized AI trading-return series.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>The default judgment concerns Steynberg. Monetary remedies do not measure trading output. <a href="https://www.cftc.gov/PressRoom/PressReleases/8696-23">CFTC default judgment announcement</a> · <a href="https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/AITradingBots.html">CFTC advisory on AI trading bots</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW026" data-market="Public issuer" data-status="Advertising self-regulation">
-        <summary>AW026 · Apple / Apple Intelligence<span class="case-industry">Consumer electronics / AI assistants · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Advertising self-regulation</span> <span class="sources">Source event: 2025-04-22</span></p>
-            <p><strong>What they do:</strong> Sells iPhones and associated AI software features.</p>
-            <p><strong>AI claim:</strong> Advertised Apple Intelligence features as available at the iPhone 16 launch.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> NAD found that availability disclosures did not adequately qualify features delivered later. This fits overstated present availability, not nonexistent AI.</p>
-            <p><strong>Assessment:</strong> Narrow: substantiated availability concern</p>
-            <p><strong>Market connection:</strong> Public issuer: product messaging can shape expectations about device upgrades; no stock-price effect is quantified here.</p>
-            <p><strong>Limits and response:</strong> NAD is industry self-regulation, not a government agency. Apple disagreed with findings about features available by the decision but agreed to follow recommendations. The withdrawn Siri video was not adjudicated on its merits.</p>
-            <p class="sources">Sources: <a href="https://www.globenewswire.com/news-release/2025/04/22/3065646/0/en/National-Advertising-Division-Recommends-Apple-Discontinue-or-Modify-Availability-Claims-for-Certain-Apple-Intelligence-AI-Features.html">BBB National Programs / NAD decision announcement</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW026-chart" aria-labelledby="AW026-chart-title">
-            <h3 id="AW026-chart-title">Feature availability</h3>
-            <div class="sector">Advertising self-regulation · 2025-04-22</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Advertised Apple Intelligence features as available at the iPhone 16 launch.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>NAD found that availability messaging was not adequately qualified: features rolled out between October 2024 and March 2025, and the additional Siri capabilities were delayed.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>NAD is industry self-regulation. Apple disagreed with findings about then-available features but agreed to recommendations. This is historical availability, not 2026 status. <a href="https://www.globenewswire.com/news-release/2025/04/22/3065646/0/en/National-Advertising-Division-Recommends-Apple-Discontinue-or-Modify-Availability-Claims-for-Certain-Apple-Intelligence-AI-Features.html">BBB National Programs / NAD decision announcement</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW027" data-market="Private fundraising" data-status="Reported / disputed">
-        <summary>AW027 · ScaleFactor<span class="case-industry">Accounting software / bookkeeping · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Reported / disputed</span> <span class="sources">Source event: 2020-07-20</span></p>
-            <p><strong>What they do:</strong> Sold bookkeeping and back-office services to small businesses.</p>
-            <p><strong>AI claim:</strong> Presented AI automation as a replacement for substantial accounting work.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> Forbes reported that employees and outsourced accountants did much of the work the product was marketed as automating.</p>
-            <p><strong>Assessment:</strong> Reported autonomy mismatch; no adjudication cited</p>
-            <p><strong>Market connection:</strong> Venture-backed startup; the funding figure is private capital, not public-market capitalization.</p>
-            <p><strong>Limits and response:</strong> Human assistance alone is not AI washing. The issue is the reported gap with automation claims. The founder blamed pandemic-related demand loss and described the ambition to automate small-business back offices.</p>
-            <p class="sources">Sources: <a href="https://www.forbes.com/sites/davidjeans/2020/07/20/scalefactor-raised-100-million-in-a-year-then-blamed-covid-19-for-its-demise-employees-say-it-had-much-bigger-problems/">Forbes investigation by David Jeans</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW027-chart" aria-labelledby="AW027-chart-title">
-            <h3 id="AW027-chart-title">Automated bookkeeping</h3>
-            <div class="sector">Reported / disputed · 2020-07-20</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Presented AI automation as a replacement for substantial accounting work.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>Forbes reported that employees and outsourced accountants performed much of the work marketed as automated; it provided no measured automation percentage.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>Human support alone is compatible with AI. The founder cited pandemic-related demand loss when announcing closure. <a href="https://www.forbes.com/sites/davidjeans/2020/07/20/scalefactor-raised-100-million-in-a-year-then-blamed-covid-19-for-its-demise-employees-say-it-had-much-bigger-problems/">Forbes investigation by David Jeans</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW028" data-market="Investment" data-status="Regulatory allegations">
-        <summary>AW028 · Cryptoaiml / Cryptoaiml Capital Foundation<span class="case-industry">Crypto investment platforms · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Regulatory allegations</span> <span class="sources">Source event: 2026-09-29</span></p>
-            <p><strong>What they do:</strong> Solicited investors through social messaging and a purported trading platform.</p>
-            <p><strong>AI claim:</strong> Claimed to provide AI trading signals.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The SEC alleged that displayed trading profits were fabricated and trades never occurred.</p>
-            <p><strong>Assessment:</strong> Strong alleged fictitious AI trading service</p>
-            <p><strong>Market connection:</strong> Retail investment solicitation; not a listed stock.</p>
-            <p><strong>Limits and response:</strong> Complaint allegations. The amount concerns alleged misappropriation, not an AI accuracy result.</p>
-            <p class="sources">Sources: <a href="https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms">SEC September 2026 charges</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW028-chart" aria-labelledby="AW028-chart-title">
-            <h3 id="AW028-chart-title">Profits from AI trading signals</h3>
-            <div class="sector">Regulatory allegations · 2026-09-29</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Claimed to provide AI trading signals.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The SEC alleges that no trading occurred and the displayed profits were fictitious.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>Fictitious profits cannot be used as genuine performance data; these remain allegations. <a href="https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms">SEC September 2026 charges</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW029" data-market="Investment" data-status="Regulatory allegations">
-        <summary>AW029 · TSAI Pro / TSAI Capital Foundation<span class="case-industry">Crypto trading bots · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Regulatory allegations</span> <span class="sources">Source event: 2026-09-29</span></p>
-            <p><strong>What they do:</strong> Offered rental of purported trading bots.</p>
-            <p><strong>AI claim:</strong> Promised guaranteed returns from AI bots.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The SEC alleged that the bots did not exist and investor funds were not used to generate trading returns.</p>
-            <p><strong>Assessment:</strong> Strong alleged nonexistent AI capability</p>
-            <p><strong>Market connection:</strong> Retail crypto investment scheme; separate complaint from Cryptoaiml.</p>
-            <p><strong>Limits and response:</strong> Complaint allegations, not adjudicated findings. Related TSAI entities are grouped as one operation.</p>
-            <p class="sources">Sources: <a href="https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms">SEC September 2026 charges</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW029-chart" aria-labelledby="AW029-chart-title">
-            <h3 id="AW029-chart-title">Returns from AI bot rental</h3>
-            <div class="sector">Regulatory allegations · 2026-09-29</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Promised guaranteed returns from AI bots.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The SEC alleges that no AI trading bots existed and deposits were not used to generate returns.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>An alleged nonexistent bot is not a measured 0% return. <a href="https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms">SEC September 2026 charges</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
-      <details class="case-record" id="AW030" data-market="Investment" data-status="Regulatory allegations">
-        <summary>AW030 · Technical Trading Team<span class="case-industry">Forex commodity pools · Claim vs. outcome</span></summary>
-        <div class="case-layout">
-          <div class="case-evidence">
-            <p><span class="status allegation">Regulatory allegations</span> <span class="sources">Source event: 2023-10-06</span></p>
-            <p><strong>What they do:</strong> Solicited loans to fund a leveraged forex trading pool.</p>
-            <p><strong>AI claim:</strong> Claimed an AI bot would recover losses and repay participants.</p>
-            <p><strong>Why it fits an AI-washing pattern:</strong> The CFTC alleged false AI recovery assurances after millions in losses, alongside misappropriation and payments using new investors' money.</p>
-            <p><strong>Assessment:</strong> Strong alleged unsupported AI recovery promise</p>
-            <p><strong>Market connection:</strong> Commodity pool investment, not a listed AI stock.</p>
-            <p><strong>Limits and response:</strong> The cited complaint contains allegations. Losses preceded the AI recovery claim; the chart does not measure an AI model's trading performance.</p>
-            <p class="sources">Sources: <a href="https://www.cftc.gov/PressRoom/PressReleases/8803-23">CFTC Technical Trading Team complaint announcement</a>. Reviewed 2026-10-18.</p>
-          </div>
-          <figure class="case-chart comparison-panel" id="AW030-chart" aria-labelledby="AW030-chart-title">
-            <h3 id="AW030-chart-title">AI-assisted recovery of losses</h3>
-            <div class="sector">Regulatory allegations · 2023-10-06</div>
-            <div class="comparison-side claim-side"><h4>Claimed benefit</h4><p>Claimed an AI bot would recover losses and repay participants.</p></div>
-            <div class="comparison-side outcome-side"><h4>Documented outcome</h4><p>The CFTC alleged false AI recovery assurances after prior forex losses; the source does not establish a measured recovery achieved by an AI bot.</p></div>
-            <p class="comparison-unavailable"><strong>Numerical comparison unavailable.</strong><br>Evidence comparison only; no matched numerical pair is available in the cited sources.</p>
-            <figcaption>The earlier forex losses preceded the AI promise; they cannot measure that bot's output. <a href="https://www.cftc.gov/PressRoom/PressReleases/8803-23">CFTC Technical Trading Team complaint announcement</a>.</figcaption>
-          </figure>
-        </div>
-      </details>
+      <h2 id="examples-title">Explore the case library</h2>
+      <p>All 60 cases now have their own tab. Search by company, industry, claim or pattern, and filter by market connection and evidence status. Each case includes a claimed-benefit versus documented-outcome comparison and source links.</p>
+      <div class="actions"><a href="aiwashingcases.html">Explore all 60 cases →</a><a href="aiwashingcases.html#AW031">Start with the 30 new cases</a><a href="aiwashing-cases.csv" download>Download 60 cases · CSV</a></div>
     </section>
     <section id="charts" aria-labelledby="charts-title">
       <h2 id="charts-title">How the comparisons work</h2>
       <div class="grid">
-        <article><h3>When both numbers are available</h3><p><a href="#AW011">Workado</a> compares 98% advertised accuracy with approximately 53% in the FTC's general-purpose content test. Its panel shows the scale, approximate 45-percentage-point gap, and test limitations.</p></article>
-        <article><h3>When output has not been measured</h3><p><a href="#AW020">Builder.ai</a> pairs its founder's at-least-80% automation claim with former-employee accounts of extensive manual work and management's response. A comparable measured percentage is unavailable, so the panel makes no numerical gap estimate.</p></article>
+        <article><h3>When both numbers are available</h3><p><a href="aiwashingcases.html#AW011">Workado</a> compares 98% advertised accuracy with approximately 53% in the FTC's general-purpose content test. Its panel shows the scale, approximate 45-percentage-point gap, and test limitations.</p></article>
+        <article><h3>When output has not been measured</h3><p><a href="aiwashingcases.html#AW020">Builder.ai</a> pairs its founder's at-least-80% automation claim with former-employee accounts of extensive manual work and management's response. A comparable measured percentage is unavailable, so the panel makes no numerical gap estimate.</p></article>
       </div>
-      <p class="sources">Each <a href="#examples">case panel</a> links the evidence used. These comparisons do not estimate prevalence or rank societal harm.</p>
+      <p class="sources">Each <a href="aiwashingcases.html">case panel</a> links the evidence used. These comparisons do not estimate prevalence or rank societal harm.</p>
     </section>
     <section id="impacts" aria-labelledby="impacts-title">
       <h2 id="impacts-title">How AI washing can affect society</h2>
@@ -917,7 +221,7 @@
       <details><summary>3. A narrow test presented as universal accuracy</summary><p><strong>Example:</strong> Workado’s accuracy claim. <strong>Check:</strong> Match the evaluation data to the intended users and content. Ask for error rates and test conditions as well as a headline percentage.</p></details>
       <details><summary>4. Absolute promises about expertise, fairness, or compliance</summary><p><strong>Examples:</strong> DoNotPay, IntelliVision, and accessiBe. <strong>Check:</strong> Ask what the claim means operationally, which situations are covered, and what independent evaluation supports it.</p></details>
       <details><summary>5. AI branding attached to unsupported earnings promises</summary><p><strong>Example:</strong> Air AI’s disputed business-growth claims. <strong>Check:</strong> Examine typical earnings after costs and the actual refund conditions. AI branding does not establish that a business opportunity is profitable.</p></details>
-      <p class="sources">Pattern classifications are editorial analysis of the <a href="#examples">documented cases</a> and the <a href="#data-2026">2026 Air AI update</a>.</p>
+      <p class="sources">Pattern classifications are editorial analysis of the <a href="aiwashingcases.html">documented cases</a> and the <a href="#data-2026">2026 Air AI update</a>.</p>
     </section>
     <section id="data-2026" aria-labelledby="data-title">
       <h2 id="data-title">A source for more recent data in 2026</h2>
@@ -943,7 +247,7 @@
         <li><strong>Record:</strong> Save company, market, claim, publication date, conduct period, case identifier, source URL, procedural status, and review date.</li>
         <li><strong>Update:</strong> Group developments under the same case identifier. A complaint and later settlement are two events in one case, not two separate incidents.</li>
       </ol>
-      <div class="note"><p><strong>Research checked: October 18, 2026.</strong> The 2026 section highlights Air AI; the dataset also includes the SEC’s January 2026 WOLO Wealth complaint and September 2026 complaints involving <a href="#AW028">Cryptoaiml</a> and <a href="#AW029">TSAI Pro</a>, alongside historical examples. It is a manually curated overview, not an automatically refreshing feed or an exhaustive 2026 dataset.</p></div>
+      <div class="note"><p><strong>Research checked: October 18, 2026.</strong> The 2026 section highlights Air AI; the dataset also includes the SEC’s January 2026 WOLO Wealth complaint and September 2026 complaints involving <a href="aiwashingcases.html#AW028">Cryptoaiml</a> and <a href="aiwashingcases.html#AW029">TSAI Pro</a>, alongside historical examples. It is a manually curated overview, not an automatically refreshing feed or an exhaustive 2026 dataset.</p></div>
     </section>
     <section id="canada" aria-labelledby="canada-title">
       <h2 id="canada-title">Canadian context</h2>
@@ -964,40 +268,17 @@
       <div class="note"><p><strong>Limits of this overview:</strong> These selected cases show that misleading AI claims occur across industries. They do not measure how common AI washing is or establish which industry has the highest rate.</p></div>
     </section>
   </main>
-  <footer><div class="wrap">Selected enforcement records, advertising decisions, and reporting from 2020–2026. Updated October 18, 2026. Charts and content work offline; source links require internet access.</div></footer>
+  <footer><div class="wrap">Selected enforcement records, advertising decisions, and reporting from 2009–2026. Expanded October 21, 2026. Original case reviews: October 18; additions: October 21. Charts and content work offline; source links require internet access.</div></footer>
   <script>
+    // Preserve old links to individual case records after moving the library.
     (() => {
-      const records = [...document.querySelectorAll('.case-record')];
-      const search = document.getElementById('case-search');
-      const market = document.getElementById('market-filter');
-      const status = document.getElementById('status-filter');
-      const count = document.getElementById('case-count');
-      const applyFilters = () => {
-        const query = search.value.trim().toLowerCase();
-        let visible = 0;
-        records.forEach(record => {
-          record.hidden = !(record.textContent.toLowerCase().includes(query)
-            && (!market.value || record.dataset.market === market.value)
-            && (!status.value || record.dataset.status === status.value));
-          if (!record.hidden) visible++;
-        });
-        count.textContent = visible + ' of ' + records.length + ' cases shown. Downloads always contain all 30 records.'
-          + (visible === 0 ? ' Try a broader search or reset filters.' : '');
+      const redirectCase = () => {
+        if (/^#AW0(?:[0-5][0-9]|60)(?:-chart)?$/.test(location.hash)) {
+          location.replace('aiwashingcases.html' + location.hash);
+        }
       };
-      search.addEventListener('input', applyFilters);
-      market.addEventListener('change', applyFilters);
-      status.addEventListener('change', applyFilters);
-      const reset = () => { search.value = ''; market.value = ''; status.value = ''; applyFilters(); };
-      document.getElementById('reset-cases').addEventListener('click', reset);
-      document.getElementById('expand-cases').addEventListener('click', () => records.filter(r => !r.hidden).forEach(r => r.open = true));
-      document.getElementById('collapse-cases').addEventListener('click', () => records.forEach(r => r.open = false));
-      const revealHash = () => {
-        const record = records.find(r => '#' + r.id === location.hash);
-        if (record) { reset(); record.open = true; record.scrollIntoView(); }
-      };
-      window.addEventListener('hashchange', revealHash);
-      document.getElementById('dataset-controls').hidden = false;
-      revealHash();
+      window.addEventListener('hashchange', redirectCase);
+      redirectCase();
     })();
   </script>
 </body>
