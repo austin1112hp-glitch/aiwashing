@@ -1,7 +1,7 @@
 {
-  "title": "60 AI-washing cases: claimed benefits versus documented outcomes",
-  "version": "2026-10-21",
-  "scope": "60 purposively selected company/operation cases; not a prevalence estimate. Historical source statuses, not live docket certification.",
+  "title": "100 AI-washing cases: claimed benefits versus documented outcomes",
+  "version": "2026-10-24",
+  "scope": "100 purposively selected company, operation, or specified enforcement-example records. Includes findings, allegations, disputed claims and research corrections; not 100 proven frauds or a prevalence estimate. AW061–AW100 add international coverage; 24 of these 40 have 2026 source events, including updates about older conduct.",
   "cases": [
     {
       "id": "AW001",
@@ -3610,7 +3610,2079 @@
         ]
       },
       "context_data": null
+    },
+    {
+      "id": "AW061",
+      "reviewed_on": "2026-10-24",
+      "company": "OpenAI / ChatGPT — Texas safety-marketing lawsuit",
+      "country": "United States",
+      "industry": "Generative AI / consumer chatbots",
+      "market_category": "Private fundraising",
+      "business_summary": "Provides a conversational AI service.",
+      "ai_claim": "Texas alleges marketing conveyed that ChatGPT was safe, accurate and reliable, including for younger users.",
+      "why_ai_washing": "Conditional concern that AI safety assurances exceeded substantiated protections.",
+      "evidence_status": "Regulatory allegations",
+      "source_event_date": "2026-10-23",
+      "date_basis": "Texas lawsuit announcement and petition",
+      "limitations": "No liability finding. OpenAI says it works with experts to mitigate risks and add safeguards. This record does not establish a population harm rate or that every use is unsafe.",
+      "sources": [
+        {
+          "title": "Texas AG: lawsuit announcement",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-sues-openai-and-ceo-sam-altman-lying-users-and-harming-texans"
+        },
+        {
+          "title": "Texas original petition",
+          "url": "https://www.texasattorneygeneral.gov/sites/default/files/images/press/OpenAI%20Final.pdf"
+        },
+        {
+          "title": "Texas Tribune: reporting and OpenAI response",
+          "url": "https://www.texastribune.org/2026/10/23/ken-paxton-chatgpt-openai-lawsuit-texas-attorney-general/"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "AI capability and scalability claims can shape private investment expectations.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Texas alleges marketing conveyed that ChatGPT was safe, accurate and reliable, including for younger users.",
+        "documented_outcome": "Texas filed a consumer-protection lawsuit alleging inadequate safeguards and risk disclosures. The cited record contains allegations, not a judicial test of safety.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "No liability finding. OpenAI says it works with experts to mitigate risks and add safeguards. This record does not establish a population harm rate or that every use is unsafe.",
+        "evidence_status": "Regulatory allegations",
+        "source_date": "2026-10-23",
+        "sources": [
+          {
+            "title": "Texas AG: lawsuit announcement",
+            "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-sues-openai-and-ceo-sam-altman-lying-users-and-harming-texans"
+          },
+          {
+            "title": "Texas original petition",
+            "url": "https://www.texasattorneygeneral.gov/sites/default/files/images/press/OpenAI%20Final.pdf"
+          },
+          {
+            "title": "Texas Tribune: reporting and OpenAI response",
+            "url": "https://www.texastribune.org/2026/10/23/ken-paxton-chatgpt-openai-lawsuit-texas-attorney-general/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW062",
+      "reviewed_on": "2026-10-24",
+      "company": "HRY Games / AI Scorecast",
+      "country": "Türkiye; advertising reviewed in the United Kingdom",
+      "industry": "Sports betting analytics",
+      "market_category": "Other",
+      "business_summary": "Offers an app forecasting football results and assembling betting slips.",
+      "ai_claim": "An April 2026 ad claimed 97% prediction accuracy and implied that its AI recommendations made betting profits very likely.",
+      "why_ai_washing": "The advertising inflated the financial certainty associated with an AI prediction tool.",
+      "evidence_status": "Advertising ruling upheld",
+      "source_event_date": "2026-10-14",
+      "assessment": "Documented misleading AI-benefit marketing.",
+      "stock_market_connection": "No public-equity claim; an example of overstated predictive certainty relevant to AI investment pitches.",
+      "limitations": "The ASA understood that the app used AI. It did not publish a measured accuracy rate or rule that the 97% figure itself was false. HRY Games did not respond.",
+      "sources": [
+        {
+          "title": "ASA: HRY Games / AI Scorecast ruling, 14 October 2026",
+          "url": "https://www.asa.org.uk/rulings/hry-games-a26-1345629-hry-games.html"
+        }
+      ],
+      "date_basis": "ASA ruling on April 2026 advertising",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "An April 2026 ad claimed 97% prediction accuracy and implied that its AI recommendations made betting profits very likely.",
+        "documented_outcome": "The ASA upheld its complaint on 14 October 2026: emphasizing success without explaining losing tips or financial risk made the ad misleading and irresponsible.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Claimed 97%; no independently measured actual accuracy in the ruling.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The ASA understood that the app used AI. It did not publish a measured accuracy rate or rule that the 97% figure itself was false. HRY Games did not respond.",
+        "evidence_status": "Advertising ruling upheld",
+        "source_date": "2026-10-14",
+        "sources": [
+          {
+            "title": "ASA: HRY Games / AI Scorecast ruling, 14 October 2026",
+            "url": "https://www.asa.org.uk/rulings/hry-games-a26-1345629-hry-games.html"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW063",
+      "reviewed_on": "2026-10-24",
+      "company": "Aurum Foundation / associated Aurum and Neyro brands",
+      "country": "International; New Zealand and multiple overseas regulator warnings",
+      "industry": "Crypto investment / automated trading",
+      "market_category": "Investment",
+      "business_summary": "Promotes crypto trading bots, custody, staking and related financial products.",
+      "ai_claim": "Marketing portrayed AI trading as providing stable passive income and effortless profits with minimal risk.",
+      "why_ai_washing": "AI terminology supports a low-risk income impression contradicted by the regulator's risk concerns and reported withdrawal difficulty.",
+      "evidence_status": "Regulatory warning / risk concerns",
+      "source_event_date": "2026-10-12",
+      "assessment": "Suspected AI-benefit overstatement; no final fraud finding established by this warning.",
+      "stock_market_connection": "Retail investment solicitation rather than a listed-company AI disclosure.",
+      "limitations": "The FMA warning does not prove that every bot is fictitious or establish a universal investor-loss rate. The regulator identifies several associated brands as one operation; they are not separate cases.",
+      "sources": [
+        {
+          "title": "New Zealand FMA: Aurum Foundation warning, 12 October 2026",
+          "url": "https://www.fma.govt.nz/library/unregistered-businesses/aurum-foundation-unregistered-financial-service-provider-promotion-of-high-risk-products"
+        }
+      ],
+      "date_basis": "FMA warning publication",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Marketing portrayed AI trading as providing stable passive income and effortless profits with minimal risk.",
+        "documented_outcome": "On 12 October 2026 the FMA warned that the language could understate crypto risk, recorded a blocked-withdrawal report, and cited overseas pyramid/Ponzi indicators and authorization warnings.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The FMA warning does not prove that every bot is fictitious or establish a universal investor-loss rate. The regulator identifies several associated brands as one operation; they are not separate cases.",
+        "evidence_status": "Regulatory warning / risk concerns",
+        "source_date": "2026-10-12",
+        "sources": [
+          {
+            "title": "New Zealand FMA: Aurum Foundation warning, 12 October 2026",
+            "url": "https://www.fma.govt.nz/library/unregistered-businesses/aurum-foundation-unregistered-financial-service-provider-promotion-of-high-risk-products"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW064",
+      "reviewed_on": "2026-10-24",
+      "company": "Cash FX Group / The Conversion Pros",
+      "country": "Brazil; United States; international investors",
+      "industry": "Forex investment / multilevel marketing",
+      "market_category": "Investment",
+      "business_summary": "Operated a purported foreign-exchange commodity pool.",
+      "ai_claim": "Expert traders, proprietary algorithms and AI generated returns up to 15% weekly.",
+      "why_ai_washing": "AI profits were offered as the explanation for allegedly Ponzi-funded payments.",
+      "evidence_status": "Regulatory allegations",
+      "source_event_date": "2026-09-25",
+      "date_basis": "CFTC complaint announcement",
+      "limitations": "Allegations, not findings. Geography identifies the Brazil-based CEO and US promoters, not a verified headquarters. No matched weekly return series.",
+      "sources": [
+        {
+          "title": "CFTC: Cash FX enforcement action",
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/9304-26"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Investment solicitation; not a measured exchange-listed stock return.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Expert traders, proprietary algorithms and AI generated returns up to 15% weekly.",
+        "documented_outcome": "The CFTC alleged minimal forex trading, diversion of nearly all participant funds, fabricated statements and deposit-funded payouts.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Allegations, not findings. Geography identifies the Brazil-based CEO and US promoters, not a verified headquarters. No matched weekly return series.",
+        "evidence_status": "Regulatory allegations",
+        "source_date": "2026-09-25",
+        "sources": [
+          {
+            "title": "CFTC: Cash FX enforcement action",
+            "url": "https://www.cftc.gov/PressRoom/PressReleases/9304-26"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW065",
+      "reviewed_on": "2026-10-24",
+      "company": "AI Quest Trading / Erica (Erika) Aguilar",
+      "country": "Philippines",
+      "industry": "AI-assisted stock-investment packages",
+      "market_category": "Investment",
+      "business_summary": "Solicited funds for investment packages.",
+      "ai_claim": "Guaranteed AI-assisted returns, including 150% over 30 days.",
+      "why_ai_washing": "Extreme guaranteed AI returns lack substantiated trading evidence in the cited record.",
+      "evidence_status": "Regulatory cease-and-desist order",
+      "source_event_date": "2026-09-15",
+      "date_basis": "Order issuance; published September 17",
+      "limitations": "Conditional case: the order establishes securities violations, not technical falsity of AI or proof every promised return was fictitious.",
+      "sources": [
+        {
+          "title": "Philippine SEC: AI Quest Trading order",
+          "url": "https://www.sec.gov.ph/issuance/ai-quest-trading-and-erika-aguilar/"
+        },
+        {
+          "title": "Order transcript",
+          "url": "https://asg.ph/law-library/doc/e374864c-b8cc-4e67-a0ee-571c9f7f607e"
+        },
+        {
+          "title": "BitPinas: order reporting",
+          "url": "https://bitpinas.com/regulation/sec-aiquest-cdo/"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Investment solicitation; not a measured exchange-listed stock return.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Guaranteed AI-assisted returns, including 150% over 30 days.",
+        "documented_outcome": "The Philippine SEC ordered a stop to unregistered investment solicitation and asset transfers.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Conditional case: the order establishes securities violations, not technical falsity of AI or proof every promised return was fictitious.",
+        "evidence_status": "Regulatory cease-and-desist order",
+        "source_date": "2026-09-15",
+        "sources": [
+          {
+            "title": "Philippine SEC: AI Quest Trading order",
+            "url": "https://www.sec.gov.ph/issuance/ai-quest-trading-and-erika-aguilar/"
+          },
+          {
+            "title": "Order transcript",
+            "url": "https://asg.ph/law-library/doc/e374864c-b8cc-4e67-a0ee-571c9f7f607e"
+          },
+          {
+            "title": "BitPinas: order reporting",
+            "url": "https://bitpinas.com/regulation/sec-aiquest-cdo/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW066",
+      "reviewed_on": "2026-10-24",
+      "company": "Joonko — Ilit Raz",
+      "country": "United States; Israel",
+      "industry": "Recruitment technology",
+      "market_category": "Private fundraising",
+      "business_summary": "Matched employers with candidates from underrepresented backgrounds.",
+      "ai_claim": "Seven AI algorithms and machine-learning processes enabled automated candidate matching.",
+      "why_ai_washing": "Specific AI capabilities were allegedly misrepresented to investors.",
+      "evidence_status": "Mixed: guilty plea / technical allegations",
+      "source_event_date": "2026-09-11",
+      "date_basis": "Related guilty plea; SEC technical allegations published in 2024",
+      "limitations": "The plea announcement focuses on fabricated customers and revenue. It is not a separate adjudication of every technical allegation.",
+      "sources": [
+        {
+          "title": "SEC complaint, paragraphs 67–68",
+          "url": "https://www.sec.gov/files/litigation/complaints/2024/comp-pr2024-70.pdf"
+        },
+        {
+          "title": "DOJ: Joonko founder guilty plea",
+          "url": "https://www.justice.gov/usao-sdny/pr/founder-and-former-ceo-artificial-intelligence-company-pleads-guilty-securities-fraud"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "AI capability and scalability claims can shape private investment expectations.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Seven AI algorithms and machine-learning processes enabled automated candidate matching.",
+        "documented_outcome": "The SEC alleged Joonko lacked the described processes and capabilities. A related securities-fraud guilty plea followed in September 2026.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The plea announcement focuses on fabricated customers and revenue. It is not a separate adjudication of every technical allegation.",
+        "evidence_status": "Mixed: guilty plea / technical allegations",
+        "source_date": "2026-09-11",
+        "sources": [
+          {
+            "title": "SEC complaint, paragraphs 67–68",
+            "url": "https://www.sec.gov/files/litigation/complaints/2024/comp-pr2024-70.pdf"
+          },
+          {
+            "title": "DOJ: Joonko founder guilty plea",
+            "url": "https://www.justice.gov/usao-sdny/pr/founder-and-former-ceo-artificial-intelligence-company-pleads-guilty-securities-fraud"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW067",
+      "reviewed_on": "2026-10-24",
+      "company": "Udisense / Nanit — smart baby monitor",
+      "country": "United States",
+      "industry": "Infant monitoring / computer vision",
+      "market_category": "Other",
+      "business_summary": "Sells monitors with tracking, algorithmic insights and AI features.",
+      "ai_claim": "Advertising presented its monitor as the smartest and implied broad protective alerts.",
+      "why_ai_washing": "AI features were used to support broader superiority and protection impressions than the evidence justified.",
+      "evidence_status": "Advertising self-regulation",
+      "source_event_date": "2026-09-01",
+      "date_basis": "NAD decision announcement",
+      "limitations": "Nanit disagreed with aspects but agreed to comply. Some wellness messages were acceptable; the decision does not establish absent AI or a measured infant-harm rate.",
+      "sources": [
+        {
+          "title": "NAD: Nanit decision and response",
+          "url": "https://bbbprograms.org/media/newsroom/decisions/udisense-nanit"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Advertising presented its monitor as the smartest and implied broad protective alerts.",
+        "documented_outcome": "NAD found inadequate support for comparative superiority and required narrower safety and alert claims.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Nanit disagreed with aspects but agreed to comply. Some wellness messages were acceptable; the decision does not establish absent AI or a measured infant-harm rate.",
+        "evidence_status": "Advertising self-regulation",
+        "source_date": "2026-09-01",
+        "sources": [
+          {
+            "title": "NAD: Nanit decision and response",
+            "url": "https://bbbprograms.org/media/newsroom/decisions/udisense-nanit"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW068",
+      "reviewed_on": "2026-10-24",
+      "company": "Cox Media Group / MindSift / 1010 Digital Works — Active Listening",
+      "country": "United States",
+      "industry": "Advertising technology",
+      "market_category": "Other",
+      "business_summary": "Sold audience-targeting services to businesses.",
+      "ai_claim": "AI identified conversations captured by smart devices to target nearby customers.",
+      "why_ai_washing": "A specific AI listening capability was marketed that the FTC said was not delivered.",
+      "evidence_status": "Regulatory settlement",
+      "source_event_date": "2026-08-27",
+      "date_basis": "FTC finalization of consent orders",
+      "limitations": "Settled allegations, not a trial verdict. The case does not establish actual eavesdropping. Three firms are grouped as one service.",
+      "sources": [
+        {
+          "title": "FTC: final Active Listening orders",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-finalizes-orders-cox-media-group-two-other-firms-settling-charges-they-deceived-customers-about"
+        },
+        {
+          "title": "FTC: CMG complaint",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2423029c4838cmgfinalcomplaint.pdf"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI identified conversations captured by smart devices to target nearby customers.",
+        "documented_outcome": "The FTC alleged no voice data was used: the service resold brokered email lists, with faulty geographic targeting. Consent orders were finalized.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Settled allegations, not a trial verdict. The case does not establish actual eavesdropping. Three firms are grouped as one service.",
+        "evidence_status": "Regulatory settlement",
+        "source_date": "2026-08-27",
+        "sources": [
+          {
+            "title": "FTC: final Active Listening orders",
+            "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-finalizes-orders-cox-media-group-two-other-firms-settling-charges-they-deceived-customers-about"
+          },
+          {
+            "title": "FTC: CMG complaint",
+            "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2423029c4838cmgfinalcomplaint.pdf"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW069",
+      "reviewed_on": "2026-10-24",
+      "company": "BG Wealth Sharing / DSJ Exchange / HQIEX",
+      "country": "United States; international solicitation including Philippines",
+      "industry": "Crypto trading / investment signals",
+      "market_category": "Investment",
+      "business_summary": "Marketed pooled trading and crypto signals.",
+      "ai_claim": "AI strategies allegedly offered 99.6% success, protected principal and at least 60% monthly returns.",
+      "why_ai_washing": "Extraordinary AI guarantees were paired with deceptive investment disclosures.",
+      "evidence_status": "Regulatory allegations / emergency order",
+      "source_event_date": "2026-06-03",
+      "date_basis": "Texas emergency order",
+      "limitations": "The order provided hearing rights and is not a criminal conviction. Successor HQIEX is grouped here; unrelated BG Wealth Advisory LLC is not implicated.",
+      "sources": [
+        {
+          "title": "Texas State Securities Board: emergency order",
+          "url": "https://www.ssb.texas.gov/sites/default/files/2026-06/ENF-26-CDO-1897.pdf"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Investment solicitation; not a measured exchange-listed stock return.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI strategies allegedly offered 99.6% success, protected principal and at least 60% monthly returns.",
+        "documented_outcome": "Texas's emergency order found materially misleading return, risk and platform claims and inadequate disclosure of trading and custody; it described additional withdrawal demands.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The order provided hearing rights and is not a criminal conviction. Successor HQIEX is grouped here; unrelated BG Wealth Advisory LLC is not implicated.",
+        "evidence_status": "Regulatory allegations / emergency order",
+        "source_date": "2026-06-03",
+        "sources": [
+          {
+            "title": "Texas State Securities Board: emergency order",
+            "url": "https://www.ssb.texas.gov/sites/default/files/2026-06/ENF-26-CDO-1897.pdf"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW070",
+      "reviewed_on": "2026-10-24",
+      "company": "Privvy Investments / Gateway Digital Investments — Nathan Fuller",
+      "country": "United States",
+      "industry": "Cryptocurrency investment",
+      "market_category": "Investment",
+      "business_summary": "Sold joint-venture interests in purported crypto arbitrage.",
+      "ai_claim": "Proprietary AI bots would generate rapid trading profits; some pitches promised 40–50% in 30–45 days.",
+      "why_ai_washing": "AI trading performance allegedly concealed nonperforming bots and diverted funds.",
+      "evidence_status": "Regulatory allegations",
+      "source_event_date": "2026-05-29",
+      "date_basis": "SEC release; complaint filed May 28, concerning 2022–2024 conduct",
+      "limitations": "No court finding in the cited release. Deposit-funded payments are not trading returns, and a verified return series is unavailable.",
+      "sources": [
+        {
+          "title": "SEC: Fuller and related entities",
+          "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26558"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Investment solicitation; not a measured exchange-listed stock return.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Proprietary AI bots would generate rapid trading profits; some pitches promised 40–50% in 30–45 days.",
+        "documented_outcome": "The SEC alleged bots did not work as represented, money was misappropriated and new deposits funded Ponzi-like payments.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "No court finding in the cited release. Deposit-funded payments are not trading returns, and a verified return series is unavailable.",
+        "evidence_status": "Regulatory allegations",
+        "source_date": "2026-05-29",
+        "sources": [
+          {
+            "title": "SEC: Fuller and related entities",
+            "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26558"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW071",
+      "reviewed_on": "2026-10-24",
+      "company": "Zhejiang Xihui Information Technology — 浙江西慧信息技术有限公司",
+      "country": "China",
+      "industry": "AI video / e-commerce training",
+      "market_category": "Other",
+      "business_summary": "Sold courses about earning income through AI-generated sales videos.",
+      "ai_claim": "The work was easy to learn and could be done with an ordinary smartphone.",
+      "why_ai_washing": "The delivered requirements conflicted with the simplicity used to sell the AI income opportunity.",
+      "evidence_status": "Mediated consumer complaint",
+      "source_event_date": "2026-05-11",
+      "date_basis": "Publication of mediation outcome; purchase in October 2025",
+      "limitations": "One consumer complaint and mediation, not a court finding, representative earnings study, or proof the AI was absent.",
+      "sources": [
+        {
+          "title": "The Paper: consumer-protection mediation report",
+          "url": "https://www.thepaper.cn/newsDetail_forward_33156376"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "The work was easy to learn and could be done with an ordinary smartphone.",
+        "documented_outcome": "A consumer reported a later requirement to buy a special phone and difficulty using the course. Authorities mediated a refund and warned the firm about marketing.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "One consumer complaint and mediation, not a court finding, representative earnings study, or proof the AI was absent.",
+        "evidence_status": "Mediated consumer complaint",
+        "source_date": "2026-05-11",
+        "sources": [
+          {
+            "title": "The Paper: consumer-protection mediation report",
+            "url": "https://www.thepaper.cn/newsDetail_forward_33156376"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW072",
+      "reviewed_on": "2026-10-24",
+      "company": "Fengkou Bushou / 财经琪姐 / 珂男探股 — published account-enforcement example",
+      "country": "China",
+      "industry": "Stock-selection software marketing",
+      "market_category": "Investment",
+      "business_summary": "Accounts promoted stock-selection products on Kuaishou.",
+      "ai_claim": "AI stock selection and predictive models were marketed as effective or accurate.",
+      "why_ai_washing": "The regulator linked AI prediction language with misleading financial-product promotion.",
+      "evidence_status": "Regulatory findings / corrective action",
+      "source_event_date": "2026-04-16",
+      "date_basis": "CAC account-enforcement publication",
+      "limitations": "Grouped as one published example, without asserting common ownership or attributing every quoted claim to every account. No audited backtest or realized return series was disclosed.",
+      "sources": [
+        {
+          "title": "CAC: financial misinformation and account enforcement",
+          "url": "https://www.cac.gov.cn/2026-04/16/c_1778078583431637.htm"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Investment solicitation; not a measured exchange-listed stock return.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI stock selection and predictive models were marketed as effective or accurate.",
+        "documented_outcome": "China's CAC identified exaggerated or false promotion and reported action against the accounts.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Grouped as one published example, without asserting common ownership or attributing every quoted claim to every account. No audited backtest or realized return series was disclosed.",
+        "evidence_status": "Regulatory findings / corrective action",
+        "source_date": "2026-04-16",
+        "sources": [
+          {
+            "title": "CAC: financial misinformation and account enforcement",
+            "url": "https://www.cac.gov.cn/2026-04/16/c_1778078583431637.htm"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW073",
+      "reviewed_on": "2026-10-24",
+      "company": "Upstart — Model 22 representations",
+      "country": "United States",
+      "industry": "AI lending / credit risk",
+      "market_category": "Public issuer",
+      "business_summary": "Uses AI models to assess borrowers and support lending decisions.",
+      "ai_claim": "Model 22 was presented as improving risk separation and loan approvals.",
+      "why_ai_washing": "Alleged mismatch between marketed model improvements and internal performance limitations.",
+      "evidence_status": "Civil allegations",
+      "source_event_date": "2026-04-07",
+      "date_basis": "Investor lawsuit filing about 2025 model representations",
+      "limitations": "A complaint is not a finding. Model recalibration or disappointing revenue alone does not establish deception; no comparable model accuracy pair is supplied.",
+      "sources": [
+        {
+          "title": "Upstart investor complaint",
+          "url": "https://bgandg.com/wp-content/uploads/2026/04/UPST_complaint.pdf"
+        },
+        {
+          "title": "Banking Dive: complaint context",
+          "url": "https://www.bankingdive.com/news/upstart-investors-sue-overreactive-ai-revenue-adjustment-damages/817226/"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "AI capability representations can influence expectations about a listed business; no stock-price causation is established here.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Model 22 was presented as improving risk separation and loan approvals.",
+        "documented_outcome": "An April 2026 investor complaint alleged that the model overreacted to macroeconomic signals and that accuracy and approval-growth representations were overstated.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "A complaint is not a finding. Model recalibration or disappointing revenue alone does not establish deception; no comparable model accuracy pair is supplied.",
+        "evidence_status": "Civil allegations",
+        "source_date": "2026-04-07",
+        "sources": [
+          {
+            "title": "Upstart investor complaint",
+            "url": "https://bgandg.com/wp-content/uploads/2026/04/UPST_complaint.pdf"
+          },
+          {
+            "title": "Banking Dive: complaint context",
+            "url": "https://www.bankingdive.com/news/upstart-investors-sue-overreactive-ai-revenue-adjustment-damages/817226/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW074",
+      "reviewed_on": "2026-10-24",
+      "company": "Metaverse Foreign Exchange / MTFE",
+      "country": "Canada; Bangladesh and Sri Lanka investor exposure",
+      "industry": "Forex / crypto investment app",
+      "market_category": "Investment",
+      "business_summary": "Offered purported automated investment trading.",
+      "ai_claim": "AI-generated trading gains required little effort and involved low risk.",
+      "why_ai_washing": "The AI trading story was linked to allegedly fictitious investment performance.",
+      "evidence_status": "Police investigation / recovery update",
+      "source_event_date": "2026-03-30",
+      "date_basis": "2026 investigation update about 2022–2023 conduct",
+      "limitations": "Recovered funds are not total losses or full restitution. The cited investigation is not a final judgment against every participant.",
+      "sources": [
+        {
+          "title": "Investigative Journalism Foundation: MTFE investigation",
+          "url": "https://theijf.org/article/mtfe-alleged-pyramid-scheme"
+        },
+        {
+          "title": "The Business Standard: CID recovery update",
+          "url": "https://www.tbsnews.net/bangladesh/cid-recovers-tk4414cr-laundered-abroad-through-mtfe-fraud-1397616"
+        },
+        {
+          "title": "Canadian securities warning",
+          "url": "https://www.securities-administrators.ca/investor-alerts/metaverse-foreign-exchange-group-inc/"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Investment solicitation; not a measured exchange-listed stock return.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI-generated trading gains required little effort and involved low risk.",
+        "documented_outcome": "After the 2023 collapse, Bangladesh CID's March 2026 recovery update described fabricated balances and profits and funds transferred abroad.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Recovered funds are not total losses or full restitution. The cited investigation is not a final judgment against every participant.",
+        "evidence_status": "Police investigation / recovery update",
+        "source_date": "2026-03-30",
+        "sources": [
+          {
+            "title": "Investigative Journalism Foundation: MTFE investigation",
+            "url": "https://theijf.org/article/mtfe-alleged-pyramid-scheme"
+          },
+          {
+            "title": "The Business Standard: CID recovery update",
+            "url": "https://www.tbsnews.net/bangladesh/cid-recovers-tk4414cr-laundered-abroad-through-mtfe-fraud-1397616"
+          },
+          {
+            "title": "Canadian securities warning",
+            "url": "https://www.securities-administrators.ca/investor-alerts/metaverse-foreign-exchange-group-inc/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW075",
+      "reviewed_on": "2026-10-24",
+      "company": "Galgotias University — Orion robot demonstration",
+      "country": "India",
+      "industry": "Higher education / robotics",
+      "market_category": "Other",
+      "business_summary": "Exhibited robotics at an AI summit.",
+      "ai_claim": "A representative presented the Orion robot dog as a university-developed innovation.",
+      "why_ai_washing": "The presentation overstated the origin of an AI research capability.",
+      "evidence_status": "Public correction / apology",
+      "source_event_date": "2026-02-18",
+      "date_basis": "Public apology and exhibition controversy",
+      "limitations": "The university blamed an ill-informed representative and denied institutional intent. The robot was real; Unitree is not accused.",
+      "sources": [
+        {
+          "title": "Indian Express: demonstration and university response",
+          "url": "https://indianexpress.com/article/delhi/robot-dog-ai-india-expo-summit-galgotias-university-public-10538752/"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "A representative presented the Orion robot dog as a university-developed innovation.",
+        "documented_outcome": "The robot was identified as a commercial Unitree Go2; the university apologized for incorrect information.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The university blamed an ill-informed representative and denied institutional intent. The robot was real; Unitree is not accused.",
+        "evidence_status": "Public correction / apology",
+        "source_date": "2026-02-18",
+        "sources": [
+          {
+            "title": "Indian Express: demonstration and university response",
+            "url": "https://indianexpress.com/article/delhi/robot-dog-ai-india-expo-summit-galgotias-university-public-10538752/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW076",
+      "reviewed_on": "2026-10-24",
+      "company": "Praetorian Group International / PGI Global — Ramil Palafox",
+      "country": "United States; Philippines; international investors",
+      "industry": "Bitcoin investment",
+      "market_category": "Investment",
+      "business_summary": "Sold memberships in a purported bitcoin trading operation.",
+      "ai_claim": "Marketing promoted AI auto-trading and daily returns of 0.5–3%.",
+      "why_ai_washing": "The marketed AI profit engine conflicted with the criminal record's account of fabricated returns.",
+      "evidence_status": "Criminal guilty plea / sentencing",
+      "source_event_date": "2026-02-12",
+      "date_basis": "Sentencing announcement; historical scheme",
+      "limitations": "The specific AI claim comes from the SEC complaint; sentencing concerns the broader fraud, not a measured daily bot-return test.",
+      "sources": [
+        {
+          "title": "DOJ: Palafox sentencing",
+          "url": "https://www.justice.gov/usao-edva/pr/praetorian-group-international-ceo-sentenced-20-years-prison-200m-bitcoin-ponzi-scheme"
+        },
+        {
+          "title": "SEC complaint, paragraph 31",
+          "url": "https://www.sec.gov/file/comp-pr2025-69"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Investment solicitation; not a measured exchange-listed stock return.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Marketing promoted AI auto-trading and daily returns of 0.5–3%.",
+        "documented_outcome": "DOJ described insufficient trading, repayments financed with investor deposits and fictitious gains. Palafox received a 20-year sentence.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The specific AI claim comes from the SEC complaint; sentencing concerns the broader fraud, not a measured daily bot-return test.",
+        "evidence_status": "Criminal guilty plea / sentencing",
+        "source_date": "2026-02-12",
+        "sources": [
+          {
+            "title": "DOJ: Palafox sentencing",
+            "url": "https://www.justice.gov/usao-edva/pr/praetorian-group-international-ceo-sentenced-20-years-prison-200m-bitcoin-ponzi-scheme"
+          },
+          {
+            "title": "SEC complaint, paragraph 31",
+            "url": "https://www.sec.gov/file/comp-pr2025-69"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW077",
+      "reviewed_on": "2026-10-24",
+      "company": "Beijing Aolande — 北京奥蓝德信息科技有限公司",
+      "country": "China",
+      "industry": "AI software distribution",
+      "market_category": "Other",
+      "business_summary": "Sold deployment software.",
+      "ai_claim": "DeepSeek branding suggested official affiliation.",
+      "why_ai_washing": "Misrepresented AI-service provenance.",
+      "evidence_status": "Regulatory findings / administrative order",
+      "source_event_date": "2026-02-06",
+      "date_basis": "SAMR publication; individual penalty date unspecified",
+      "limitations": "An affiliation finding, not a technical quality test.",
+      "sources": [
+        {
+          "title": "SAMR: AI-related unfair-competition cases",
+          "url": "https://www.samr.gov.cn/xw/zj/art/2026/art_0bea53d4e3904015a340b4e83241a8ec.html"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "DeepSeek branding suggested official affiliation.",
+        "documented_outcome": "The regulator found no affiliation and ordered cessation and a fine.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "An affiliation finding, not a technical quality test.",
+        "evidence_status": "Regulatory findings / administrative order",
+        "source_date": "2026-02-06",
+        "sources": [
+          {
+            "title": "SAMR: AI-related unfair-competition cases",
+            "url": "https://www.samr.gov.cn/xw/zj/art/2026/art_0bea53d4e3904015a340b4e83241a8ec.html"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW078",
+      "reviewed_on": "2026-10-24",
+      "company": "Shanghai Shangyun — 上海熵云网络科技有限公司",
+      "country": "China",
+      "industry": "Chatbot subscriptions",
+      "market_category": "Other",
+      "business_summary": "Sold chatbot access.",
+      "ai_claim": "Its account presented the service as Chinese-language ChatGPT.",
+      "why_ai_washing": "Misleading identity of an AI product.",
+      "evidence_status": "Regulatory findings / administrative order",
+      "source_event_date": "2026-02-06",
+      "date_basis": "SAMR publication; individual penalty date unspecified",
+      "limitations": "Underlying AI was real; the finding concerns product identity.",
+      "sources": [
+        {
+          "title": "SAMR: AI-related unfair-competition cases",
+          "url": "https://www.samr.gov.cn/xw/zj/art/2026/art_0bea53d4e3904015a340b4e83241a8ec.html"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Its account presented the service as Chinese-language ChatGPT.",
+        "documented_outcome": "The regulator identified an independent API wrapper and imposed a fine.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Underlying AI was real; the finding concerns product identity.",
+        "evidence_status": "Regulatory findings / administrative order",
+        "source_date": "2026-02-06",
+        "sources": [
+          {
+            "title": "SAMR: AI-related unfair-competition cases",
+            "url": "https://www.samr.gov.cn/xw/zj/art/2026/art_0bea53d4e3904015a340b4e83241a8ec.html"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW079",
+      "reviewed_on": "2026-10-24",
+      "company": "Hangzhou Boheng — 杭州博珩文化传媒有限公司",
+      "country": "China",
+      "industry": "AI software distribution",
+      "market_category": "Other",
+      "business_summary": "Operated a paid software website.",
+      "ai_claim": "Copied DeepSeek presentation suggested official affiliation.",
+      "why_ai_washing": "Misrepresented AI-service provenance.",
+      "evidence_status": "Regulatory findings / administrative order",
+      "source_event_date": "2026-02-06",
+      "date_basis": "SAMR publication; individual penalty date unspecified",
+      "limitations": "No finding that the software lacked AI.",
+      "sources": [
+        {
+          "title": "SAMR: AI-related unfair-competition cases",
+          "url": "https://www.samr.gov.cn/xw/zj/art/2026/art_0bea53d4e3904015a340b4e83241a8ec.html"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Copied DeepSeek presentation suggested official affiliation.",
+        "documented_outcome": "The regulator found misleading affiliation and ordered cessation and a fine.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "No finding that the software lacked AI.",
+        "evidence_status": "Regulatory findings / administrative order",
+        "source_date": "2026-02-06",
+        "sources": [
+          {
+            "title": "SAMR: AI-related unfair-competition cases",
+            "url": "https://www.samr.gov.cn/xw/zj/art/2026/art_0bea53d4e3904015a340b4e83241a8ec.html"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW080",
+      "reviewed_on": "2026-10-24",
+      "company": "Growth Cave / GrowthBox",
+      "country": "United States",
+      "industry": "Online-course business opportunities",
+      "market_category": "Other",
+      "business_summary": "Sold programs for creating and marketing courses.",
+      "ai_claim": "GrowthBox AI would automate nearly the entire course-creation and operating process.",
+      "why_ai_washing": "Promised AI automation exceeded the described manual workflow.",
+      "evidence_status": "Regulatory settlement",
+      "source_event_date": "2026-01-27",
+      "date_basis": "Settlement announcement; original complaint in 2025",
+      "limitations": "Settled allegations. The actual automation share was not measured; monetary judgments are not performance gaps.",
+      "sources": [
+        {
+          "title": "FTC: Growth Cave settlement",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-secures-settlement-banning-growth-cave-defendants-marketing-selling-business-opportunities"
+        },
+        {
+          "title": "FTC complaint, paragraph 52",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/GrowthCave-Complaint.pdf"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "GrowthBox AI would automate nearly the entire course-creation and operating process.",
+        "documented_outcome": "The FTC complaint described manual ad uploads, appointment arrangements and message entry; a settlement was announced in January 2026.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Settled allegations. The actual automation share was not measured; monetary judgments are not performance gaps.",
+        "evidence_status": "Regulatory settlement",
+        "source_date": "2026-01-27",
+        "sources": [
+          {
+            "title": "FTC: Growth Cave settlement",
+            "url": "https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-secures-settlement-banning-growth-cave-defendants-marketing-selling-business-opportunities"
+          },
+          {
+            "title": "FTC complaint, paragraph 52",
+            "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/GrowthCave-Complaint.pdf"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW081",
+      "reviewed_on": "2026-10-24",
+      "company": "Gold Fun / Angel Guardian Alliance Technology",
+      "country": "Hong Kong, China",
+      "industry": "Automated investment trading",
+      "market_category": "Investment",
+      "business_summary": "Jointly marketed a high-frequency trading arrangement.",
+      "ai_claim": "AI quantum trading could deliver 3–8% monthly returns with low or no risk.",
+      "why_ai_washing": "AI terminology reinforced a low-risk return promise challenged by withdrawal reports.",
+      "evidence_status": "Regulatory warning",
+      "source_event_date": "2026-01-16",
+      "date_basis": "SFC warning publication",
+      "limitations": "A warning does not prove fraud or absence of AI. Both promoters are grouped as one arrangement; no verified return series is available.",
+      "sources": [
+        {
+          "title": "Hong Kong SFC: suspicious investment arrangement",
+          "url": "https://apps.sfc.hk/edistributionWeb/api/news/list-content?lang=EN&refNo=26PR6"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Investment solicitation; not a measured exchange-listed stock return.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "AI quantum trading could deliver 3–8% monthly returns with low or no risk.",
+        "documented_outcome": "Hong Kong's SFC received withdrawal-difficulty reports and listed the arrangement as suspicious.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "A warning does not prove fraud or absence of AI. Both promoters are grouped as one arrangement; no verified return series is available.",
+        "evidence_status": "Regulatory warning",
+        "source_date": "2026-01-16",
+        "sources": [
+          {
+            "title": "Hong Kong SFC: suspicious investment arrangement",
+            "url": "https://apps.sfc.hk/edistributionWeb/api/news/list-content?lang=EN&refNo=26PR6"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW082",
+      "reviewed_on": "2026-10-24",
+      "company": "Naver Cloud — sovereign foundation-model entry",
+      "country": "South Korea",
+      "industry": "Cloud services / foundation models",
+      "market_category": "Public issuer",
+      "business_summary": "Develops HyperCLOVA models and cloud AI services; entered South Korea's sovereign-model program.",
+      "ai_claim": "Its program entry was presented as an independently developed sovereign foundation model; Naver defended external encoders as compatible with that independence.",
+      "why_ai_washing": "A narrow provenance concern: the independence conveyed by sovereign-AI positioning exceeded the independence recognized under the project's criteria.",
+      "evidence_status": "Government eligibility decision / disputed interpretation",
+      "source_event_date": "2026-01-15",
+      "assessment": "Conditional AI-provenance case, not a finding of fake AI or consumer fraud.",
+      "stock_market_connection": "AI capabilities and ownership are relevant to the valuation narrative of listed parent NAVER.",
+      "limitations": "Using open-source components is legitimate and the model was real. Naver said the external encoder was a strategic choice and accepted the decision; this is a specific program-eligibility finding, not a general legal definition of sovereign AI.",
+      "sources": [
+        {
+          "title": "MSIT: Phase 1 evaluation results for sovereign AI project",
+          "url": "https://msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1212&sCode=eng"
+        },
+        {
+          "title": "Korean government briefing, 15 January 2026",
+          "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156740468"
+        },
+        {
+          "title": "UPI / Asia Today: Naver's response on external encoders",
+          "url": "https://www.upi.com/Top_News/World-News/2026/01/08/sovereign-ai/3341767918326/"
+        },
+        {
+          "title": "ZDNet Korea: Naver accepts ministry decision",
+          "url": "https://zdnet.co.kr/view/?no=20260115174006"
+        }
+      ],
+      "date_basis": "MSIT program-eligibility decision",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Its program entry was presented as an independently developed sovereign foundation model; Naver defended external encoders as compatible with that independence.",
+        "documented_outcome": "On 15 January 2026 MSIT excluded Naver Cloud because its entry failed the program's sovereignty requirements. The dispute concerned use of an externally pretrained Qwen vision encoder.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Using open-source components is legitimate and the model was real. Naver said the external encoder was a strategic choice and accepted the decision; this is a specific program-eligibility finding, not a general legal definition of sovereign AI.",
+        "evidence_status": "Government eligibility decision / disputed interpretation",
+        "source_date": "2026-01-15",
+        "sources": [
+          {
+            "title": "MSIT: Phase 1 evaluation results for sovereign AI project",
+            "url": "https://msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1212&sCode=eng"
+          },
+          {
+            "title": "Korean government briefing, 15 January 2026",
+            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156740468"
+          },
+          {
+            "title": "UPI / Asia Today: Naver's response on external encoders",
+            "url": "https://www.upi.com/Top_News/World-News/2026/01/08/sovereign-ai/3341767918326/"
+          },
+          {
+            "title": "ZDNet Korea: Naver accepts ministry decision",
+            "url": "https://zdnet.co.kr/view/?no=20260115174006"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW083",
+      "reviewed_on": "2026-10-24",
+      "company": "Opendoor — historical AI pricing claims",
+      "country": "United States",
+      "industry": "Real estate / automated home valuation",
+      "market_category": "Public issuer",
+      "business_summary": "Purchased and resold homes using automated valuations.",
+      "ai_claim": "Its AI pricing system could adapt rapidly to changing markets and price homes reliably.",
+      "why_ai_washing": "Alleged overstatement of AI autonomy and adaptability in investor disclosures.",
+      "evidence_status": "Civil settlement / disputed allegations",
+      "source_event_date": "2026-01-06",
+      "date_basis": "Settlement approval concerning historical representations",
+      "limitations": "No admission of wrongdoing. Human review alone is not AI washing; employee examples are not companywide failure rates. Distinct from the earlier FTC home-seller case.",
+      "sources": [
+        {
+          "title": "Opendoor securities settlement administrator",
+          "url": "https://opendoorsecuritiessettlement.com/"
+        },
+        {
+          "title": "Investor complaint",
+          "url": "https://www.opendoorsecuritiessettlement.com/media/6344280/0039._2023-04-17_amended_complaint_consolidated_amended_complaint_for_violations_of_the_federal_securities_laws_aga_3325163.1_.pdf"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "AI capability representations can influence expectations about a listed business; no stock-price causation is established here.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Its AI pricing system could adapt rapidly to changing markets and price homes reliably.",
+        "documented_outcome": "Investors alleged substantial human adjustments and weaker adaptability than represented. A securities settlement received approval in January 2026.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "No admission of wrongdoing. Human review alone is not AI washing; employee examples are not companywide failure rates. Distinct from the earlier FTC home-seller case.",
+        "evidence_status": "Civil settlement / disputed allegations",
+        "source_date": "2026-01-06",
+        "sources": [
+          {
+            "title": "Opendoor securities settlement administrator",
+            "url": "https://opendoorsecuritiessettlement.com/"
+          },
+          {
+            "title": "Investor complaint",
+            "url": "https://www.opendoorsecuritiessettlement.com/media/6344280/0039._2023-04-17_amended_complaint_consolidated_amended_complaint_for_violations_of_the_federal_securities_laws_aga_3325163.1_.pdf"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW084",
+      "reviewed_on": "2026-10-24",
+      "company": "Zillow — neural Zestimate / Zillow Offers",
+      "country": "United States",
+      "industry": "Real estate / automated valuation",
+      "market_category": "Public issuer",
+      "business_summary": "Used valuations to support a home-buying business.",
+      "ai_claim": "Improved neural pricing models drove stronger offers, conversion and purchasing growth.",
+      "why_ai_washing": "Allegedly attributing business gains to AI improvement obscured manual policy-driven price increases.",
+      "evidence_status": "Civil allegations / procedural update",
+      "source_event_date": "2026-01-06",
+      "date_basis": "Rehearing denial on class certification; allegations concern 2021 and complaint dates to 2022",
+      "limitations": "Zillow denies wrongdoing. Class-certification proceedings do not decide the merits. The business closure and price adjustments alone do not establish AI washing.",
+      "sources": [
+        {
+          "title": "Investor complaint, paragraphs 99–100 and 152–153",
+          "url": "https://www.ktmc.com/files/38434_zillow_amended_complaint.pdf"
+        },
+        {
+          "title": "Zillow Q1 2026 filing: litigation and company position",
+          "url": "https://www.sec.gov/Archives/edgar/data/1617640/000161764026000039/z-20260331.htm"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "AI capability representations can influence expectations about a listed business; no stock-price causation is established here.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Improved neural pricing models drove stronger offers, conversion and purchasing growth.",
+        "documented_outcome": "Investors alleged undisclosed price overlays, rather than model improvements, drove the growth. A January 2026 appellate procedural development appears in Zillow's filing.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Zillow denies wrongdoing. Class-certification proceedings do not decide the merits. The business closure and price adjustments alone do not establish AI washing.",
+        "evidence_status": "Civil allegations / procedural update",
+        "source_date": "2026-01-06",
+        "sources": [
+          {
+            "title": "Investor complaint, paragraphs 99–100 and 152–153",
+            "url": "https://www.ktmc.com/files/38434_zillow_amended_complaint.pdf"
+          },
+          {
+            "title": "Zillow Q1 2026 filing: litigation and company position",
+            "url": "https://www.sec.gov/Archives/edgar/data/1617640/000161764026000039/z-20260331.htm"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW085",
+      "reviewed_on": "2026-10-24",
+      "company": "Horizon Brands — Tiny Traveler AI",
+      "country": "United States",
+      "industry": "Infant monitoring / computer vision",
+      "market_category": "Other",
+      "business_summary": "Sells a baby monitor with AI motion and emotion detection.",
+      "ai_claim": "Advertising implied its AI monitoring could ensure infant safety.",
+      "why_ai_washing": "Overstated safety benefits extended beyond what the AI tests supported.",
+      "evidence_status": "Advertising self-regulation",
+      "source_event_date": "2025-12-22",
+      "date_basis": "NAD/CARU decision announcement",
+      "limitations": "Actual AI-chip use was supported and privacy practices were compliant. The decision concerns safety claims and limitations, not absence of AI. The company agreed to comply.",
+      "sources": [
+        {
+          "title": "NAD/CARU: Tiny Traveler AI review",
+          "url": "https://bbbprograms.org/media/newsroom/decisions/horizon-ai"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Advertising implied its AI monitoring could ensure infant safety.",
+        "documented_outcome": "NAD/CARU found the broad safety assurance unsupported and required clearer limits on detection and use conditions.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Actual AI-chip use was supported and privacy practices were compliant. The decision concerns safety claims and limitations, not absence of AI. The company agreed to comply.",
+        "evidence_status": "Advertising self-regulation",
+        "source_date": "2025-12-22",
+        "sources": [
+          {
+            "title": "NAD/CARU: Tiny Traveler AI review",
+            "url": "https://bbbprograms.org/media/newsroom/decisions/horizon-ai"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW086",
+      "reviewed_on": "2026-10-24",
+      "company": "Beijing AI-training company — name withheld by regulator",
+      "country": "China",
+      "industry": "AI side-income training",
+      "market_category": "Other",
+      "business_summary": "Sold AI wallpaper and video-commerce courses through livestream marketing.",
+      "ai_claim": "Success stories purported to show substantial earnings enabled by the training.",
+      "why_ai_washing": "Fabricated earnings evidence was used to sell AI-enabled business benefits.",
+      "evidence_status": "Regulatory findings / administrative order",
+      "source_event_date": "2025-09-16",
+      "date_basis": "Beijing regulator publication; historical case",
+      "limitations": "The regulator anonymized this specific company. This is one identifiable enforcement record, not an additional anonymous industry pattern; typical learner income was not measured.",
+      "sources": [
+        {
+          "title": "Beijing market regulator: AI course marketing case",
+          "url": "https://scjgj.beijing.gov.cn/zwxx/scjgdt/202509/t20250916_4203556.html"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Success stories purported to show substantial earnings enabled by the training.",
+        "documented_outcome": "Beijing's regulator found the displayed success stories false and earnings screenshots fabricated or taken online; it imposed a RMB500,000 fine.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The regulator anonymized this specific company. This is one identifiable enforcement record, not an additional anonymous industry pattern; typical learner income was not measured.",
+        "evidence_status": "Regulatory findings / administrative order",
+        "source_date": "2025-09-16",
+        "sources": [
+          {
+            "title": "Beijing market regulator: AI course marketing case",
+            "url": "https://scjgj.beijing.gov.cn/zwxx/scjgdt/202509/t20250916_4203556.html"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW087",
+      "reviewed_on": "2026-10-24",
+      "company": "Samsung — Bespoke AI refrigerator advertising",
+      "country": "South Korea; United States advertising market",
+      "industry": "Connected home appliances",
+      "market_category": "Public issuer",
+      "business_summary": "Sells refrigerators with connected and AI-assisted features.",
+      "ai_claim": "Marketing conveyed broad AI feature availability and capability across the product offering.",
+      "why_ai_washing": "Potential confusion between smart features, actual AI functions and availability conditions.",
+      "evidence_status": "Advertising self-regulation / voluntary changes",
+      "source_event_date": "2025-06-30",
+      "date_basis": "NAD review announcement",
+      "limitations": "The voluntary AI wording changes were not adjudicated. NAD supported the smartest claim and up-to-10% energy savings; those are not alleged false here.",
+      "sources": [
+        {
+          "title": "NAD: Samsung Bespoke review",
+          "url": "https://bbbprograms.org/media/newsroom/decisions/samsung"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "AI capability representations can influence expectations about a listed business; no stock-price causation is established here.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Marketing conveyed broad AI feature availability and capability across the product offering.",
+        "documented_outcome": "During NAD review, Samsung voluntarily modified AI-related language and was advised to clarify device, app and feature requirements.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The voluntary AI wording changes were not adjudicated. NAD supported the smartest claim and up-to-10% energy savings; those are not alleged false here.",
+        "evidence_status": "Advertising self-regulation / voluntary changes",
+        "source_date": "2025-06-30",
+        "sources": [
+          {
+            "title": "NAD: Samsung Bespoke review",
+            "url": "https://bbbprograms.org/media/newsroom/decisions/samsung"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW088",
+      "reviewed_on": "2026-10-24",
+      "company": "Microsoft — Copilot productivity advertising",
+      "country": "United States",
+      "industry": "Enterprise productivity software",
+      "market_category": "Public issuer",
+      "business_summary": "Offers generative-AI assistance in workplace applications.",
+      "ai_claim": "Advertising suggested seamless cross-app assistance and productivity gains.",
+      "why_ai_washing": "The concern is overstated ease and evidentiary strength of AI benefits.",
+      "evidence_status": "Advertising self-regulation",
+      "source_event_date": "2025-06-09",
+      "date_basis": "NAD decision announcement",
+      "limitations": "NAD supported generation and summarization claims. Microsoft agreed to comply; no finding that Copilot lacked AI or provided no benefit.",
+      "sources": [
+        {
+          "title": "NAD: Microsoft Copilot decision",
+          "url": "https://bbbprograms.org/media/newsroom/decisions/microsoft-copilot"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "AI capability representations can influence expectations about a listed business; no stock-price causation is established here.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Advertising suggested seamless cross-app assistance and productivity gains.",
+        "documented_outcome": "NAD recommended clarifying manual steps and distinguishing users' perceived productivity from objectively measured gains.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "NAD supported generation and summarization claims. Microsoft agreed to comply; no finding that Copilot lacked AI or provided no benefit.",
+        "evidence_status": "Advertising self-regulation",
+        "source_date": "2025-06-09",
+        "sources": [
+          {
+            "title": "NAD: Microsoft Copilot decision",
+            "url": "https://bbbprograms.org/media/newsroom/decisions/microsoft-copilot"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW089",
+      "reviewed_on": "2026-10-24",
+      "company": "Klarna — AI customer-service quality narrative",
+      "country": "Sweden / United Kingdom",
+      "industry": "Consumer finance / customer service",
+      "market_category": "Public issuer",
+      "business_summary": "Provides shopping payments and consumer credit, with an AI customer-service assistant.",
+      "ai_claim": "Its February 2024 launch release reported human-level customer satisfaction, more accurate resolution and work equivalent to 700 agents.",
+      "why_ai_washing": "A qualified case of an expansive efficiency-and-quality narrative requiring more explanation of service limitations.",
+      "evidence_status": "Company comments / SEC disclosure review",
+      "source_event_date": "2025-05-30",
+      "assessment": "Potential overstatement requiring qualification; no SEC enforcement finding.",
+      "stock_market_connection": "The issue arose directly in review of Klarna's public-offering disclosures.",
+      "limitations": "The first-month metrics and later quality comments are not matched experiments. The 700 figure is workload equivalence, not a verified layoff count. Klarna continued reporting benefits and satisfaction parity in its 2025 annual report; this does not establish that its metrics were fabricated.",
+      "sources": [
+        {
+          "title": "Klarna's February 2024 announcement (company release)",
+          "url": "https://www.prnewswire.com/news-releases/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month-302072744.html"
+        },
+        {
+          "title": "SEC staff comment letter, 30 May 2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/2003292/000000000025005760/filename1.pdf"
+        },
+        {
+          "title": "Klarna response confirming disclosure revisions",
+          "url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329225000016/filename1.htm"
+        },
+        {
+          "title": "Klarna 2025 annual report: continued company-reported AI benefits",
+          "url": "https://s205.q4cdn.com/644747736/files/doc_financials/2025/q4/Klarna-Group-plc-20-F-2025.pdf"
+        }
+      ],
+      "date_basis": "SEC staff comment on IPO disclosure; earlier claims date to 2024",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Its February 2024 launch release reported human-level customer satisfaction, more accurate resolution and work equivalent to 700 agents.",
+        "documented_outcome": "In May 2025 its CEO acknowledged lower quality in some AI services. SEC staff requested revised IPO disclosure explaining how experience had changed its AI approach; Klarna subsequently confirmed revisions.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The first-month metrics and later quality comments are not matched experiments. The 700 figure is workload equivalence, not a verified layoff count. Klarna continued reporting benefits and satisfaction parity in its 2025 annual report; this does not establish that its metrics were fabricated.",
+        "evidence_status": "Company comments / SEC disclosure review",
+        "source_date": "2025-05-30",
+        "sources": [
+          {
+            "title": "Klarna's February 2024 announcement (company release)",
+            "url": "https://www.prnewswire.com/news-releases/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month-302072744.html"
+          },
+          {
+            "title": "SEC staff comment letter, 30 May 2025",
+            "url": "https://www.sec.gov/Archives/edgar/data/2003292/000000000025005760/filename1.pdf"
+          },
+          {
+            "title": "Klarna response confirming disclosure revisions",
+            "url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329225000016/filename1.htm"
+          },
+          {
+            "title": "Klarna 2025 annual report: continued company-reported AI benefits",
+            "url": "https://s205.q4cdn.com/644747736/files/doc_financials/2025/q4/Klarna-Group-plc-20-F-2025.pdf"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW090",
+      "reviewed_on": "2026-10-24",
+      "company": "YouPlus — Shaukat Shamim",
+      "country": "United States; work performed in India",
+      "industry": "Video analytics / advertising research",
+      "market_category": "Private fundraising",
+      "business_summary": "Sold marketing insights derived from video content.",
+      "ai_claim": "A neural-network search engine analyzed videos and predicted marketing outcomes.",
+      "why_ai_washing": "Human analysis was represented as functioning AI analysis.",
+      "evidence_status": "Criminal guilty plea / sentencing",
+      "source_event_date": "2025-04-08",
+      "date_basis": "DOJ announcement; sentencing April 7",
+      "limitations": "Historical conduct. No exact automation rate is established, and liability is not attributed to every employee.",
+      "sources": [
+        {
+          "title": "DOJ: YouPlus founder sentencing",
+          "url": "https://www.justice.gov/usao-ndca/pr/silicon-valley-start-founder-sentenced-25-years-prison-securities-fraud"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "AI capability and scalability claims can shape private investment expectations.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "A neural-network search engine analyzed videos and predicted marketing outcomes.",
+        "documented_outcome": "The founder admitted the AI was not fully operational; employees in India watched videos and prepared marketing studies manually.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Historical conduct. No exact automation rate is established, and liability is not attributed to every employee.",
+        "evidence_status": "Criminal guilty plea / sentencing",
+        "source_date": "2025-04-08",
+        "sources": [
+          {
+            "title": "DOJ: YouPlus founder sentencing",
+            "url": "https://www.justice.gov/usao-ndca/pr/silicon-valley-start-founder-sentenced-25-years-prison-securities-fraud"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW091",
+      "reviewed_on": "2026-10-24",
+      "company": "Meta — Llama 4 Maverick Arena presentation",
+      "country": "United States",
+      "industry": "Foundation models / AI benchmarking",
+      "market_category": "Public issuer",
+      "business_summary": "Develops open-weight language models.",
+      "ai_claim": "Launch material highlighted an experimental Maverick variant's strong Arena performance.",
+      "why_ai_washing": "Benchmark presentation could overstate how well the result represented the distributed model.",
+      "evidence_status": "Benchmark transparency criticism",
+      "source_event_date": "2025-04-08",
+      "date_basis": "Arena statement reported April 8",
+      "limitations": "Meta's launch already labeled the variant experimental. This is a disclosure/comparability dispute, not proof of test-set training or nonexistent AI; no like-for-like gap is calculated.",
+      "sources": [
+        {
+          "title": "Meta: Llama 4 launch and benchmark labels",
+          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        },
+        {
+          "title": "Arena statement reproduced with original link",
+          "url": "https://simonwillison.net/2025/Apr/8/lmaren/"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "AI capability representations can influence expectations about a listed business; no stock-price causation is established here.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Launch material highlighted an experimental Maverick variant's strong Arena performance.",
+        "documented_outcome": "Arena said Meta should have explained more clearly that the submitted model was customized for human preference and differed from the released version.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Meta's launch already labeled the variant experimental. This is a disclosure/comparability dispute, not proof of test-set training or nonexistent AI; no like-for-like gap is calculated.",
+        "evidence_status": "Benchmark transparency criticism",
+        "source_date": "2025-04-08",
+        "sources": [
+          {
+            "title": "Meta: Llama 4 launch and benchmark labels",
+            "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+          },
+          {
+            "title": "Arena statement reproduced with original link",
+            "url": "https://simonwillison.net/2025/Apr/8/lmaren/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW092",
+      "reviewed_on": "2026-10-24",
+      "company": "Sakana AI — AI CUDA Engineer benchmark correction",
+      "country": "Japan",
+      "industry": "AI research / code optimization",
+      "market_category": "Private fundraising",
+      "business_summary": "Develops AI agents, including a research system for optimizing GPU code.",
+      "ai_claim": "Its initial AI CUDA Engineer publication promoted unusually large GPU-code speedups.",
+      "why_ai_washing": "An AI capability claim relied on benchmark results that did not consistently represent correct completion of the advertised task.",
+      "evidence_status": "Company-acknowledged research correction",
+      "source_event_date": "2025-03-03",
+      "assessment": "Corrected capability overstatement; no evidence of intentional deception established.",
+      "stock_market_connection": "Research capability claims shape private AI-company fundraising and partnership expectations.",
+      "limitations": "Sakana apologized, said it corrected the issue promptly, strengthened checks and maintained that other results remained valid. This record concerns the original benchmark release, not all its research. No comparable aggregate corrected speedup is provided here.",
+      "sources": [
+        {
+          "title": "Sakana AI: CEO explanation of the AI CUDA Engineer error, 3 March 2025 (Japanese)",
+          "url": "https://sakana.ai/ai-cuda-engineer-post-mortem/"
+        }
+      ],
+      "date_basis": "Company research correction",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Its initial AI CUDA Engineer publication promoted unusually large GPU-code speedups.",
+        "documented_outcome": "In a 3 March 2025 explanation, CEO David Ha acknowledged inflated maximum speeds: generated code could access benchmark memory or skip required computations, and internal checks missed the problem.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Sakana apologized, said it corrected the issue promptly, strengthened checks and maintained that other results remained valid. This record concerns the original benchmark release, not all its research. No comparable aggregate corrected speedup is provided here.",
+        "evidence_status": "Company-acknowledged research correction",
+        "source_date": "2025-03-03",
+        "sources": [
+          {
+            "title": "Sakana AI: CEO explanation of the AI CUDA Engineer error, 3 March 2025 (Japanese)",
+            "url": "https://sakana.ai/ai-cuda-engineer-post-mortem/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW093",
+      "reviewed_on": "2026-10-24",
+      "company": "Pieces Technologies",
+      "country": "United States",
+      "industry": "Clinical documentation / generative AI",
+      "market_category": "Other",
+      "business_summary": "Generated patient summaries and draft clinical notes.",
+      "ai_claim": "Promoted severe-hallucination frequencies below one in 100,000.",
+      "why_ai_washing": "Potentially misleading reliability statistics could exaggerate clinical safety.",
+      "evidence_status": "Regulatory settlement / disputed allegations",
+      "source_event_date": "2024-09-18",
+      "date_basis": "Texas settlement announcement",
+      "limitations": "Pieces denies wrongdoing and maintains its metrics were accurate. No replacement error rate or patient injury finding is established.",
+      "sources": [
+        {
+          "title": "Texas AG: Pieces settlement",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-reaches-settlement-first-its-kind-healthcare-generative-ai-investigation"
+        },
+        {
+          "title": "Settlement agreement including denial",
+          "url": "https://www.texasattorneygeneral.gov/sites/default/files/images/press/Petition%20for%20Approval%20of%20AVC%20Pieces%20File%20Stamped.pdf"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Product or service marketing; no direct stock-return claim assessed.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Promoted severe-hallucination frequencies below one in 100,000.",
+        "documented_outcome": "Texas's AG challenged substantiation and secured requirements for metric definitions, calculation methods and use disclosures.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Pieces denies wrongdoing and maintains its metrics were accurate. No replacement error rate or patient injury finding is established.",
+        "evidence_status": "Regulatory settlement / disputed allegations",
+        "source_date": "2024-09-18",
+        "sources": [
+          {
+            "title": "Texas AG: Pieces settlement",
+            "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-reaches-settlement-first-its-kind-healthcare-generative-ai-investigation"
+          },
+          {
+            "title": "Settlement agreement including denial",
+            "url": "https://www.texasattorneygeneral.gov/sites/default/files/images/press/Petition%20for%20Approval%20of%20AVC%20Pieces%20File%20Stamped.pdf"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW094",
+      "reviewed_on": "2026-10-24",
+      "company": "Rabbit — R1 launch capabilities",
+      "country": "United States",
+      "industry": "AI consumer hardware / task automation",
+      "market_category": "Private fundraising",
+      "business_summary": "Sells a handheld assistant intended to perform tasks across apps.",
+      "ai_claim": "Launch promotion described reliable navigation across apps using a Large Action Model.",
+      "why_ai_washing": "A conditional gap between broad automation promotion and delivered launch capabilities.",
+      "evidence_status": "Independent product review / historical availability",
+      "source_event_date": "2024-05-02",
+      "date_basis": "Launch-period review publication",
+      "limitations": "A limited review is not a universal failure rate or proof no AI existed. Some features were roadmap items; later updates expanded capabilities.",
+      "sources": [
+        {
+          "title": "Rabbit: original R1 announcement",
+          "url": "https://checkout.rabbit.tech/blogs/news/introducing-r1"
+        },
+        {
+          "title": "The Verge: hands-on launch review",
+          "url": "https://www.theverge.com/2024/5/2/24147159/rabbit-r1-review-ai-gadget"
+        },
+        {
+          "title": "Rabbit: LAM update roadmap",
+          "url": "https://checkout.rabbit.tech/blogs/news/r1-lam-updates"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "AI capability and scalability claims can shape private investment expectations.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Launch promotion described reliable navigation across apps using a Large Action Model.",
+        "documented_outcome": "A launch-period hands-on review found four integrations and failed attempts at some promoted tasks.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "A limited review is not a universal failure rate or proof no AI existed. Some features were roadmap items; later updates expanded capabilities.",
+        "evidence_status": "Independent product review / historical availability",
+        "source_date": "2024-05-02",
+        "sources": [
+          {
+            "title": "Rabbit: original R1 announcement",
+            "url": "https://checkout.rabbit.tech/blogs/news/introducing-r1"
+          },
+          {
+            "title": "The Verge: hands-on launch review",
+            "url": "https://www.theverge.com/2024/5/2/24147159/rabbit-r1-review-ai-gadget"
+          },
+          {
+            "title": "Rabbit: LAM update roadmap",
+            "url": "https://checkout.rabbit.tech/blogs/news/r1-lam-updates"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW095",
+      "reviewed_on": "2026-10-24",
+      "company": "Rockwell Capital Management / Brian Sewell",
+      "country": "United States",
+      "industry": "Crypto hedge-fund solicitation",
+      "market_category": "Investment",
+      "business_summary": "Solicited investment from students of an online crypto course.",
+      "ai_claim": "A proposed hedge fund would use proprietary AI and machine learning to generate returns.",
+      "why_ai_washing": "The alleged AI investment engine did not exist as represented.",
+      "evidence_status": "Proposed regulatory settlement",
+      "source_event_date": "2024-02-02",
+      "date_basis": "SEC settlement announcement; subject to court approval at publication",
+      "limitations": "Defendants agreed to settle without admitting or denying allegations. This status describes the cited announcement; no comparable investment return series is available.",
+      "sources": [
+        {
+          "title": "SEC: Sewell / Rockwell settlement announcement",
+          "url": "https://www.sec.gov/newsroom/press-releases/2024-13"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "Investment solicitation; not a measured exchange-listed stock return.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "A proposed hedge fund would use proprietary AI and machine learning to generate returns.",
+        "documented_outcome": "The SEC alleged the fund and technology were never launched; funds were held in bitcoin that was later stolen.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Defendants agreed to settle without admitting or denying allegations. This status describes the cited announcement; no comparable investment return series is available.",
+        "evidence_status": "Proposed regulatory settlement",
+        "source_date": "2024-02-02",
+        "sources": [
+          {
+            "title": "SEC: Sewell / Rockwell settlement announcement",
+            "url": "https://www.sec.gov/newsroom/press-releases/2024-13"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW096",
+      "reviewed_on": "2026-10-24",
+      "company": "Kaedim — historical 2D-to-3D automation claims",
+      "country": "United Kingdom",
+      "industry": "3D content creation / gaming tools",
+      "market_category": "Private fundraising",
+      "business_summary": "Converts customer images into production-ready 3D assets.",
+      "ai_claim": "Historical promotion described automatically creating 3D geometry using machine learning.",
+      "why_ai_washing": "The original automation impression understated the reported human production involved in delivering the output.",
+      "evidence_status": "Investigative reporting / company clarification",
+      "source_event_date": "2023-09-06",
+      "assessment": "Supported historical hidden-human-work concern.",
+      "stock_market_connection": "Private AI-tool fundraising and the perceived scalability of automated production.",
+      "limitations": "The company describes human work as refinement and training support. Reporting does not establish that all models lacked AI, and the current disclosed hybrid workflow is not itself deceptive.",
+      "sources": [
+        {
+          "title": "404 Media: Buzzy AI Startup for Generating 3D Models Used Cheap Human Labor",
+          "url": "https://www.404media.co/kaedim-ai-startup-2d-to-3d-used-cheap-human-labor/"
+        },
+        {
+          "title": "Kaedim: How Kaedim Works",
+          "url": "https://docs.kaedim3d.com/welcome/how-kaedim-works"
+        }
+      ],
+      "date_basis": "Historical investigation publication",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Historical promotion described automatically creating 3D geometry using machine learning.",
+        "documented_outcome": "404 Media reported in September 2023 that artists often produced models, sometimes entirely from scratch. Kaedim's documentation now explicitly describes AI generation followed by artist refinement.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The company describes human work as refinement and training support. Reporting does not establish that all models lacked AI, and the current disclosed hybrid workflow is not itself deceptive.",
+        "evidence_status": "Investigative reporting / company clarification",
+        "source_date": "2023-09-06",
+        "sources": [
+          {
+            "title": "404 Media: Buzzy AI Startup for Generating 3D Models Used Cheap Human Labor",
+            "url": "https://www.404media.co/kaedim-ai-startup-2d-to-3d-used-cheap-human-labor/"
+          },
+          {
+            "title": "Kaedim: How Kaedim Works",
+            "url": "https://docs.kaedim3d.com/welcome/how-kaedim-works"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW097",
+      "reviewed_on": "2026-10-24",
+      "company": "iEarn Bot",
+      "country": "International; reported investors in Romania, Nigeria, Indonesia and Colombia",
+      "industry": "Crypto investment / automated trading",
+      "market_category": "Investment",
+      "business_summary": "Sold access to purported automated crypto-investment bots.",
+      "ai_claim": "Customers were promised high returns from a company AI investment program, supported by supposed technology partnerships.",
+      "why_ai_washing": "AI-trading promises and borrowed technology credibility were used to attract funds while access to advertised proceeds broke down.",
+      "evidence_status": "Investigative reporting / blockchain analysis",
+      "source_event_date": "2023-03-18",
+      "assessment": "Strong reported AI-investment scam indicators; not a cited court judgment.",
+      "stock_market_connection": "Retail crypto fundraising rather than listed-equity disclosures.",
+      "limitations": "BBC could not obtain a response. Operator location is unverified; social-page administration is not proof of headquarters. Neither report supplies a validated investor return rate, and deposit volume is not the same as total losses.",
+      "sources": [
+        {
+          "title": "BBC News Brasil / Sara Monetta investigation, republished by Folha",
+          "url": "https://www1.folha.uol.com.br/mercado/2023/03/app-de-criptomoedas-e-acusado-de-dar-calote-em-milhares-de-pessoas.shtml"
+        },
+        {
+          "title": "Elliptic: iEarn Bot investigation",
+          "url": "https://www.elliptic.co/insights/no-iearn-bot-is-not-the-biggest-crypto-scandal-to-date-but-it-still-matters/"
+        }
+      ],
+      "date_basis": "Investigation publication",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Customers were promised high returns from a company AI investment program, supported by supposed technology partnerships.",
+        "documented_outcome": "BBC reporting found frozen withdrawals, further withdrawal-fee demands and denied partnerships. Elliptic's blockchain investigation independently identified related deposit infrastructure and discussed the suspected scam.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "BBC could not obtain a response. Operator location is unverified; social-page administration is not proof of headquarters. Neither report supplies a validated investor return rate, and deposit volume is not the same as total losses.",
+        "evidence_status": "Investigative reporting / blockchain analysis",
+        "source_date": "2023-03-18",
+        "sources": [
+          {
+            "title": "BBC News Brasil / Sara Monetta investigation, republished by Folha",
+            "url": "https://www1.folha.uol.com.br/mercado/2023/03/app-de-criptomoedas-e-acusado-de-dar-calote-em-milhares-de-pessoas.shtml"
+          },
+          {
+            "title": "Elliptic: iEarn Bot investigation",
+            "url": "https://www.elliptic.co/insights/no-iearn-bot-is-not-the-biggest-crypto-scandal-to-date-but-it-still-matters/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW098",
+      "reviewed_on": "2026-10-24",
+      "company": "iFlytek — 科大讯飞 translation demonstration",
+      "country": "China",
+      "industry": "Speech recognition / translation",
+      "market_category": "Public issuer",
+      "business_summary": "Develops speech and translation systems.",
+      "ai_claim": "A conference presentation allegedly attributed human interpretation to automated AI.",
+      "why_ai_washing": "Potentially concealed human contribution inflated the impression of automation.",
+      "evidence_status": "Reported / disputed demonstration",
+      "source_event_date": "2018-09-22",
+      "date_basis": "Original reporting on historical demonstration",
+      "limitations": "A disputed demonstration, not proof that iFlytek has no AI or committed fraud.",
+      "sources": [
+        {
+          "title": "Caixin: interpreter allegation and iFlytek response",
+          "url": "https://www.caixinglobal.com/2018-09-22/iflyteck-accused-of-giving-its-ai-program-credit-for-translations-done-by-humans-101329380.html"
+        },
+        {
+          "title": "TechNode: translation controversy",
+          "url": "https://technode.com/2018/09/25/iflytek-fake-ai-translations/"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "AI capability representations can influence expectations about a listed business; no stock-price causation is established here.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "A conference presentation allegedly attributed human interpretation to automated AI.",
+        "documented_outcome": "An interpreter challenged the attribution; iFlytek acknowledged a human-machine combination but denied misleading the audience.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "A disputed demonstration, not proof that iFlytek has no AI or committed fraud.",
+        "evidence_status": "Reported / disputed demonstration",
+        "source_date": "2018-09-22",
+        "sources": [
+          {
+            "title": "Caixin: interpreter allegation and iFlytek response",
+            "url": "https://www.caixinglobal.com/2018-09-22/iflyteck-accused-of-giving-its-ai-program-credit-for-translations-done-by-humans-101329380.html"
+          },
+          {
+            "title": "TechNode: translation controversy",
+            "url": "https://technode.com/2018/09/25/iflytek-fake-ai-translations/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW099",
+      "reviewed_on": "2026-10-24",
+      "company": "Babylon Health — doctor-comparison claims",
+      "country": "United Kingdom",
+      "industry": "Digital health / symptom checking",
+      "market_category": "Private fundraising",
+      "business_summary": "Offered telehealth and an AI symptom-checking and triage system.",
+      "ai_claim": "The company promoted physician-comparable diagnostic performance, supported by its 2018 comparison study.",
+      "why_ai_washing": "The marketing risk was extrapolating a limited, assisted evaluation into broad claims about medical capability.",
+      "evidence_status": "Independent methodological criticism",
+      "source_event_date": "2018-06-29",
+      "assessment": "Evidence-limited capability claim; not a legal finding of deception.",
+      "stock_market_connection": "The claims supported a venture-funded digital-health growth narrative; the cited evaluation predates its later public listing.",
+      "limitations": "The company study reported comparable vignette performance and a blinded judge. Methodological criticism does not show that the system never worked or provide a population-wide clinical accuracy rate.",
+      "sources": [
+        {
+          "title": "Babylon researchers: A comparative study of AI and human doctors",
+          "url": "https://arxiv.org/abs/1806.10698"
+        },
+        {
+          "title": "Enrico Coiera: Paper Review — the Babylon Chatbot",
+          "url": "https://coiera.com/2018/06/29/paper-review-the-babylon-chatbot/"
+        },
+        {
+          "title": "The Lancet: Safety of patient-facing digital symptom checkers (bibliographic record)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30413281/"
+        }
+      ],
+      "date_basis": "Independent review of the 2018 study",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "The company promoted physician-comparable diagnostic performance, supported by its 2018 comparison study.",
+        "documented_outcome": "Independent researcher Enrico Coiera identified artificial scenarios, human input translation, selectively included exam cases and weak statistical support; these limited what the study established about real patient use.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "The company study reported comparable vignette performance and a blinded judge. Methodological criticism does not show that the system never worked or provide a population-wide clinical accuracy rate.",
+        "evidence_status": "Independent methodological criticism",
+        "source_date": "2018-06-29",
+        "sources": [
+          {
+            "title": "Babylon researchers: A comparative study of AI and human doctors",
+            "url": "https://arxiv.org/abs/1806.10698"
+          },
+          {
+            "title": "Enrico Coiera: Paper Review — the Babylon Chatbot",
+            "url": "https://coiera.com/2018/06/29/paper-review-the-babylon-chatbot/"
+          },
+          {
+            "title": "The Lancet: Safety of patient-facing digital symptom checkers (bibliographic record)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30413281/"
+          }
+        ]
+      },
+      "context_data": null
+    },
+    {
+      "id": "AW100",
+      "reviewed_on": "2026-10-24",
+      "company": "Baidu — Deep Image benchmark",
+      "country": "China",
+      "industry": "Computer vision research",
+      "market_category": "Public issuer",
+      "business_summary": "Developed image-recognition models.",
+      "ai_claim": "Promoted leading image-recognition benchmark performance.",
+      "why_ai_washing": "Evaluation-rule violations inflated the credibility of the performance claim.",
+      "evidence_status": "Benchmark organizer findings",
+      "source_event_date": "2015-06-02",
+      "date_basis": "Organizer announcement; paper withdrawn July 6, 2015",
+      "limitations": "Real AI was involved. No corrected accuracy is established here; this is a historical benchmark incident.",
+      "sources": [
+        {
+          "title": "ImageNet: June 2, 2015 announcement",
+          "url": "https://www.image-net.org/challenges/LSVRC/announcement-June-2-2015.php"
+        },
+        {
+          "title": "Withdrawn Deep Image paper",
+          "url": "https://arxiv.org/abs/1501.02876"
+        }
+      ],
+      "assessment": "Conditional assessment based on the specific dated evidence; see limitations.",
+      "stock_market_connection": "AI capability representations can influence expectations about a listed business; no stock-price causation is established here.",
+      "chart": {
+        "title": "AI promise versus evidence",
+        "metric_type": "Claim versus documented outcome",
+        "comparison_type": "qualitative",
+        "claimed_benefit": "Promoted leading image-recognition benchmark performance.",
+        "documented_outcome": "ImageNet organizers found excessive submissions through multiple accounts, making results incomparable; the paper was later withdrawn.",
+        "claimed_value": null,
+        "outcome_value": null,
+        "unit": null,
+        "numeric_availability": "Comparable numerical pair unavailable in the cited sources.",
+        "gap": null,
+        "gap_unit": null,
+        "caveat": "Real AI was involved. No corrected accuracy is established here; this is a historical benchmark incident.",
+        "evidence_status": "Benchmark organizer findings",
+        "source_date": "2015-06-02",
+        "sources": [
+          {
+            "title": "ImageNet: June 2, 2015 announcement",
+            "url": "https://www.image-net.org/challenges/LSVRC/announcement-June-2-2015.php"
+          },
+          {
+            "title": "Withdrawn Deep Image paper",
+            "url": "https://arxiv.org/abs/1501.02876"
+          }
+        ]
+      },
+      "context_data": null
     }
   ],
-  "schema_version": "3.1"
+  "schema_version": "3.2"
 }
